@@ -1,283 +1,187 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Stable Diffusion 1.5 - Cheat Sheet</title>
-<link href="./img/other/favicon.ico" rel="icon" type="image/x-icon">
-<style>
-/* roboto-condensed-regular - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src: url('fonts/roboto-condensed-v25-latin-regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/roboto-condensed-v25-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/roboto-condensed-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/roboto-condensed-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('fonts/roboto-condensed-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/roboto-condensed-v25-latin-regular.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
-}
-
-/* roboto-condensed-700 - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  src: url('fonts/roboto-condensed-v25-latin-700.eot'); /* IE9 Compat Modes */
-  src: url('fonts/roboto-condensed-v25-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/roboto-condensed-v25-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/roboto-condensed-v25-latin-700.woff') format('woff'), /* Modern Browsers */
-       url('fonts/roboto-condensed-v25-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/roboto-condensed-v25-latin-700.svg#RobotoCondensed') format('svg'); /* Legacy iOS */
-}
-
-/* roboto-slab-regular - latin */
-@font-face {
-  font-display: swap;
-  font-family: 'Roboto Slab';
-  font-style: normal;
-  font-weight: 400;
-  src: url('fonts/roboto-slab-v24-latin-regular.eot'); /* IE9 Compat Modes */
-  src: url('fonts/roboto-slab-v24-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/roboto-slab-v24-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/roboto-slab-v24-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('fonts/roboto-slab-v24-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('fonts/roboto-slab-v24-latin-regular.svg#RobotoSlab') format('svg'); /* Legacy iOS */
-}
-
-html { scroll-padding: 140px 0 0 0; }
-body { margin: 0; padding: 0; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; background-color: var(--bgr); }
-* { font-family: 'Roboto Condensed',Gotham,"Helvetica Neue",Helvetica,Arial,sans-serif; color: var(--ow); }
-
-header, section { padding: 0 20px 20px 20px; }
-section { margin-bottom: 30px; }
-footer { padding: 0 0 20px; text-align: center; color: #555; }
-
-h1 { margin: 0; padding: 20px 0 0 60px; font-size: 1.8rem; }
-h2 { margin: 0 0 25px 65px; }
-#selectmore { margin: 0; padding: 0 0 20px 60px; color: #666; font-style: italic; }
-#allthestyles { overflow-x: auto; }
-
-p { padding: 0 0 0 65px; }
-p.legend { line-height: 1.6; color: #999; font-size: 0.9rem; }
-
-table {}
-tr {}
-tr:hover { background-color: #DDD; }
-tr:hover td:nth-child(1) { color: #BBB; }
-tr th { text-align: left; }
-th, td { padding: 2px 10px 3px 5px; }
-td:nth-child(1) { padding: 2px 10px 3px; width: 35px; text-align: right; color: #CCC; }
-td:nth-child(4), td:nth-child(5) { padding: 2px 30px 3px 5px; }
-#listedartists th:nth-child(n+3), #listedartists td:nth-child(n+3) { display: none; }
-td a { text-decoration: none; }
-td a:hover { color: #000; }
-
-body.born #listedartists th:nth-child(3), body.born #listedartists  td:nth-child(3) { display: table-cell; }
-body.death #listedartists th:nth-child(4), body.death #listedartists  td:nth-child(4) { display: table-cell; }
-body.checkpoint #listedartists th:nth-child(5), body.checkpoint #listedartists  td:nth-child(5) { display: table-cell; }
-body.categories #listedartists th:nth-child(6), body.categories #listedartists  td:nth-child(6) { display: table-cell; }
-body.extrainfo #listedartists th:nth-child(7), body.extrainfo #listedartists  td:nth-child(7) { display: table-cell; }
-
-#excludedartists td:nth-child(2), #excludedartists th:nth-child(2) { padding: 2px 5px 3px 5px; }
-#excludedartists td:nth-child(4), #excludedartists th:nth-child(4), #excludedartists td:nth-child(5), #excludedartists th:nth-child(5) { color: #999; }
-
-.style-404 { color: #ffb3ba; }
-.style-304 { color: #ffdfba; }
-.style-301 { color: #feffa3; }
-.style-205 { color: #ddfffc; }
-.style-204 { color: #e2eeff; }
-.style-500 { color: #e1f7d5; }
-    
-</style>
-<script src="./src/data.js"></script>
-<script src="./src/data-excluded-artists.js"></script>
-<script type="text/javascript">
-document.addEventListener("DOMContentLoaded",function(event){
-
-    var SearchEngine = 'https://www.google.com/search?q=';
-    var outputdata = '';
-    var outputExcluded = '';
-    var tags = {};
-    var countstyles = 0;
-    
-     // Remove Diacritics (Special Characters)
-    function removedia(e){
-        let updatedstring = e.normalize('NFD').replace(/\p{Diacritic}/gu,'');
-        return updatedstring;
-    };
-
-    outputdata = outputdata + '<table id="listedartists">';
-    outputdata = outputdata + '<tr><th></th><th>Name</th><th>Born</th><th></th><th>Checkpoint</th><th>Categories</th><th>Extrainfo</th></tr>';
-
-    //Put JSON in DOM
-    for(var i=0; i<data.length; i++){
-
-        let CurrentArtistName = data[i].Name;
-        let currentAnchor = removedia(CurrentArtistName); // remove special characters (diacritics)
-        currentAnchor = currentAnchor.replace(/[^a-zA-Z]+/g,'-').replace(/^-+/,'').replace(/-+$/,''); // replace everything thats not a letter with a dash, trim dash from front and back
-        let catlist = data[i].Category.replace(/\\/g,''); //remove backslash
-
-        let buildcatlist = catlist.split(',');
-        let buildcatlistoutput = '';
-        buildcatlist.forEach(function(value){ //build output without first
-            buildcatlistoutput = buildcatlistoutput + '<span>' + value.trim() + '</span>';
-        });
-
-        let deathdate = ''; let dagger = ''; deathdate = data[i].Death;
-        if(deathdate!=false){ dagger = '<sup> &dagger;</sup>'; }
-
-        const lookupArray = CurrentArtistName.replace(/ *\([^)]*\) */g, "").split(',').map(function(item){ return item.trim(); }); //remove braces, split at comma, trim spaces
-        let LUPart1 = lookupArray[0];
-        let LUPart2 = lookupArray[1];
-        if(LUPart2){
-            var LUArtist = SearchEngine + LUPart2 + '%20' + LUPart1;
-        } else { //if no comma in name
-            var LUArtist = SearchEngine + LUPart1;
+    <meta charset="utf-8">
+    <title>Stable Diffusion 1.5 - Cheat Sheet Data</title>
+    <link href="./img/other/favicon.ico" rel="icon" type="image/x-icon">
+    <link rel="stylesheet" href="./src/common.css">
+    <style>
+        /* Page-Specific Styles */
+        html {
+            scroll-padding: 140px 0 0 0;
         }
 
-        let j = i + 1; // don't want to start with zero
-
-        outputdata = outputdata + '<tr>';
-        outputdata = outputdata + '<td><a id="' + currentAnchor + '" href="#' + currentAnchor + '">' + j + '</a></td>';
-        outputdata = outputdata + '<td>' + CurrentArtistName + '</td>';
-        outputdata = outputdata + '<td>' + data[i].Born + '</td>';
-        outputdata = outputdata + '<td>' + data[i].Death + '</td>';
-        outputdata = outputdata + '<td>' + data[i].Checkpoint + '</td>';
-        outputdata = outputdata + '<td>' + catlist + '</td>';
-        outputdata = outputdata + '<td>' + data[i].Extrainfo + '</td>';
-        outputdata = outputdata + '</tr>';
-
-        countstyles++;
-
-        //fill tags list for filter
-        let arrrrr = data[i].Category.split(', ');
-        arrrrr.forEach(function(tag){
-            if (tag in tags) {
-              // If animal is present, increment the count
-              tags[tag] = tags[tag] + 1;
-            } else {
-              // If animal is not present, add the entry
-              tags[tag] = 1;
-            }
-        });
-        
-    }
-    
-    outputdata = outputdata + '</table>';
-    
-    var putStyles = document.getElementById('allthestyles');
-    putStyles.innerHTML = outputdata;
-    
-    //Checkboxes
-    var checkers = document.querySelectorAll('input[type=checkbox]');
-    if(checkers){
-        for(var i = 0; i < checkers.length; i++){
-            var currentchecker = checkers[i];
-            currentchecker.addEventListener('change',function(e){
-                let currentcheckboxID = e.target.id;
-                if (this.checked == true){ document.body.classList.add(currentcheckboxID); } else { document.body.classList.remove(currentcheckboxID); }
-            });
-        };
-    };
-    
-    
-    outputExcluded = outputExcluded + '<table id="excludedartists">';
-    outputExcluded = outputExcluded + '<tr><th></th><th></th><th>Name</th><th>Prompt used</th><th>Extrainfo</th></tr>';
-    
-    const titletexts = [];
-    titletexts[404] = 'Artist not known';
-    titletexts[304] = 'Something is recognized, but it\'s not related to the artist';
-    titletexts[301] = 'Something is recognized, but results are too different';
-    titletexts[205] = 'Artist is recognized, but difficult to prompt/not flexible';
-    titletexts[204] = 'Artist is recognized, but too different/generic';
-    titletexts[500] = 'Other';
-
-    //Put JSON in DOM
-    for(var i=0; i<exclArtists.length; i++){
-
-        let CurrentArtistName = exclArtists[i].Name;
-        let CurrentCode = exclArtists[i].Code;
-        
-        if(exclArtists[i].FirstName){
-            var CompNameWCom = exclArtists[i].Name.replace(/\\/g,'') + ', ' + exclArtists[i].FirstName.replace(/\\/g,'');
-            var CompNameNCom = exclArtists[i].FirstName.replace(/\\/g,'') + ' ' + exclArtists[i].Name.replace(/\\/g,'');
-        } else {
-            var CompNameWCom = exclArtists[i].Name.replace(/\\/g,'');
-            var CompNameNCom = exclArtists[i].Name.replace(/\\/g,'');
+        header,
+        section {
+            padding: 0 20px 20px 20px;
         }
-        
-        let currentAnchor = removedia(CompNameNCom); // remove special characters (diacritics)
-        currentAnchor = currentAnchor.replace(/[^a-zA-Z]+/g,'-').replace(/^-+/,'').replace(/-+$/,''); // replace everything thats not a letter with a dash, trim dash from front and back
-        
-        let j = i + 1; // don't want to start with zero
 
-        outputExcluded = outputExcluded + '<tr>';
-        outputExcluded = outputExcluded + '<td><a id="' + currentAnchor + '" href="#' + currentAnchor + '">' + j + '</a></td>';
-        outputExcluded = outputExcluded + '<td class="style-' + exclArtists[i].Code + '"><span title="' + titletexts[CurrentCode] + '">&#9608;</span></td>';
-        outputExcluded = outputExcluded + '<td>' + CompNameWCom + '</td>';
-        outputExcluded = outputExcluded + '<td>' + CompNameNCom + '</td>';
-        outputExcluded = outputExcluded + '<td>' + exclArtists[i].Extrainfo.replace(/\\/g,'') + '</td>';
-        outputExcluded = outputExcluded + '</tr>';
+        section {
+            margin-bottom: 30px;
+        }
 
-        countstyles++;
-        
-    }
-    
-    outputExcluded = outputExcluded + '</table>';
-    
-    var putExcluded = document.getElementById('excludedArtists');
-    putExcluded.innerHTML = outputExcluded;
-    
-});
-</script>
+        footer {
+            padding: 0 0 20px;
+            text-align: center;
+            color: #555;
+        }
+
+        h1 {
+            margin: 0;
+            padding: 20px 0 0 60px;
+            font-size: 1.8rem;
+        }
+
+        h2 {
+            margin: 0 0 25px 65px;
+        }
+
+        #selectmore {
+            margin: 0;
+            padding: 0 0 20px 60px;
+            color: #666;
+            font-style: italic;
+        }
+
+        #allthestyles {
+            overflow-x: auto;
+        }
+
+        p {
+            padding: 0 0 0 65px;
+        }
+
+        p.legend {
+            line-height: 1.6;
+            color: #999;
+            font-size: 0.9rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        tr:hover {
+            background-color: var(--gr);
+        }
+
+        tr:hover td:nth-child(1) {
+            color: var(--lb);
+        }
+
+        tr th {
+            text-align: left;
+        }
+
+        th,
+        td {
+            padding: 2px 10px 3px 5px;
+        }
+
+        td:nth-child(1) {
+            padding: 2px 10px 3px;
+            width: 35px;
+            text-align: right;
+            color: #CCC;
+        }
+
+        td:nth-child(4),
+        td:nth-child(5) {
+            padding: 2px 30px 3px 5px;
+        }
+
+        #listedartists th:nth-child(n+3),
+        #listedartists td:nth-child(n+3) {
+            display: none;
+        }
+
+        td a {
+            text-decoration: none;
+        }
+
+        td a:hover {
+            color: #000;
+        }
+
+        body.born #listedartists th:nth-child(3),
+        body.born #listedartists td:nth-child(3) {
+            display: table-cell;
+        }
+
+        body.death #listedartists th:nth-child(4),
+        body.death #listedartists td:nth-child(4) {
+            display: table-cell;
+        }
+
+        body.checkpoint #listedartists th:nth-child(5),
+        body.checkpoint #listedartists td:nth-child(5) {
+            display: table-cell;
+        }
+
+        body.categories #listedartists th:nth-child(6),
+        body.categories #listedartists td:nth-child(6) {
+            display: table-cell;
+        }
+
+        body.extrainfo #listedartists th:nth-child(7),
+        body.extrainfo #listedartists td:nth-child(7) {
+            display: table-cell;
+        }
+
+        #excludedartists td:nth-child(2),
+        #excludedartists th:nth-child(2) {
+            padding: 2px 5px 3px 5px;
+        }
+
+        #excludedartists td:nth-child(4),
+        #excludedartists th:nth-child(4),
+        #excludedartists td:nth-child(5),
+        #excludedartists th:nth-child(5) {
+            color: #999;
+        }
+    </style>
+    <script src="./src/data.js"></script>
+    <script src="./src/data-excluded-artists.js"></script>
+    <script src="./src/js/only-data-page.js"></script>
 </head>
+
 <body class="born death categories">
 
-<header>
+    <header>
+        <h1>Stable Diffusion 1.5 - Cheat Sheet Data</h1>
+    </header>
 
-    <h1>Stable Diffusion 1.5 - Cheat Sheet Data</h1>
-    
-</header>
+    <section>
+        <h2>Listed Artists</h2>
+        <div id="selectmore">Show me
+            <label for="born"><input type="checkbox" id="born" name="born" checked> Born</label>
+            <label for="death"><input type="checkbox" id="death" name="death" checked> Death</label>
+            <label for="checkpoint"><input type="checkbox" id="checkpoint" name="checkpoint"> Checkpoint</label>
+            <label for="categories"><input type="checkbox" id="categories" name="categories" checked> Categories</label>
+            <label for="extrainfo"><input type="checkbox" id="extrainfo" name="extrainfo"> Notes</label>
+        </div>
+        <div id="allthestyles"></div>
+    </section>
 
-<section>
+    <section>
+        <h2 id="notavailable">Unavailable Artists</h2>
+        <p>Manually checked. Hover over colors for more info.</p>
+        <p class="legend">
+            <span class="style-404">█</span> Artist not known by Stable Diffusion<br>
+            <span class="style-304">█</span> Something is recognized, but it's not related to the artist<br>
+            <span class="style-301">█</span> Something is recognized, but results are too different<br>
+            <span class="style-205">█</span> Artist is recognized, but difficult to prompt/not flexible<br>
+            <span class="style-204">█</span> Artist is recognized, but too different/generic<br>
+            <span class="style-500">█</span> Other
+        </p>
+        <div id="excludedArtists"></div>
+    </section>
 
-    <h2>Listed Artists</h2>
-
-    <div id="selectmore">Show me
-        <label for="born"><input type="checkbox" id="born" name="born" checked> Born</label>
-        <label for="death"><input type="checkbox" id="death" name="death" checked> Death</label>
-        <label for="checkpoint"><input type="checkbox" id="checkpoint" name="checkpoint"> Checkpoint</label>
-        <label for="categories"><input type="checkbox" id="categories" name="categories" checked> Categories</label>
-        <label for="extrainfo"><input type="checkbox" id="extrainfo" name="extrainfo"> Notes</label>
-    </div>
-
-    <div id="allthestyles"></div>
-    
-</section>
-
-<section>
-
-    <h2 id="notavailable">Unavailable Artists</h2>
-    
-    <p>Manually checked. Hover over colors for more info.</p>
-    
-    <p class="legend">
-        <span class="style-404">█</span> Artist not known by Stable Diffusion<br>
-        <span class="style-304">█</span> Something is recognized, but it's not related to the artist<br>
-        <span class="style-301">█</span> Something is recognized, but results are too different<br>
-        <span class="style-205">█</span> Artist is recognized, but difficult to prompt/not flexible<br>
-        <span class="style-204">█</span> Artist is recognized, but too different/generic<br>
-        <span class="style-500">█</span> Other
-    </p>
-
-    <div id="excludedArtists"></div>
-    
-</section>
-
-<footer>Created 2023 - Version 1.2.0 - <a href="https://github.com/SupaGruen/StableDiffusion-CheatSheet">GitHub</a></footer>
+    <footer>Created 2023 - Version 1.2.0 - <a href="https://github.com/SupaGruen/StableDiffusion-CheatSheet">GitHub</a>
+    </footer>
 
 </body>
+
 </html>
