@@ -1,0 +1,80 @@
+.grid {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.noResults {
+    text-align: center;
+    padding: 4rem 2rem;
+    color: var(--mutedwhite);
+}
+
+.similarSection {
+    display: block;
+    margin: 2rem 0 0 0;
+    padding: 1rem 1rem 0.5rem 1rem;
+    color: var(--mutedwhite);
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.similarSection:empty {
+    display: none;
+}
+
+.similarTitle {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.similarList {
+    display: block;
+    margin: 1rem 0;
+}
+
+.similarItem {
+    display: inline-block;
+    margin: 3px 5px 3px 0;
+    padding: 3px 5px;
+    line-height: 1;
+    background-color: var(--dgr);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.similarItem:hover {
+    background-color: white;
+    color: var(--bgr);
+}
+
+/* Status colors from original */
+.status-404 {
+    border-left: 2px solid #ffb3ba;
+}
+
+.status-304 {
+    border-left: 2px solid #ffdfba;
+}
+
+.status-301 {
+    border-left: 2px solid #feffa3;
+}
+
+.status-205 {
+    border-left: 2px solid #ddfffc;
+}
+
+.status-204 {
+    border-left: 2px solid #e2eeff;
+}
+
+.status-500 {
+    border-left: 2px solid #e1f7d5;
+}

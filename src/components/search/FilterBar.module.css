@@ -1,0 +1,59 @@
+.filterBar {
+    position: sticky;
+    top: 125px;
+    left: 0;
+    width: 100%;
+    z-index: 998;
+    background-color: var(--bgr-tp);
+    padding: 10px 40px;
+}
+
+.tagGrid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    grid-template-rows: repeat(12, auto);
+    gap: 7px;
+    max-height: 560px;
+    overflow-y: auto;
+}
+
+.tag {
+    position: relative;
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 1rem;
+    color: #FFF;
+    background-color: var(--dgr);
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.tag:hover,
+.active {
+    background-color: white !important;
+    color: var(--bgr) !important;
+}
+
+.tagCount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--lblgr);
+    font-size: 0.7rem;
+    padding: 2px;
+}
+
+.active .tagCount {
+    color: var(--lg);
+}
+
+.specialfilters {
+    background-color: #69808E !important;
+}
+
+.specialfilters:hover,
+.specialfiltersActive {
+    background-color: white !important;
+    color: var(--bgr) !important;
+}

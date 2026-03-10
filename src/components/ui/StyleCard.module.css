@@ -1,0 +1,67 @@
+.stylepod {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 256px;
+    height: 256px;
+    background-size: 512px;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+
+.cardTitle {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    margin: 0;
+    padding: 0 20px 0 0;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px #111;
+    color: white;
+    font-weight: 700;
+    z-index: 10;
+}
+
+.gallery {
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    width: 236px;
+    height: 50px;
+    justify-content: space-between;
+    z-index: 20;
+}
+
+.stylepod:hover .gallery {
+    display: flex;
+}
+
+.figure {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    background-size: 100px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+}
+
+.figure:nth-child(2) {
+    background-position: 100% 0;
+}
+
+.figure:nth-child(3) {
+    background-position: 0 100%;
+}
+
+.figure:nth-child(4) {
+    background-position: 100% 100%;
+}

@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+:root {
+    --bgr: #191D24;
+    --bgr-tp: rgba(25, 29, 36, .9);
+    --dgr: #303744;
+    --gr: #2A313C;
+    --lg: #47555e;
+    --lb: #7aa5d2;
+    --ow: #eeeeee;
+    --fc: #637289;
+    --lblgr: #7C8AA0;
+    --mutedwhite: #b0b9c3;
+    --bgr-red: #6d3737;
+    --bgr-green: #728a00;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-padding: 140px 0 0 0;
+}
+
+body {
+    font-family: 'Roboto Condensed', Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: var(--bgr);
+    color: var(--ow);
+    line-height: 1.2;
+    /* Tighter line height for that compressed look */
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+    border: none;
+    outline: none;
+    background: none;
+    color: inherit;
+}
+
+/* Base Layout Container */
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+}
+
+section {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 1.6rem;
+    text-transform: none;
+    /* Site title isn't uppercase in original */
+}
+
+h3 {
+    margin: 5rem 0 1rem 0;
+    padding: 0;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+h3:first-of-type {
+    margin-top: 0;
+}
+
+h4 {
+    display: block;
+    margin: 3rem 0 1rem 0;
+    padding: 0;
+    width: 100%;
+    font-size: 1.4rem;
+    color: var(--mutedwhite);
+    font-weight: 700;
+}
+
+p {
+    max-width: 800px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    color: var(--mutedwhite);
+    margin-bottom: 1rem;
+}
+
+p strong {
+    color: white;
+    font-weight: 700;
+}
+
+/* Utility classes */
+.is-hidden {
+    display: none !important;
+}
+
+.copyFeedback {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--bgr-green);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}

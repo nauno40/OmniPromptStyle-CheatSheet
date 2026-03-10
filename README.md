@@ -1,40 +1,73 @@
-# Stable Diffusion Cheat-Sheet
+# React + TypeScript + Vite
 
-This began as a personal collection of styles and notes. I was curious to see how the artists used in the prompts looked without the other keywords.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-[Download the zip file](https://github.com/SupaGruen/StableDiffusion-CheatSheet/releases) and use it as your own personal cheat-sheet - **completely offline**.
+Currently, two official plugins are available:
 
-## Artist Inspired Styles
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- **Over 833 manually tested styles**
-- Copy the style prompt with one click
-- Search and filter
-- One click to look up the artist via search engine
+## React Compiler
 
-<img src="https://raw.githubusercontent.com/SupaGruen/StableDiffusion-CheatSheet/main/img/other/01.webp" width="49%"> <img src="https://raw.githubusercontent.com/SupaGruen/StableDiffusion-CheatSheet/main/img/other/02.webp" width="49%">
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Image Metadata and Notes
+## Expanding the ESLint configuration
 
-- **Check image metadata without the need to start Stable Diffusion and completely offline**, just drag and drop
-- Some extra notes to help with art styles
-- Calculate image dimensions easily
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-<img src="https://raw.githubusercontent.com/SupaGruen/StableDiffusion-CheatSheet/main/img/other/04.webp" width="49%"> <img src="https://raw.githubusercontent.com/SupaGruen/StableDiffusion-CheatSheet/main/img/other/03.webp" width="49%">
+```js
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
 
-## Just the Data
+      // Remove tseslint.configs.recommended and replace with this
+      tseslint.configs.recommendedTypeChecked,
+      // Alternatively, use this for stricter rules
+      tseslint.configs.strictTypeChecked,
+      // Optionally, add this for stylistic rules
+      tseslint.configs.stylisticTypeChecked,
 
-All the information, but without preview images, is also listed in 'only-data.html'.
+      // Other configs...
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```
 
-There, you'll find everything that's in the JSON data. Date of birth (and death, if deceased), categories, notes, and a list of artists that were checked but are unknown to Stable Diffusion.
+You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-<img src="https://raw.githubusercontent.com/SupaGruen/StableDiffusion-CheatSheet/main/img/other/05.webp" width="49%"> <img src="https://raw.githubusercontent.com/SupaGruen/StableDiffusion-CheatSheet/main/img/other/06.webp" width="49%">
+```js
+// eslint.config.js
+import reactX from 'eslint-plugin-react-x'
+import reactDom from 'eslint-plugin-react-dom'
 
-## Credits
-
-From JS file or borrowed code to font and icons, thank you to:
-
-- Vanilla LazyLoad (MIT) - https://github.com/verlok/vanilla-lazyload
-- ExifReader (MPL-2.0) - https://github.com/mattiasw/ExifReader
-- Stable Diffusion Image Metadata Viewer (MIT) - https://github.com/himuro-majika/Stable_Diffusion_image_metadata_viewer
-- Google Font Roboto (Apache-2.0) - https://fonts.google.com/specimen/Roboto
-- SVG Icons from Ionicons (MIT) - https://github.com/ionic-team/ionicons
+export default defineConfig([
+  globalIgnores(['dist']),
+  {
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      // Other configs...
+      // Enable lint rules for React
+      reactX.configs['recommended-typescript'],
+      // Enable lint rules for React DOM
+      reactDom.configs.recommended,
+    ],
+    languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      // other options...
+    },
+  },
+])
+```

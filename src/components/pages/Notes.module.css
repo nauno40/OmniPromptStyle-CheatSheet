@@ -1,0 +1,116 @@
+.notes {
+    padding: 0;
+}
+
+.examplegallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+}
+
+.example {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.example img {
+    width: 120px;
+    height: auto;
+    border-radius: 0;
+}
+
+.caption {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    padding: 3px;
+    width: 94px;
+    background-color: var(--bgr-tp);
+    font-size: 0.75rem;
+    text-align: center;
+    white-space: normal;
+    cursor: copy;
+}
+
+.numberline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.numberline span {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: var(--gr);
+    cursor: pointer;
+}
+
+.highlight {
+    background-color: var(--lg) !important;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.dimensionsTable {
+    border-collapse: collapse;
+}
+
+.dimensionsTable td:nth-child(1) {
+    padding: 3px 15px 3px 0;
+    color: var(--mutedwhite);
+}
+
+.dimensionsTable td:nth-child(2) {
+    padding: 3px 15px;
+    background-color: var(--dgr);
+    text-align: center;
+}
+
+.dimensionsTable td:nth-child(3) {
+    padding: 3px 0 3px 15px;
+    color: var(--mutedwhite);
+    text-align: right;
+}
+
+.ratioInput {
+    width: 80px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: transparent;
+    border-bottom: 1px dashed var(--mutedwhite);
+}
+
+.arthistory {
+    list-style-type: square;
+    margin: 0 0 1rem 1rem;
+}
+
+.historyItem {
+    margin-bottom: 2rem;
+}
+
+.historySubList {
+    list-style-type: none;
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+}
+
+.historySubItem {
+    margin-bottom: 0.25rem;
+    font-size: 1.2rem;
+}
+
+.historyArtistLink {
+    text-decoration: none;
+    border-bottom: 1px dashed var(--mutedwhite);
+}
+
+.historyArtistLink:hover {
+    border-bottom: none;
+    text-decoration: none;
+}
