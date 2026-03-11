@@ -30,9 +30,6 @@ const App: React.FC = () => {
                   categories={galleryState.categories}
                   onCategorySelect={galleryState.setSelectedCategory}
                   activeCategory={galleryState.selectedCategory}
-                  checkpoints={galleryState.checkpoints}
-                  onCheckpointSelect={galleryState.setSelectedCheckpoint}
-                  activeCheckpoint={galleryState.selectedCheckpoint}
                   onSpecialFilterSelect={galleryState.setSelectedSpecialFilter}
                   activeSpecialFilter={galleryState.selectedSpecialFilter}
                   show={galleryState.showFilters}

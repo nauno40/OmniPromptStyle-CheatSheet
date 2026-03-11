@@ -8,6 +8,9 @@ import { dataService, type ModelDefinition } from '../../services/dataService';
 interface HeaderProps {
     activeModel: ModelType;
     setActiveModel: (model: ModelType) => void;
+    activeCheckpoint: string | null;
+    setActiveCheckpoint: (checkpoint: string | null) => void;
+    checkpoints: Record<string, number>;
     searchQuery: string;
     setSearchQuery: (query: string) => void;
     showFilters: boolean;
@@ -18,6 +21,9 @@ interface HeaderProps {
 export const Header: React.FC<HeaderProps> = ({
     activeModel,
     setActiveModel,
+    activeCheckpoint,
+    setActiveCheckpoint,
+    checkpoints,
     searchQuery,
     setSearchQuery,
     showFilters,
@@ -26,6 +32,7 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
     const location = useLocation();
     const isGallery = location.pathname === '/';
+    const availableCheckpoints = Object.keys(checkpoints);
 
     return (
         <header className={styles.header}>
@@ -34,16 +41,38 @@ export const Header: React.FC<HeaderProps> = ({
                     OmniPromptStyle - Cheat Sheets
                 </h1>
 
-                <div className={styles.modelSwitcher}>
-                    {dataService.getAvailableModels().map((model: ModelDefinition) => (
-                        <button
-                            key={model.id}
-                            className={clsx(styles.modelButton, activeModel === model.id && styles.modelActive)}
-                            onClick={() => setActiveModel(model.id)}
-                        >
-                            {model.name}
-                        </button>
-                    ))}
+                <div className={styles.switchers}>
+                    <div className={styles.modelSwitcher}>
+                        {dataService.getAvailableModels().map((model: ModelDefinition) => (
+                            <button
+                                key={model.id}
+                                className={clsx(styles.modelButton, activeModel === model.id && styles.modelActive)}
+                                onClick={() => setActiveModel(model.id)}
+                            >
+                                {model.name}
+                            </button>
+                        ))}
+                    </div>
+
+                    {availableCheckpoints.length > 1 && (
+                        <div className={styles.checkpointSwitcher}>
+                            <button
+                                className={clsx(styles.checkpointButton, !activeCheckpoint && styles.checkpointActive)}
+                                onClick={() => setActiveCheckpoint(null)}
+                            >
+                                All
+                            </button>
+                            {availableCheckpoints.map(cp => (
+                                <button
+                                    key={cp}
+                                    className={clsx(styles.checkpointButton, activeCheckpoint === cp && styles.checkpointActive)}
+                                    onClick={() => setActiveCheckpoint(cp)}
+                                >
+                                    {cp.replace('_', ' ')}
+                                </button>
+                            ))}
+                        </div>
+                    )}
                 </div>
             </div>
 

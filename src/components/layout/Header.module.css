@@ -50,6 +50,41 @@
     color: var(--bgr);
 }
 
+.switchers {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+}
+
+.checkpointSwitcher {
+    display: flex;
+    gap: 5px;
+}
+
+.checkpointButton {
+    padding: 4px 10px;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.checkpointButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.checkpointActive {
+    background-color: white;
+    color: var(--bgr);
+    border-color: white;
+}
+
 .nav {
     display: flex;
     justify-content: space-between;

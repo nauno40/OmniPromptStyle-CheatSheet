@@ -13,6 +13,9 @@ export const Layout: React.FC<LayoutProps> = ({ children, galleryState }) => {
             <Header
                 activeModel={galleryState.activeModel}
                 setActiveModel={galleryState.setActiveModel}
+                activeCheckpoint={galleryState.selectedCheckpoint}
+                setActiveCheckpoint={galleryState.setSelectedCheckpoint}
+                checkpoints={galleryState.checkpoints}
                 searchQuery={galleryState.searchQuery}
                 setSearchQuery={galleryState.setSearchQuery}
                 showFilters={galleryState.showFilters}

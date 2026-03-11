@@ -35,7 +35,7 @@ export const useGallery = () => {
         setSelectedArtist(id);
     }, []);
 
-    const styleCount = useMemo(() => dataService.getArtists().length, [activeModel]);
+    const styleCount = useMemo(() => dataService.getArtists().length, [activeModel, selectedCheckpoint]);
     const categories = useMemo(() => dataService.getCategories(), [activeModel]);
     const checkpoints = useMemo(() => dataService.getCheckpoints(), [activeModel]);
 

@@ -1,6 +1,6 @@
 .filterBar {
     position: sticky;
-    top: 125px;
+    top: 140px;
     left: 0;
     width: 100%;
     z-index: 998;
@@ -48,12 +48,20 @@
     color: var(--lg);
 }
 
+.divider {
+    grid-column: span 1;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 5px 0;
+}
+
 .specialfilters {
     background-color: #69808E !important;
 }
 
 .specialfilters:hover,
-.specialfiltersActive {
+.specialfiltersActive,
+.active.specialfilters {
     background-color: white !important;
     color: var(--bgr) !important;
 }
