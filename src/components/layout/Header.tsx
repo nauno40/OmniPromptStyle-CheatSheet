@@ -41,39 +41,41 @@ export const Header: React.FC<HeaderProps> = ({
                     OmniPromptStyle - Cheat Sheets
                 </h1>
 
-                <div className={styles.switchers}>
-                    <div className={styles.modelSwitcher}>
-                        {dataService.getAvailableModels().map((model: ModelDefinition) => (
-                            <button
-                                key={model.id}
-                                className={clsx(styles.modelButton, activeModel === model.id && styles.modelActive)}
-                                onClick={() => setActiveModel(model.id)}
-                            >
-                                {model.name}
-                            </button>
-                        ))}
-                    </div>
-
-                    {availableCheckpoints.length > 0 && (
-                        <div className={styles.checkpointSwitcher}>
-                            <button
-                                className={clsx(styles.checkpointButton, !activeCheckpoint && styles.checkpointActive)}
-                                onClick={() => setActiveCheckpoint(null)}
-                            >
-                                All
-                            </button>
-                            {availableCheckpoints.map(cp => (
+                {isGallery && (
+                    <div className={styles.switchers}>
+                        <div className={styles.modelSwitcher}>
+                            {dataService.getAvailableModels().map((model: ModelDefinition) => (
                                 <button
-                                    key={cp}
-                                    className={clsx(styles.checkpointButton, activeCheckpoint === cp && styles.checkpointActive)}
-                                    onClick={() => setActiveCheckpoint(cp)}
+                                    key={model.id}
+                                    className={clsx(styles.modelButton, activeModel === model.id && styles.modelActive)}
+                                    onClick={() => setActiveModel(model.id)}
                                 >
-                                    {cp}
+                                    {model.name}
                                 </button>
                             ))}
                         </div>
-                    )}
-                </div>
+
+                        {availableCheckpoints.length > 0 && (
+                            <div className={styles.checkpointSwitcher}>
+                                <button
+                                    className={clsx(styles.checkpointButton, !activeCheckpoint && styles.checkpointActive)}
+                                    onClick={() => setActiveCheckpoint(null)}
+                                >
+                                    All
+                                </button>
+                                {availableCheckpoints.map(cp => (
+                                    <button
+                                        key={cp}
+                                        className={clsx(styles.checkpointButton, activeCheckpoint === cp && styles.checkpointActive)}
+                                        onClick={() => setActiveCheckpoint(cp)}
+                                    >
+                                        {cp}
+                                    </button>
+                                ))}
+                            </div>
+                        )}
+                    </div>
+                )}
             </div>
 
             <nav className={styles.nav}>
