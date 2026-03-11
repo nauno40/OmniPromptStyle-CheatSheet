@@ -172,8 +172,16 @@ class DataService {
     }
 
     public getArtistById(id: string): Artist | undefined {
-        // Search across all datasets for the specific ID (Creation field)
+        // First check the active model's dataset (Performance and Correctness)
+        const activeDataset = this.datasets[this.activeModel];
+        if (activeDataset) {
+            const found = activeDataset.find(a => a.Creation === id);
+            if (found) return found;
+        }
+
+        // Search across all other datasets as fallback
         for (const modelId in this.datasets) {
+            if (modelId === this.activeModel) continue;
             const found = this.datasets[modelId].find(a => a.Creation === id);
             if (found) return found;
         }
