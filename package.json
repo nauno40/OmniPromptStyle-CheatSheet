@@ -4,11 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/discovery.cjs --watch & vite",
-    "build": "node scripts/discovery.cjs && tsc -b && vite build",
+    "dev": "vite",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "discover": "node scripts/discovery.cjs"
+    "preview": "vite preview"
   },
   "dependencies": {
     "clsx": "^2.1.1",

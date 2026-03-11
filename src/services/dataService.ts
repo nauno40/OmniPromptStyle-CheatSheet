@@ -1,5 +1,4 @@
 import artists from '../data/artists.json';
-import manifest from '../data/manifest.json';
 import { excludedArtists } from '../data/excludedArtists';
 import type { Artist, ExcludedArtist } from '../types/artist';
 import { formatArtistNameForSearch, removeDiacritics } from '../utils/stringUtils';
@@ -21,8 +20,8 @@ const END_OF_VER_1_2_0 = 202306072133;
 
 class DataService {
     private allArtistsMetadata: Artist[] = artists as Artist[];
-    private manifest: Record<string, Record<string, string[]>> = manifest as any;
-    private activeModel: string;
+    private manifest: Record<string, Record<string, string[]>> = {};
+    private activeModel: string = '';
     private activeCheckpoint: string | null = null;
 
     private datasets: Record<string, Artist[]> = {};
@@ -30,10 +29,35 @@ class DataService {
     private simpleArray: Record<string, string[]> = {};
 
     constructor() {
-        const models = Object.keys(this.manifest);
-        // Default to the first model found, or empty string
-        this.activeModel = models[0] || '';
+        this.discoverImages();
         this.init();
+    }
+
+    private discoverImages() {
+        // Use Vite's import.meta.glob to find all images in public/img/style
+        // Note: the paths are relative to the current file
+        const imageModules = import.meta.glob('/public/img/style/**/*.{webp,png,jpg,jpeg}', { eager: true });
+        
+        const newManifest: Record<string, Record<string, string[]>> = {};
+
+        Object.keys(imageModules).forEach(fullPath => {
+            // Path format: /public/img/style/Model/Checkpoint/Artist.webp
+            const parts = fullPath.split('/');
+            // Parts: ["", "public", "img", "style", "Model", "Checkpoint", "Artist.webp"]
+            if (parts.length >= 7) {
+                const model = parts[4];
+                const checkpoint = parts[5];
+                const filename = parts[parts.length - 1];
+
+                if (!newManifest[model]) newManifest[model] = {};
+                if (!newManifest[model][checkpoint]) newManifest[model][checkpoint] = [];
+                newManifest[model][checkpoint].push(filename);
+            }
+        });
+
+        this.manifest = newManifest;
+        const models = Object.keys(this.manifest);
+        this.activeModel = models[0] || '';
     }
 
     private parseArtistNameFromFilename(filename: string): string {
@@ -159,7 +183,8 @@ class DataService {
     public getCategories(): Record<string, number> {
         const categories: Record<string, number> = {};
         this.getArtists().forEach(artist => {
-            artist.Category.split(',').forEach(cat => {
+            const cats = artist.Category.split(',');
+            cats.forEach(cat => {
                 const cleanCat = cat.trim();
                 if (cleanCat) categories[cleanCat] = (categories[cleanCat] || 0) + 1;
             });
