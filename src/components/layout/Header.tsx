@@ -2,8 +2,12 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { clsx } from 'clsx';
 import styles from './Header.module.css';
+import type { ModelType } from '../../types/artist';
+import { dataService, type ModelDefinition } from '../../services/dataService';
 
 interface HeaderProps {
+    activeModel: ModelType;
+    setActiveModel: (model: ModelType) => void;
     searchQuery: string;
     setSearchQuery: (query: string) => void;
     showFilters: boolean;
@@ -12,6 +16,8 @@ interface HeaderProps {
 }
 
 export const Header: React.FC<HeaderProps> = ({
+    activeModel,
+    setActiveModel,
     searchQuery,
     setSearchQuery,
     showFilters,
@@ -23,9 +29,23 @@ export const Header: React.FC<HeaderProps> = ({
 
     return (
         <header className={styles.header}>
-            <h1 className={styles.title}>
-                OmniPromptStyle - Cheat Sheets
-            </h1>
+            <div className={styles.topRow}>
+                <h1 className={styles.title}>
+                    OmniPromptStyle - Cheat Sheets
+                </h1>
+
+                <div className={styles.modelSwitcher}>
+                    {dataService.getAvailableModels().map((model: ModelDefinition) => (
+                        <button
+                            key={model.id}
+                            className={clsx(styles.modelButton, activeModel === model.id && styles.modelActive)}
+                            onClick={() => setActiveModel(model.id)}
+                        >
+                            {model.name}
+                        </button>
+                    ))}
+                </div>
+            </div>
 
             <nav className={styles.nav}>
                 <ul className={styles.navList}>

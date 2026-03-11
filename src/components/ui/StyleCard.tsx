@@ -1,6 +1,7 @@
 import React from 'react';
 import type { Artist } from '../../types/artist';
 import { createAnchor } from '../../utils/stringUtils';
+import { resolveImagePath } from '../../utils/imageUtils';
 import styles from './StyleCard.module.css';
 
 interface StyleCardProps {
@@ -13,7 +14,7 @@ export const StyleCard: React.FC<StyleCardProps> = ({
     onClick
 }) => {
     const anchor = createAnchor(artist.Name);
-    const imageUrl = `/img/${artist.Image}`;
+    const imageUrl = resolveImagePath(artist);
 
     return (
         <div

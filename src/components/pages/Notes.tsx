@@ -191,7 +191,9 @@ export const Notes: React.FC = () => {
             {renderGallery('Digital, Other', DIGITAL_EXAMPLES)}
 
             <h3>Image Dimensions</h3>
-            <p>Stable Diffusion was trained with base dimensions of 512 pixels (SD 1.5) and 768 pixels (SD 2/2.1).<br />While it's not necessary to stick to multiples of 128, it's a good place to start.</p>
+            <p>Stable Diffusion was trained with base dimensions of 512 pixels (SD 1.5) and 768 pixels (SD 2/2.1).<br />
+                FLUX.1 [dev] is optimized for 1024 pixels.<br />
+                While it's not necessary to stick to multiples of 128, it's a good place to start.</p>
 
             <div className={styles.numberline}>
                 {[128, 256, 384, 512, 640, 768, 896, 1024].map(num => (

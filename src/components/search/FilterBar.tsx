@@ -6,6 +6,9 @@ interface FilterBarProps {
     categories: Record<string, number>;
     onCategorySelect: (category: string | null) => void;
     activeCategory: string | null;
+    checkpoints: Record<string, number>;
+    onCheckpointSelect: (checkpoint: string | null) => void;
+    activeCheckpoint: string | null;
     onSpecialFilterSelect: (filter: string | null) => void;
     activeSpecialFilter: string | null;
     show: boolean;
@@ -18,6 +21,9 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     categories,
     onCategorySelect,
     activeCategory,
+    checkpoints,
+    onCheckpointSelect,
+    activeCheckpoint,
     onSpecialFilterSelect,
     activeSpecialFilter,
     show,
@@ -54,6 +60,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         .filter(cat => categories[cat] >= 5)
         .sort();
 
+    const sortedCheckpoints = Object.keys(checkpoints).sort();
+
     return (
         <div className={clsx(styles.filterBar, show && styles.show)} ref={filterRef}>
             <div id="allcats" className={clsx(styles.tagGrid, show && styles.show)}>
@@ -70,6 +78,25 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                         {filter}
                     </span>
                 ))}
+
+                <div className={styles.divider}></div>
+
+                {sortedCheckpoints.map(cp => (
+                    <span
+                        key={cp}
+                        className={clsx(
+                            styles.tag,
+                            styles.checkpointTag,
+                            activeCheckpoint === cp && styles.active
+                        )}
+                        onClick={() => onCheckpointSelect(activeCheckpoint === cp ? null : cp)}
+                    >
+                        {cp}
+                        <span className={styles.tagCount}>{checkpoints[cp]}</span>
+                    </span>
+                ))}
+
+                <div className={styles.divider}></div>
 
                 {sortedCategories.map(category => (
                     <span

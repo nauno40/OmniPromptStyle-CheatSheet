@@ -11,6 +11,8 @@ export const Layout: React.FC<LayoutProps> = ({ children, galleryState }) => {
     return (
         <div className="app-container">
             <Header
+                activeModel={galleryState.activeModel}
+                setActiveModel={galleryState.setActiveModel}
                 searchQuery={galleryState.searchQuery}
                 setSearchQuery={galleryState.setSearchQuery}
                 showFilters={galleryState.showFilters}

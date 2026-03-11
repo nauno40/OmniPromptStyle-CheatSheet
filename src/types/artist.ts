@@ -1,3 +1,5 @@
+export type ModelType = string;
+
 export interface Artist {
     Type: string;
     Name: string;
@@ -10,6 +12,7 @@ export interface Artist {
     Extrainfo: string;
     Image: string;
     Creation: string;
+    Model: ModelType;
 }
 
 export interface ExcludedArtist {

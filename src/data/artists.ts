@@ -12,7 +12,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "difficult to prompt (faces), start with 768px + Highres. Fix",
         "Image": "Slim-Aarons.webp",
-        "Creation": "202402271053"
+        "Creation": "202402271053",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -25,7 +26,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Edwin-Austin-Abbey.webp",
-        "Creation": "202306201556"
+        "Creation": "202306201556",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -38,7 +40,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tomma-Abts.webp",
-        "Creation": "202311211056"
+        "Creation": "202311211056",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -51,7 +54,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andreas-Achenbach.webp",
-        "Creation": "202304271224"
+        "Creation": "202304271224",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -64,7 +68,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Norman-Ackroyd.webp",
-        "Creation": "202304241417"
+        "Creation": "202304241417",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -77,7 +82,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ansel-Adams.webp",
-        "Creation": "202304271129"
+        "Creation": "202304271129",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -90,7 +96,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM++ 2M Karras, Denoising 0.6",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Arthur-Adams.webp",
-        "Creation": "202305201938"
+        "Creation": "202305201938",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -103,7 +110,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, sometimes problems with eyes",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Neal-Adams.webp",
-        "Creation": "202305270052"
+        "Creation": "202305270052",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -116,7 +124,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Josh-Adamski.webp",
-        "Creation": "202311211115"
+        "Creation": "202311211115",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -129,7 +138,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Etel-Adnan.webp",
-        "Creation": "202311211127"
+        "Creation": "202311211127",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -142,7 +152,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Mattias_Adolfsson.webp",
-        "Creation": "202304260144"
+        "Creation": "202304260144",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -155,7 +166,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alena_Aenami.webp",
-        "Creation": "202304060817"
+        "Creation": "202304060817",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -168,7 +180,8 @@ export const artists: Artist[] = [
         "Extrainfo": "start with 768px",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Pieter-Aertsen.webp",
-        "Creation": "202311211143"
+        "Creation": "202311211143",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -181,7 +194,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Leonid_Afremov.webp",
-        "Creation": "202304260010"
+        "Creation": "202304260010",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -194,7 +208,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Petros-Afshar.webp",
-        "Creation": "202304211742"
+        "Creation": "202304211742",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -207,7 +222,8 @@ export const artists: Artist[] = [
         "Extrainfo": "start with 768px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Yaacov-Agam.webp",
-        "Creation": "202311211205"
+        "Creation": "202311211205",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -220,7 +236,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Eileen-Agar.webp",
-        "Creation": "202311211218"
+        "Creation": "202311211218",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -233,7 +250,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ivan-Aivazovsky.webp",
-        "Creation": "202305250305"
+        "Creation": "202305250305",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -246,7 +264,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "David-Aja.webp",
-        "Creation": "202305290523"
+        "Creation": "202305290523",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -259,7 +278,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Sherry-Akrami.webp",
-        "Creation": "202311231145"
+        "Creation": "202311231145",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -272,7 +292,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alessio-Albi.webp",
-        "Creation": "202306080308"
+        "Creation": "202306080308",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -285,7 +306,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "start with 768px",
         "Image": "Ivan-Albright.webp",
-        "Creation": "202402271240"
+        "Creation": "202402271240",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -298,7 +320,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Rafael_Albuquerque.webp",
-        "Creation": "202304060338"
+        "Creation": "202304060338",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -311,7 +334,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Miles-Aldridge.webp",
-        "Creation": "202305262354"
+        "Creation": "202305262354",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -324,7 +348,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Shahab-Alizadeh.webp",
-        "Creation": "202305201205"
+        "Creation": "202305201205",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -337,7 +362,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Helen-Allingham.webp",
-        "Creation": "202311220056"
+        "Creation": "202311220056",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -350,7 +376,8 @@ export const artists: Artist[] = [
         "Extrainfo": "start with 768px",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alessandro-Allori.webp",
-        "Creation": "202311220114"
+        "Creation": "202311220114",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -363,7 +390,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Mike_Allred.webp",
-        "Creation": "202304260241"
+        "Creation": "202304260241",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -376,7 +404,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Albrecht-Altdorfer.webp",
-        "Creation": "202305030737"
+        "Creation": "202305030737",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -389,7 +418,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Yoshitaka-Amano.webp",
-        "Creation": "202304221713"
+        "Creation": "202304221713",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -402,7 +432,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tarsila-do-Amaral.webp",
-        "Creation": "202305280139"
+        "Creation": "202305280139",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -415,7 +446,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Cuno-Amiet.webp",
-        "Creation": "202304270401"
+        "Creation": "202304270401",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -428,7 +460,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Fernando-Amorsolo.webp",
-        "Creation": "202306191421"
+        "Creation": "202306191421",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -441,7 +474,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jay-Anacleto.webp",
-        "Creation": "202305251435"
+        "Creation": "202305251435",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -454,7 +488,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Anna-Ancher.webp",
-        "Creation": "202304172245"
+        "Creation": "202304172245",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -467,7 +502,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Richard-Anderson.webp",
-        "Creation": "202305191529"
+        "Creation": "202305191529",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -480,7 +516,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Wes-Anderson.webp",
-        "Creation": "202304171907"
+        "Creation": "202304171907",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -493,7 +530,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Alex-Andreev.webp",
-        "Creation": "202305201601"
+        "Creation": "202305201601",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -506,7 +544,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix (1024)",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Esao-Andrews.webp",
-        "Creation": "202305240110"
+        "Creation": "202305240110",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -519,7 +558,8 @@ export const artists: Artist[] = [
         "Extrainfo": "output quite generic, not bad enough to add to \'not available\'",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Pietro-Annigoni.webp",
-        "Creation": "202311190435"
+        "Creation": "202311190435",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -532,7 +572,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Martin-Ansin.webp",
-        "Creation": "202305100740"
+        "Creation": "202305100740",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -545,7 +586,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Chiho-Aoshima.webp",
-        "Creation": "202304121350"
+        "Creation": "202304121350",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -558,7 +600,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Karel-Appel.webp",
-        "Creation": "202305090124"
+        "Creation": "202305090124",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -571,7 +614,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Sabbas-Apterus.webp",
-        "Creation": "202305272000"
+        "Creation": "202305272000",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -584,7 +628,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "potentially NSFW",
         "Image": "Nobuyoshi-Araki.webp",
-        "Creation": "202402271250"
+        "Creation": "202402271250",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -597,7 +642,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Shinji-Aramaki.webp",
-        "Creation": "202402271310"
+        "Creation": "202402271310",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -610,7 +656,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alexander-Archipenko.webp",
-        "Creation": "202305201655"
+        "Creation": "202305201655",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -623,7 +670,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Giuseppe-Arcimboldo.webp",
-        "Creation": "202305030650"
+        "Creation": "202305030650",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -636,7 +684,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Mordecai-Ardon.webp",
-        "Creation": "202304241442"
+        "Creation": "202304241442",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -649,7 +698,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Mark-Arian.webp",
-        "Creation": "202402271335"
+        "Creation": "202402271335",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -662,7 +712,8 @@ export const artists: Artist[] = [
         "Extrainfo": "output quite generic, but okay for what it is",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Abram-Arkhipov.webp",
-        "Creation": "202311221446"
+        "Creation": "202311221446",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -675,7 +726,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Rolf-Armstrong.webp",
-        "Creation": "202305270712"
+        "Creation": "202305270712",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -688,7 +740,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alois-Arnegger.webp",
-        "Creation": "202304181600"
+        "Creation": "202304181600",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -701,7 +754,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Gerd-Arntz.webp",
-        "Creation": "202403012137"
+        "Creation": "202403012137",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -714,7 +768,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Floris-Arntzenius.webp",
-        "Creation": "202304251951"
+        "Creation": "202304251951",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -727,7 +782,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Jean-Arp.webp",
-        "Creation": "202403012155"
+        "Creation": "202403012155",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -740,7 +796,8 @@ export const artists: Artist[] = [
         "Extrainfo": "768px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Agostino-Arrivabene.webp",
-        "Creation": "202304271844"
+        "Creation": "202304271844",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -753,7 +810,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Artgerm.webp",
-        "Creation": "202304121456"
+        "Creation": "202304121456",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -766,7 +824,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Henry_Asencio.webp",
-        "Creation": "202304121225"
+        "Creation": "202304121225",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -779,7 +838,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Balthasar-van-der-Ast.webp",
-        "Creation": "202304260308"
+        "Creation": "202304260308",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -792,7 +852,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Nikolai-Astrup.webp",
-        "Creation": "202305270141"
+        "Creation": "202305270141",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -805,7 +866,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Eugene-Atget.webp",
-        "Creation": "202304252020"
+        "Creation": "202304252020",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -818,7 +880,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-James-Audubon.webp",
-        "Creation": "202305030621"
+        "Creation": "202305030621",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -831,7 +894,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Frank-Auerbach.webp",
-        "Creation": "202304251936"
+        "Creation": "202304251936",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -844,7 +908,8 @@ export const artists: Artist[] = [
         "Extrainfo": "768px or 512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "George-Ault.webp",
-        "Creation": "202311221414"
+        "Creation": "202311221414",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -857,7 +922,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Richard-Avedon.webp",
-        "Creation": "202305270420"
+        "Creation": "202305270420",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -870,7 +936,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Milton-Avery.webp",
-        "Creation": "202403012201"
+        "Creation": "202403012201",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -883,7 +950,8 @@ export const artists: Artist[] = [
         "Extrainfo": "eyes are difficult, DPM++ SDE Karras, Highres. Fix, Denoising Strength 0.7",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Chris-Bachalo.webp",
-        "Creation": "202306260237"
+        "Creation": "202306260237",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -896,7 +964,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Anne-Bachelier.webp",
-        "Creation": "202304172224"
+        "Creation": "202304172224",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -909,7 +978,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tom-Bagshaw.webp",
-        "Creation": "202305282325"
+        "Creation": "202305282325",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -922,7 +992,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alice-Bailly.webp",
-        "Creation": "202306270616"
+        "Creation": "202306270616",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -935,7 +1006,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Karol-Bak.webp",
-        "Creation": "202304221610"
+        "Creation": "202304221610",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -948,7 +1020,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM++ SDE Karras, had to use [from:to:when] for H.C.",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ralph-Bakshi.webp",
-        "Creation": "202306101151"
+        "Creation": "202306101151",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -961,7 +1034,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Christopher_Balaskas.webp",
-        "Creation": "202304260329"
+        "Creation": "202304260329",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -974,7 +1048,8 @@ export const artists: Artist[] = [
         "Extrainfo": "768px + Highres. Fix, difficult to prompt men, had to use [from:to:when]",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Emily-Balivet.webp",
-        "Creation": "202305240043"
+        "Creation": "202305240043",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -987,7 +1062,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Peder_Balke.webp",
-        "Creation": "202304260342"
+        "Creation": "202304260342",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1000,7 +1076,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Benedick_Bana.webp",
-        "Creation": "202304060356"
+        "Creation": "202304060356",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1013,7 +1090,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "George_Barbier.webp",
-        "Creation": "202304060415"
+        "Creation": "202304060415",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1026,7 +1104,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Clive-Barker.webp",
-        "Creation": "202306010334"
+        "Creation": "202306010334",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1039,7 +1118,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Wayne-Barlowe.webp",
-        "Creation": "202304150938"
+        "Creation": "202304150938",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1052,7 +1132,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ernie-Barnes.webp",
-        "Creation": "202305161140"
+        "Creation": "202305161140",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1065,7 +1146,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Will-Barnet.webp",
-        "Creation": "202305290244"
+        "Creation": "202305290244",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1078,7 +1160,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Angela-Barrett.webp",
-        "Creation": "202306150453"
+        "Creation": "202306150453",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1091,7 +1174,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Paul-Barson.webp",
-        "Creation": "202305140848"
+        "Creation": "202305140848",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1104,7 +1188,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Bo-Bartlett.webp",
-        "Creation": "202305211550"
+        "Creation": "202305211550",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1117,7 +1202,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Casey-Baugh.webp",
-        "Creation": "202305231145"
+        "Creation": "202305231145",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1130,7 +1216,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Gifford-Beal.webp",
-        "Creation": "202304121252"
+        "Creation": "202304121252",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1143,7 +1230,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Aubrey_Beardsley.webp",
-        "Creation": "202304260411"
+        "Creation": "202304260411",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1156,7 +1244,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Beatrix-Potter.webp",
-        "Creation": "202304150911"
+        "Creation": "202304150911",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1169,7 +1258,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Beeple.webp",
-        "Creation": "202304060843"
+        "Creation": "202304060843",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1182,7 +1272,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Zdzislaw-Beksinski.webp",
-        "Creation": "202304260433"
+        "Creation": "202304260433",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1195,7 +1286,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hans-Bellmer.webp",
-        "Creation": "202304041213"
+        "Creation": "202304041213",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1208,7 +1300,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "George-Bellows.webp",
-        "Creation": "202305171041"
+        "Creation": "202305171041",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1221,7 +1314,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, high denoise",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ludwig-Bemelmans.webp",
-        "Creation": "202306140500"
+        "Creation": "202306140500",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1234,7 +1328,8 @@ export const artists: Artist[] = [
         "Extrainfo": "quite different, but maybe still useful",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alexandre-Benois.webp",
-        "Creation": "202306260329"
+        "Creation": "202306260329",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1247,7 +1342,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Earle-Bergey.webp",
-        "Creation": "202305111454"
+        "Creation": "202305111454",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1260,7 +1356,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John_Berkey.webp",
-        "Creation": "202304060203"
+        "Creation": "202304060203",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1273,7 +1370,8 @@ export const artists: Artist[] = [
         "Extrainfo": "also did paintings, but defaults to sculptures\/statues",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Gian-Lorenzo-Bernini.webp",
-        "Creation": "202306091316"
+        "Creation": "202306091316",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1286,7 +1384,8 @@ export const artists: Artist[] = [
         "Extrainfo": "difficult to prompt",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Elsa-Beskow.webp",
-        "Creation": "202305110757"
+        "Creation": "202305110757",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1299,7 +1398,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "James-Bidgood.webp",
-        "Creation": "202306140607"
+        "Creation": "202306140607",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1312,7 +1412,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Szymon-Biernacki.webp",
-        "Creation": "202305222322"
+        "Creation": "202305222322",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1325,7 +1426,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Albert-Bierstadt.webp",
-        "Creation": "202304290627"
+        "Creation": "202304290627",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1338,7 +1440,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "John-T-Biggers.webp",
-        "Creation": "202305251907"
+        "Creation": "202305251907",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1351,7 +1454,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Enki_Bilal.webp",
-        "Creation": "202304060221"
+        "Creation": "202304060221",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1364,7 +1468,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ivan-Bilibin.webp",
-        "Creation": "202305120525"
+        "Creation": "202305120525",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1377,7 +1482,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Butcher-Billy.webp",
-        "Creation": "202305030951"
+        "Creation": "202305030951",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1390,7 +1496,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ed-Binkley.webp",
-        "Creation": "202305090907"
+        "Creation": "202305090907",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1403,7 +1510,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Elmer-Bischoff.webp",
-        "Creation": "202305030408"
+        "Creation": "202305030408",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1416,7 +1524,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Simon_Bisley.webp",
-        "Creation": "202304060208"
+        "Creation": "202304060208",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1429,7 +1538,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Robert-Bissell.webp",
-        "Creation": "202305270644"
+        "Creation": "202305270644",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1442,7 +1552,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM2, 40 Steps",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Mary-Blair.webp",
-        "Creation": "202304121633"
+        "Creation": "202304121633",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1455,7 +1566,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "William-Blake.webp",
-        "Creation": "202311221423"
+        "Creation": "202311221423",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1468,7 +1580,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Antoine-Blanchard.webp",
-        "Creation": "202304271118"
+        "Creation": "202304271118",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1481,7 +1594,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-Blanche.webp",
-        "Creation": "202304071424"
+        "Creation": "202304071424",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1494,7 +1608,8 @@ export const artists: Artist[] = [
         "Extrainfo": "sparse info, deleted DeviantArt and ArtStation profiles",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Tim-Blandin.webp",
-        "Creation": "202306080306"
+        "Creation": "202306080306",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1507,7 +1622,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Neil-Blevins.webp",
-        "Creation": "202305171417"
+        "Creation": "202305171417",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1520,7 +1636,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Umberto-Boccioni.webp",
-        "Creation": "202305081515"
+        "Creation": "202305081515",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1533,7 +1650,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Brian-Bolland.webp",
-        "Creation": "202305211844"
+        "Creation": "202305211844",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1546,7 +1664,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Chesley-Bonestell.webp",
-        "Creation": "202305121323"
+        "Creation": "202305121323",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1559,7 +1678,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Olivier-Bonhomme.webp",
-        "Creation": "202304060154"
+        "Creation": "202304060154",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1572,7 +1692,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Pierre-Bonnard.webp",
-        "Creation": "202311180852"
+        "Creation": "202311180852",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1585,7 +1706,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Franklin_Booth.webp",
-        "Creation": "202304060215"
+        "Creation": "202304060215",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1598,7 +1720,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Marius-Borgeaud.webp",
-        "Creation": "202311180813"
+        "Creation": "202311180813",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1611,7 +1734,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Matt-Bors.webp",
-        "Creation": "202305020435"
+        "Creation": "202305020435",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1624,7 +1748,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hieronymus-Bosch.webp",
-        "Creation": "202305090240"
+        "Creation": "202305090240",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1637,7 +1762,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Sam-Bosma.webp",
-        "Creation": "202305272111"
+        "Creation": "202305272111",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1650,7 +1776,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ambrosius-Bosschaert.webp",
-        "Creation": "202306150342"
+        "Creation": "202306150342",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1663,7 +1790,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Johfra-Bosschart.webp",
-        "Creation": "202304171139"
+        "Creation": "202304171139",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1676,7 +1804,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Botero.webp",
-        "Creation": "202304270549"
+        "Creation": "202304270549",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1689,7 +1818,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Sandro-Botticelli.webp",
-        "Creation": "202304222038"
+        "Creation": "202304222038",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1702,7 +1832,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM2, 40 Steps",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Francois_Boucher.webp",
-        "Creation": "202304130242"
+        "Creation": "202304130242",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1715,7 +1846,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Charlie-Bowater.webp",
-        "Creation": "202305231238"
+        "Creation": "202305231238",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1728,7 +1860,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "David-Michael-Bowers.webp",
-        "Creation": "202304131557"
+        "Creation": "202304131557",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1741,7 +1874,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Frank-Bowling.webp",
-        "Creation": "202305241433"
+        "Creation": "202305241433",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1754,7 +1888,8 @@ export const artists: Artist[] = [
         "Extrainfo": "Thomas the Tank Engine likes to show up",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Thomas-Shotter-Boys.webp",
-        "Creation": "202305282306"
+        "Creation": "202305282306",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1767,7 +1902,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Noah_Bradley.webp",
-        "Creation": "202304060851"
+        "Creation": "202304060851",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1780,7 +1916,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Frank_Bramley.webp",
-        "Creation": "202304060237"
+        "Creation": "202304060237",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1793,7 +1930,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Victor-Brauner.webp",
-        "Creation": "202310231620"
+        "Creation": "202310231620",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1806,7 +1944,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "George-B-Bridgman.webp",
-        "Creation": "202304221601"
+        "Creation": "202304221601",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1819,7 +1958,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Austin-Briggs.webp",
-        "Creation": "202305201954"
+        "Creation": "202305201954",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1832,7 +1972,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Romero-Britto.webp",
-        "Creation": "202305270741"
+        "Creation": "202305270741",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1845,7 +1986,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, Euler A",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Glen-Brogan.webp",
-        "Creation": "202304261840"
+        "Creation": "202304261840",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1858,7 +2000,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Gerald_Brom.webp",
-        "Creation": "202304060253"
+        "Creation": "202304060253",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1871,7 +2014,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Ford-Madox-Brown.webp",
-        "Creation": "202403012244"
+        "Creation": "202403012244",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1884,7 +2028,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Edward-Burne-Jones.webp",
-        "Creation": "202305111401"
+        "Creation": "202305111401",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1897,7 +2042,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jim-Burns.webp",
-        "Creation": "202305251602"
+        "Creation": "202305251602",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1910,7 +2056,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Gaston-Bussiere.webp",
-        "Creation": "202306191334"
+        "Creation": "202306191334",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1923,7 +2070,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Arnold-Boecklin.webp",
-        "Creation": "202306241113"
+        "Creation": "202306241113",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1936,7 +2084,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Francis_Cadell.webp",
-        "Creation": "202304261919"
+        "Creation": "202304261919",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1949,7 +2098,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Paul-Cadmus.webp",
-        "Creation": "202305270311"
+        "Creation": "202305270311",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1962,7 +2112,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Alexandre-Calame.webp",
-        "Creation": "202403012305"
+        "Creation": "202403012305",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1975,7 +2126,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM++ SDE Karras",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Clyde-Caldwell.webp",
-        "Creation": "202306211557"
+        "Creation": "202306211557",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -1988,7 +2140,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Fred-Calleri.webp",
-        "Creation": "202305241550"
+        "Creation": "202305241550",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2001,7 +2154,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Charles-Camoin.webp",
-        "Creation": "202305020634"
+        "Creation": "202305020634",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2014,7 +2168,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Colin-Campbell-Cooper.webp",
-        "Creation": "202305030506"
+        "Creation": "202305030506",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2027,7 +2182,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Pascal-Campion.webp",
-        "Creation": "202304031155"
+        "Creation": "202304031155",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2040,7 +2196,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Milton_Caniff.webp",
-        "Creation": "202304261548"
+        "Creation": "202304261548",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2053,7 +2210,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Pablo-Carpio.webp",
-        "Creation": "202305190956"
+        "Creation": "202305190956",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2066,7 +2224,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Michael_Carson.webp",
-        "Creation": "202304041744"
+        "Creation": "202304041744",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2079,7 +2238,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Santiago-Caruso.webp",
-        "Creation": "202306180639"
+        "Creation": "202306180639",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2092,7 +2252,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Didier-Cassegrain.webp",
-        "Creation": "202304091409"
+        "Creation": "202304091409",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2105,7 +2266,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alfred_J_Casson.webp",
-        "Creation": "202304060305"
+        "Creation": "202304060305",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2118,7 +2280,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Paul-Catherall.webp",
-        "Creation": "202306150241"
+        "Creation": "202306150241",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2131,7 +2294,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Clint-Cearley.webp",
-        "Creation": "202304041247"
+        "Creation": "202304041247",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2144,7 +2308,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Agnes-Cecile.webp",
-        "Creation": "202304151025"
+        "Creation": "202304151025",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2157,7 +2322,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Marc-Chagall.webp",
-        "Creation": "202304250550"
+        "Creation": "202304250550",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2170,7 +2336,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John_Chamberlain.webp",
-        "Creation": "202304060906"
+        "Creation": "202304060906",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2183,7 +2350,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jean-Simeon-Chardin.webp",
-        "Creation": "202305081448"
+        "Creation": "202305081448",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2196,7 +2364,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Travis_Charest.webp",
-        "Creation": "202304060942"
+        "Creation": "202304060942",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2209,7 +2378,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Pierre-Puvis-de-Chavannes.webp",
-        "Creation": "202305081458"
+        "Creation": "202305081458",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2222,7 +2392,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hsiao-Ron-Cheng.webp",
-        "Creation": "202304262039"
+        "Creation": "202304262039",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2235,7 +2406,8 @@ export const artists: Artist[] = [
         "Extrainfo": "DPM++ 2M Karras",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Yanjun-Cheng.webp",
-        "Creation": "202304261956"
+        "Creation": "202304261956",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2248,7 +2420,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ivan-Chermayeff.webp",
-        "Creation": "202305180620"
+        "Creation": "202305180620",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2261,7 +2434,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM++ 2M Karras, sometimes horses (cheval = french for horse)",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Michael-Cheval.webp",
-        "Creation": "202305262317"
+        "Creation": "202305262317",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2274,7 +2448,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Sandra-Chevrier.webp",
-        "Creation": "202304300449"
+        "Creation": "202304300449",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2287,7 +2462,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Dale-Chihuly.webp",
-        "Creation": "202311180744"
+        "Creation": "202311180744",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2300,7 +2476,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Frank-Cho.webp",
-        "Creation": "202305272256"
+        "Creation": "202305272256",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2313,7 +2490,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "James-C-Christensen.webp",
-        "Creation": "202305250332"
+        "Creation": "202305250332",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2326,7 +2504,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Frederic-Edwin-Church.webp",
-        "Creation": "202403012317"
+        "Creation": "202403012317",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2339,7 +2518,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Cimabue.webp",
-        "Creation": "202305121134"
+        "Creation": "202305121134",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2352,7 +2532,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Mikalojus-Ciurlionis.webp",
-        "Creation": "202304241519"
+        "Creation": "202304241519",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2365,7 +2546,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Harry-Clarke.webp",
-        "Creation": "202305160554"
+        "Creation": "202305160554",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2378,7 +2560,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Henry-Clive.webp",
-        "Creation": "202305242050"
+        "Creation": "202305242050",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2391,7 +2574,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Becky_Cloonan.webp",
-        "Creation": "202304250700"
+        "Creation": "202304250700",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2404,7 +2588,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ron-Cobb.webp",
-        "Creation": "202305181657"
+        "Creation": "202305181657",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2417,7 +2602,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alvin-Langdon-Coburn.webp",
-        "Creation": "202304212026"
+        "Creation": "202304212026",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2430,7 +2616,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Chris-Cold.webp",
-        "Creation": "202304131534"
+        "Creation": "202304131534",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2443,7 +2630,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Charles-Conder.webp",
-        "Creation": "202305121511"
+        "Creation": "202305121511",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2456,7 +2644,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "George-Condo.webp",
-        "Creation": "202305171304"
+        "Creation": "202305171304",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2469,7 +2658,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "John-Constable.webp",
-        "Creation": "202304251713"
+        "Creation": "202304251713",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2482,7 +2672,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Yvonne-Coomber.webp",
-        "Creation": "202306140731"
+        "Creation": "202306140731",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2495,7 +2686,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Richard-Corben.webp",
-        "Creation": "202304071348"
+        "Creation": "202304071348",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2508,7 +2700,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Paul-Corfield.webp",
-        "Creation": "202305010445"
+        "Creation": "202305010445",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2521,7 +2714,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Lovis-Corinth.webp",
-        "Creation": "202311211241"
+        "Creation": "202311211241",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2534,7 +2728,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jean-Baptiste-Camille-Corot.webp",
-        "Creation": "202305121635"
+        "Creation": "202305121635",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2547,7 +2742,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Shawn-Coss.webp",
-        "Creation": "202305222350"
+        "Creation": "202305222350",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2560,7 +2756,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Francesco-del-Cossa.webp",
-        "Creation": "202305091449"
+        "Creation": "202305091449",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2573,7 +2770,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Walter-Crane.webp",
-        "Creation": "202304071545"
+        "Creation": "202304071545",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2586,7 +2784,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Guido-Crepax.webp",
-        "Creation": "202305160425"
+        "Creation": "202305160425",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2599,7 +2798,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Gregory-Crewdson.webp",
-        "Creation": "202306071438"
+        "Creation": "202306071438",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2612,7 +2812,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Debbie-Criswell.webp",
-        "Creation": "202304101050"
+        "Creation": "202304101050",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2625,7 +2826,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Njideka-Akunyili-Crosby.webp",
-        "Creation": "202305270214"
+        "Creation": "202305270214",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2638,7 +2840,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Henri-Edmond-Cross.webp",
-        "Creation": "202306131339"
+        "Creation": "202306131339",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2651,7 +2854,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Nicolas-de-Crecy.webp",
-        "Creation": "202304091341"
+        "Creation": "202304091341",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2664,7 +2868,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-Currin.webp",
-        "Creation": "202306180738"
+        "Creation": "202306180738",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2677,7 +2882,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Paul-Cezanne.webp",
-        "Creation": "202305091016"
+        "Creation": "202305091016",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2690,7 +2896,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Leonardo-Da-Vinci.webp",
-        "Creation": "202304250924"
+        "Creation": "202304250924",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2703,7 +2910,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Steven-DaLuz.webp",
-        "Creation": "202304250456"
+        "Creation": "202304250456",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2716,7 +2924,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Pino_Daeni.webp",
-        "Creation": "202304020840"
+        "Creation": "202304020840",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2729,7 +2938,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Louise-Dahl-Wolfe.webp",
-        "Creation": "202304250647"
+        "Creation": "202304250647",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2742,7 +2952,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Farel-Dalrymple.webp",
-        "Creation": "202306161535"
+        "Creation": "202306161535",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2755,7 +2966,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Salvador-Dali.webp",
-        "Creation": "202403012350"
+        "Creation": "202403012350",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2768,7 +2980,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Henry-Darger.webp",
-        "Creation": "202306140707"
+        "Creation": "202306140707",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2781,7 +2994,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Geof-Darrow.webp",
-        "Creation": "202305241850"
+        "Creation": "202305241850",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2794,7 +3008,8 @@ export const artists: Artist[] = [
         "Extrainfo": "use lithography as additional keyword if subject doesn\'t take the style",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Honore-Daumier.webp",
-        "Creation": "202306100626"
+        "Creation": "202306100626",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2807,7 +3022,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jacques-Louis_David.webp",
-        "Creation": "202304130421"
+        "Creation": "202304130421",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2820,7 +3036,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jack-Davis.webp",
-        "Creation": "202304080740"
+        "Creation": "202304080740",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2833,7 +3050,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Marc_Davis.webp",
-        "Creation": "202304041901"
+        "Creation": "202304041901",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2846,7 +3064,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Craig_Davison.webp",
-        "Creation": "202304020846"
+        "Creation": "202304020846",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2859,7 +3078,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Evelyn-De-Morgan.webp",
-        "Creation": "202311211501"
+        "Creation": "202311211501",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2872,7 +3092,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jonas-De-Ro.webp",
-        "Creation": "202304081439"
+        "Creation": "202304081439",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2885,7 +3106,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, Euler a, eyes difficult, NSFW",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Dan-DeCarlo.webp",
-        "Creation": "202402261256"
+        "Creation": "202402261256",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2898,7 +3120,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Kelly-Sue-DeConnick.webp",
-        "Creation": "202306161435"
+        "Creation": "202306161435",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2911,7 +3134,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Michael-DeForge.webp",
-        "Creation": "202305272153"
+        "Creation": "202305272153",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2924,7 +3148,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Edwin-Deakin.webp",
-        "Creation": "202305111310"
+        "Creation": "202305111310",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2937,7 +3162,8 @@ export const artists: Artist[] = [
         "Extrainfo": "start with 768px",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Roger-Dean.webp",
-        "Creation": "202311211305"
+        "Creation": "202311211305",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2950,7 +3176,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Edgar-Degas.webp",
-        "Creation": "202304300328"
+        "Creation": "202304300328",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2963,7 +3190,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Robert-Delaunay.webp",
-        "Creation": "202306211524"
+        "Creation": "202306211524",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2976,7 +3204,8 @@ export const artists: Artist[] = [
         "Extrainfo": "768px minimum",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Nicolas-Delort.webp",
-        "Creation": "202305081549"
+        "Creation": "202305081549",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -2989,7 +3218,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Paul-Delvaux.webp",
-        "Creation": "202311211317"
+        "Creation": "202311211317",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3002,7 +3232,8 @@ export const artists: Artist[] = [
         "Extrainfo": "Steps: 20, Sampler: Euler a, CFG scale: 7, Size: 512x512, Denoising strength: 0.2, Hires upscale: 2, Hires upscaler: SwinIR_4x",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jean_Delville.webp",
-        "Creation": "202304041553"
+        "Creation": "202304041553",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3015,7 +3246,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Wim_Delvoye.webp",
-        "Creation": "202304020856"
+        "Creation": "202304020856",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3028,7 +3260,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Maurice_Denis.webp",
-        "Creation": "202304041456"
+        "Creation": "202304041456",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3041,7 +3274,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Guy-Denning.webp",
-        "Creation": "202304171552"
+        "Creation": "202304171552",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3054,7 +3288,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Mike-Deodato.webp",
-        "Creation": "202305151429"
+        "Creation": "202305151429",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3067,7 +3302,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Andre-Derain.webp",
-        "Creation": "202403020018"
+        "Creation": "202403020018",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3080,7 +3316,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Charles-Maurice-Detmold.webp",
-        "Creation": "202305030525"
+        "Creation": "202305030525",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3093,7 +3330,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Vincent-Di-Fate.webp",
-        "Creation": "202305290143"
+        "Creation": "202305290143",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3106,7 +3344,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Karl-Wilhelm-Diefenbach.webp",
-        "Creation": "202311190452"
+        "Creation": "202311190452",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3119,7 +3358,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Diane-Dillon.webp",
-        "Creation": "202305020619"
+        "Creation": "202305020619",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3132,7 +3372,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Steve_Ditko.webp",
-        "Creation": "202304041444"
+        "Creation": "202304041444",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3145,7 +3386,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Anna_Dittmann.webp",
-        "Creation": "202304020902"
+        "Creation": "202304020902",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3158,7 +3400,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Gustave_Dore.webp",
-        "Creation": "202304041923"
+        "Creation": "202304041923",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3171,7 +3414,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Emory-Douglas.webp",
-        "Creation": "202311180622"
+        "Creation": "202311180622",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3184,7 +3428,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "David_Downton.webp",
-        "Creation": "202304070311"
+        "Creation": "202304070311",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3197,7 +3442,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Tim_Doyle.webp",
-        "Creation": "202304061012"
+        "Creation": "202304061012",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3210,7 +3456,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "David-C-Driskell.webp",
-        "Creation": "202305090943"
+        "Creation": "202305090943",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3223,7 +3470,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Philippe_Druillet.webp",
-        "Creation": "202304061019"
+        "Creation": "202304061019",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3236,7 +3484,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jean_Dubuffet.webp",
-        "Creation": "202304020915"
+        "Creation": "202304020915",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3249,7 +3498,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Raymond-Duchamp-Villon.webp",
-        "Creation": "202305091413"
+        "Creation": "202305091413",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3262,7 +3512,8 @@ export const artists: Artist[] = [
         "Extrainfo": "output quite different\/generic, but more colorful than the Disney artists",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jonny-Duddle.webp",
-        "Creation": "202305300018"
+        "Creation": "202305300018",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3275,7 +3526,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Edmund-Dulac.webp",
-        "Creation": "202304270343"
+        "Creation": "202304270343",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3288,7 +3540,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Asher-Brown-Durand.webp",
-        "Creation": "202305141039"
+        "Creation": "202305141039",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3301,7 +3554,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "",
         "Image": "Anthonis-van-Dyck.webp",
-        "Creation": "202403020026"
+        "Creation": "202403020026",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3314,7 +3568,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Chris-Dyer.webp",
-        "Creation": "202304061029"
+        "Creation": "202304061029",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3327,7 +3582,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Albrecht_Durer.webp",
-        "Creation": "202304041929"
+        "Creation": "202304041929",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3340,7 +3596,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Thomas-Eakins.webp",
-        "Creation": "202304221849"
+        "Creation": "202304221849",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3353,7 +3610,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Eyvind-Earle.webp",
-        "Creation": "202305241226"
+        "Creation": "202305241226",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3366,7 +3624,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Amy-Earles.webp",
-        "Creation": "202306241551"
+        "Creation": "202306241551",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3379,7 +3638,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM++ SDE Karras",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jeff-Easley.webp",
-        "Creation": "202304061045"
+        "Creation": "202304061045",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3392,7 +3652,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Tristan-Eaton.webp",
-        "Creation": "202304280205"
+        "Creation": "202304280205",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3405,7 +3666,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Tyler-Edlin.webp",
-        "Creation": "202304221757"
+        "Creation": "202304221757",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3418,7 +3680,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jason-Edmiston.webp",
-        "Creation": "202305250439"
+        "Creation": "202305250439",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3431,7 +3694,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "William-Eggleston.webp",
-        "Creation": "202305290312"
+        "Creation": "202305290312",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3444,7 +3708,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Bob-Eggleton.webp",
-        "Creation": "202305211607"
+        "Creation": "202305211607",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3457,7 +3722,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Will-Eisner.webp",
-        "Creation": "202304061053"
+        "Creation": "202304061053",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3470,7 +3736,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "start with 640px or higher + Highres. Fix",
         "Image": "Jesper-Ejsing.webp",
-        "Creation": "202403020039"
+        "Creation": "202403020039",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3483,7 +3750,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "El-Greco.webp",
-        "Creation": "202306080949"
+        "Creation": "202306080949",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3496,7 +3764,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "El-Huervo.webp",
-        "Creation": "202311211335"
+        "Creation": "202311211335",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3509,7 +3778,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Dean_Ellis.webp",
-        "Creation": "202304061059"
+        "Creation": "202304061059",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3522,7 +3792,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Adam-Elsheimer.webp",
-        "Creation": "202306260720"
+        "Creation": "202306260720",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3535,7 +3806,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Peter-Elson.webp",
-        "Creation": "202304241124"
+        "Creation": "202304241124",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3548,7 +3820,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Gil-Elvgren.webp",
-        "Creation": "202304221547"
+        "Creation": "202304221547",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3561,7 +3834,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ed-Emshwiller.webp",
-        "Creation": "202304061245"
+        "Creation": "202304061245",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3574,7 +3848,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Kilian_Eng.webp",
-        "Creation": "202304061259"
+        "Creation": "202304061259",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3587,7 +3862,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Delphin-Enjolras.webp",
-        "Creation": "202305111730"
+        "Creation": "202305111730",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3600,7 +3876,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hans-Erni.webp",
-        "Creation": "202305231812"
+        "Creation": "202305231812",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3613,7 +3890,8 @@ export const artists: Artist[] = [
         "Extrainfo": "had to use [from:to:when] for H.C.",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Max-Ernst.webp",
-        "Creation": "202306101343"
+        "Creation": "202306101343",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3626,7 +3904,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Erte.webp",
-        "Creation": "202305190334"
+        "Creation": "202305190334",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3639,7 +3918,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "M-C-Escher.webp",
-        "Creation": "202305260258"
+        "Creation": "202305260258",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3652,7 +3932,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Adrianus-Eversen.webp",
-        "Creation": "202304131459"
+        "Creation": "202304131459",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3665,7 +3946,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Glenn-Fabry.webp",
-        "Creation": "202306190150"
+        "Creation": "202306190150",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3678,7 +3960,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Anton_Fadeev.webp",
-        "Creation": "202304061312"
+        "Creation": "202304061312",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3691,7 +3974,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Shepard-Fairey.webp",
-        "Creation": "202304071246"
+        "Creation": "202304071246",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3704,7 +3988,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Andy_Fairhurst.webp",
-        "Creation": "202304131802"
+        "Creation": "202304131802",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3717,7 +4002,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "John-Philip-Falter.webp",
-        "Creation": "202305160206"
+        "Creation": "202305160206",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3730,7 +4016,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Fang-Lijun.webp",
-        "Creation": "202306160143"
+        "Creation": "202306160143",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3743,7 +4030,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Henri-Fantin-Latour.webp",
-        "Creation": "202304251748"
+        "Creation": "202304251748",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3756,7 +4044,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Duncan-Fegredo.webp",
-        "Creation": "202304081514"
+        "Creation": "202304081514",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3769,7 +4058,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Lyonel-Feininger.webp",
-        "Creation": "202305081605"
+        "Creation": "202305081605",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3782,7 +4072,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Andrew-Ferez.webp",
-        "Creation": "202304150831"
+        "Creation": "202304150831",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3795,7 +4086,8 @@ export const artists: Artist[] = [
         "Extrainfo": "didn\'t want to blur everything, so used Dreamshaper",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Roberto-Ferri.webp",
-        "Creation": "202306161219"
+        "Creation": "202306161219",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3808,7 +4100,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Hugh-Ferriss.webp",
-        "Creation": "202304100954"
+        "Creation": "202304100954",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3821,7 +4114,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Virgil_Finlay.webp",
-        "Creation": "202304061345"
+        "Creation": "202304061345",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3834,7 +4128,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Anato_Finnstark.webp",
-        "Creation": "202304061357"
+        "Creation": "202304061357",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3847,7 +4142,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Paul-Gustav-Fischer.webp",
-        "Creation": "202304221639"
+        "Creation": "202304221639",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3860,7 +4156,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Oskar-Fischinger.webp",
-        "Creation": "202304181421"
+        "Creation": "202304181421",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3873,7 +4170,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Dan-Flavin.webp",
-        "Creation": "202306101445"
+        "Creation": "202306101445",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3886,7 +4184,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Govert_Flinck.webp",
-        "Creation": "202304061410"
+        "Creation": "202304061410",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3899,7 +4198,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Alex_Russell_Flint.webp",
-        "Creation": "202304020937"
+        "Creation": "202304020937",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3912,7 +4212,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Piotr-Foksowicz.webp",
-        "Creation": "202305290701"
+        "Creation": "202305290701",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3925,7 +4226,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Stanhope_Forbes.webp",
-        "Creation": "202304061422"
+        "Creation": "202304061422",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3938,7 +4240,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Eleanor_Fortescue_Brickdale.webp",
-        "Creation": "202304041742"
+        "Creation": "202304041742",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3951,7 +4254,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Chris-Foss.webp",
-        "Creation": "202304270419"
+        "Creation": "202304270419",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3964,7 +4268,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hal-Foster.webp",
-        "Creation": "202305021547"
+        "Creation": "202305021547",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3977,7 +4282,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jon-Foster.webp",
-        "Creation": "202305300530"
+        "Creation": "202305300530",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -3990,7 +4296,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Fra-Angelico.webp",
-        "Creation": "202306191407"
+        "Creation": "202306191407",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4003,7 +4310,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Matt-Fraction.webp",
-        "Creation": "202305030816"
+        "Creation": "202305030816",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4016,7 +4324,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jean-Honore-Fragonard.webp",
-        "Creation": "202306091444"
+        "Creation": "202306091444",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4029,7 +4338,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Francesco-Francavilla.webp",
-        "Creation": "202305280042"
+        "Creation": "202305280042",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4042,7 +4352,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Piero_della_Francesca.webp",
-        "Creation": "202304061004"
+        "Creation": "202304061004",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4055,7 +4366,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Lisa-Frank.webp",
-        "Creation": "202305260236"
+        "Creation": "202305260236",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4068,7 +4380,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Frank-Frazetta.webp",
-        "Creation": "202304080646"
+        "Creation": "202304080646",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4081,7 +4394,8 @@ export const artists: Artist[] = [
         "Extrainfo": "potentially NSFW",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Lucian-Freud.webp",
-        "Creation": "202311221503"
+        "Creation": "202311221503",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4094,7 +4408,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Caspar-David-Friedrich.webp",
-        "Creation": "202304270431"
+        "Creation": "202304270431",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4107,7 +4422,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Chris-Friel.webp",
-        "Creation": "202305121259"
+        "Creation": "202305121259",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4120,7 +4436,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Brian-Froud.webp",
-        "Creation": "202304081709"
+        "Creation": "202304081709",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4133,7 +4450,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ando-Fuchs.webp",
-        "Creation": "202304212018"
+        "Creation": "202304212018",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4146,7 +4464,8 @@ export const artists: Artist[] = [
         "Checkpoint": "Deliberate 2.0",
         "Extrainfo": "start with 768px, DPM++ SDE Karras for cleaner details",
         "Image": "Ernst-Fuchs.webp",
-        "Creation": "202403020120"
+        "Creation": "202403020120",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4159,7 +4478,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Goro-Fujita.webp",
-        "Creation": "202305030912"
+        "Creation": "202305030912",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4172,7 +4492,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ellen-Gallagher.webp",
-        "Creation": "202305090343"
+        "Creation": "202305090343",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4185,7 +4506,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Stephen-Gammell.webp",
-        "Creation": "202306171658"
+        "Creation": "202306171658",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4198,7 +4520,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Hope_Gangloff.webp",
-        "Creation": "202304061738"
+        "Creation": "202304061738",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4211,7 +4534,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Paul-Gauguin.webp",
-        "Creation": "202305110324"
+        "Creation": "202305110324",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4224,7 +4548,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jeremy-Geddes.webp",
-        "Creation": "202306231402"
+        "Creation": "202306231402",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4237,7 +4562,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Artemisia-Gentileschi.webp",
-        "Creation": "202306231503"
+        "Creation": "202306231503",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4250,7 +4576,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Edwin-Georgi.webp",
-        "Creation": "202305030428"
+        "Creation": "202305030428",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4263,7 +4590,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Justin-Gerard.webp",
-        "Creation": "202304080701"
+        "Creation": "202304080701",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4276,7 +4604,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Daniel-F-Gerhartz.webp",
-        "Creation": "202304221646"
+        "Creation": "202304221646",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4289,7 +4618,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Atey-Ghailan.webp",
-        "Creation": "202304252110"
+        "Creation": "202304252110",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4302,7 +4632,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Adrian_Ghenie.webp",
-        "Creation": "202304020946"
+        "Creation": "202304020946",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4315,7 +4646,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Domenico-Ghirlandaio.webp",
-        "Creation": "202305111615"
+        "Creation": "202305111615",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4328,7 +4660,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Donato-Giancola.webp",
-        "Creation": "202305111532"
+        "Creation": "202305111532",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4341,7 +4674,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Dave-Gibbons.webp",
-        "Creation": "202306241740"
+        "Creation": "202306241740",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4354,7 +4688,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Charles-Dana-Gibson.webp",
-        "Creation": "202305190316"
+        "Creation": "202305190316",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4367,7 +4702,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ralph-Gibson.webp",
-        "Creation": "202305270402"
+        "Creation": "202305270402",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4380,7 +4716,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "HR-Giger.webp",
-        "Creation": "202304280146"
+        "Creation": "202304280146",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4393,7 +4730,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "James_Gilleard.webp",
-        "Creation": "202304070240"
+        "Creation": "202304070240",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4406,7 +4744,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Sam_Gilliam.webp",
-        "Creation": "202304061437"
+        "Creation": "202304061437",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4419,7 +4758,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "William_James_Glackens.webp",
-        "Creation": "202304061452"
+        "Creation": "202304061452",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4432,7 +4772,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Milton-Glaser.webp",
-        "Creation": "202305020423"
+        "Creation": "202305020423",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4445,7 +4786,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Warwick-Goble.webp",
-        "Creation": "202305290223"
+        "Creation": "202305290223",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4458,7 +4800,8 @@ export const artists: Artist[] = [
         "Extrainfo": "wants to create basil leaves",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Basil-Gogos.webp",
-        "Creation": "202305140941"
+        "Creation": "202305140941",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4471,7 +4814,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Nan-Goldin.webp",
-        "Creation": "202306161728"
+        "Creation": "202306161728",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4484,7 +4828,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Rob-Gonsalves.webp",
-        "Creation": "202305270614"
+        "Creation": "202305270614",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4497,7 +4842,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Josan-Gonzalez.webp",
-        "Creation": "202304081736"
+        "Creation": "202304081736",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4510,7 +4856,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Albert-Goodwin.webp",
-        "Creation": "202311211353"
+        "Creation": "202311211353",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4523,7 +4870,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Misha_Gordin.webp",
-        "Creation": "202304020959"
+        "Creation": "202304020959",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4536,7 +4884,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Derek_Gores.webp",
-        "Creation": "202304262254"
+        "Creation": "202304262254",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4549,7 +4898,8 @@ export const artists: Artist[] = [
         "Extrainfo": "DPM++ SDE Karras",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alessandro_Gottardo.webp",
-        "Creation": "202304240348"
+        "Creation": "202304240348",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4562,7 +4912,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "J_J_Grandville.webp",
-        "Creation": "202304270053"
+        "Creation": "202304270053",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4575,7 +4926,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Duncan-Grant.webp",
-        "Creation": "202305020605"
+        "Creation": "202305020605",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4588,7 +4940,8 @@ export const artists: Artist[] = [
         "Extrainfo": "768px minimum",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Eugene-Grasset.webp",
-        "Creation": "202305030343"
+        "Creation": "202305030343",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4601,7 +4954,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Laurie-Greasley.webp",
-        "Creation": "202305230200"
+        "Creation": "202305230200",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4614,7 +4968,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Kate_Greenaway.webp",
-        "Creation": "202304061503"
+        "Creation": "202304061503",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4627,7 +4982,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Martin_Grelle.webp",
-        "Creation": "202304021010"
+        "Creation": "202304021010",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4640,7 +4996,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alex-Grey.webp",
-        "Creation": "202305091522"
+        "Creation": "202305091522",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4653,7 +5010,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Peter_Gric.webp",
-        "Creation": "202304131606"
+        "Creation": "202304131606",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4666,7 +5024,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Carne-Griffiths.webp",
-        "Creation": "202306171720"
+        "Creation": "202306171720",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4679,7 +5038,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Gris-Grimly.webp",
-        "Creation": "202305300518"
+        "Creation": "202305300518",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4692,7 +5052,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jordan-Grimmer.webp",
-        "Creation": "202304150926"
+        "Creation": "202304150926",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4705,7 +5066,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "John-Atkinson-Grimshaw.webp",
-        "Creation": "202304181446"
+        "Creation": "202304181446",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4718,7 +5080,8 @@ export const artists: Artist[] = [
         "Extrainfo": "hard to get anything besides upper body portraits",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alex-Gross.webp",
-        "Creation": "202306270308"
+        "Creation": "202306270308",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4731,7 +5094,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Huang-Guangjian.webp",
-        "Creation": "202305242118"
+        "Creation": "202305242118",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4744,7 +5108,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Rebecca-Guay.webp",
-        "Creation": "202304101150"
+        "Creation": "202304101150",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4757,7 +5122,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, had to use [from:to:when] for H.C.",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Sam-Guay.webp",
-        "Creation": "202306130651"
+        "Creation": "202306130651",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4770,7 +5136,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Armand-Guillaumin.webp",
-        "Creation": "202306150259"
+        "Creation": "202306150259",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4783,7 +5150,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Gregoire-Guillemin.webp",
-        "Creation": "202306241721"
+        "Creation": "202306241721",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4796,7 +5164,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Saskia-Gutekunst.webp",
-        "Creation": "202304091453"
+        "Creation": "202304091453",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4809,7 +5178,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Guweiz.webp",
-        "Creation": "202304151441"
+        "Creation": "202304151441",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4822,7 +5192,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Arthur-Hacker.webp",
-        "Creation": "202304271105"
+        "Creation": "202304271105",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4835,7 +5206,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ernst-Haeckel.webp",
-        "Creation": "202304060435"
+        "Creation": "202304060435",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4848,7 +5220,8 @@ export const artists: Artist[] = [
         "Extrainfo": "already good at 512px",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Frans-Hals.webp",
-        "Creation": "202402261316"
+        "Creation": "202402261316",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4861,7 +5234,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Richard-Hamilton.webp",
-        "Creation": "202306101431"
+        "Creation": "202306101431",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4874,7 +5248,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Erin-Hanson.webp",
-        "Creation": "202304101602"
+        "Creation": "202304101602",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4887,7 +5262,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tomer_Hanuka.webp",
-        "Creation": "202304060455"
+        "Creation": "202304060455",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4900,7 +5276,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "David-A-Hardy.webp",
-        "Creation": "202304030835"
+        "Creation": "202304030835",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4913,7 +5290,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Keith-Haring.webp",
-        "Creation": "202304041234"
+        "Creation": "202304041234",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4926,7 +5304,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Charley-Harper.webp",
-        "Creation": "202304150959"
+        "Creation": "202304150959",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4939,7 +5318,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Conor-Harrington.webp",
-        "Creation": "202305020353"
+        "Creation": "202305020353",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4952,7 +5332,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-Harris.webp",
-        "Creation": "202304251654"
+        "Creation": "202304251654",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4965,7 +5346,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Lawren-Harris.webp",
-        "Creation": "202304151048"
+        "Creation": "202304151048",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4978,7 +5360,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Marsden-Hartley.webp",
-        "Creation": "202311180833"
+        "Creation": "202311180833",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -4991,7 +5374,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hans-Hartung.webp",
-        "Creation": "202311180753"
+        "Creation": "202311180753",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5004,7 +5388,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Kawase-Hasui.webp",
-        "Creation": "202305260136"
+        "Creation": "202305260136",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5017,7 +5402,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM2++ Karas, 40 Steps",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Naoto-Hattori.webp",
-        "Creation": "202304131429"
+        "Creation": "202304131429",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5030,7 +5416,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Cornelis-de-Heem.webp",
-        "Creation": "202304262151"
+        "Creation": "202304262151",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5043,7 +5430,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Brent-Heighton.webp",
-        "Creation": "202304181412"
+        "Creation": "202304181412",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5056,7 +5444,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Lowell-Herrero.webp",
-        "Creation": "202304252033"
+        "Creation": "202304252033",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5069,7 +5458,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "F-Scott-Hess.webp",
-        "Creation": "202305241311"
+        "Creation": "202305241311",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5082,7 +5472,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Stephen-Hickman.webp",
-        "Creation": "202304222014"
+        "Creation": "202304222014",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5095,7 +5486,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Utagawa-Hiroshige.webp",
-        "Creation": "202304221741"
+        "Creation": "202304221741",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5108,7 +5500,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Bryan-Hitch.webp",
-        "Creation": "202305031007"
+        "Creation": "202305031007",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5121,7 +5514,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Filip-Hodas.webp",
-        "Creation": "202304101359"
+        "Creation": "202304101359",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5134,7 +5528,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ferdinand-Hodler.webp",
-        "Creation": "202311211424"
+        "Creation": "202311211424",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5147,7 +5542,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hokusai.webp",
-        "Creation": "202306171708"
+        "Creation": "202306171708",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5160,7 +5556,8 @@ export const artists: Artist[] = [
         "Extrainfo": "seems different enough from Hans Holbein",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ambrosius-Holbein.webp",
-        "Creation": "202306241620"
+        "Creation": "202306241620",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5173,7 +5570,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hans_Holbein.webp",
-        "Creation": "202304061527"
+        "Creation": "202304061527",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5186,7 +5584,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Winslow-Homer.webp",
-        "Creation": "202304221723"
+        "Creation": "202304221723",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5199,7 +5598,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Frank-Hong.webp",
-        "Creation": "202305300341"
+        "Creation": "202305300341",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5212,7 +5612,8 @@ export const artists: Artist[] = [
         "Extrainfo": "difficult to generate faces, Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Pieter-de-Hooch.webp",
-        "Creation": "202305170723"
+        "Creation": "202305170723",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5225,7 +5626,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Edward-Hopper.webp",
-        "Creation": "202304211800"
+        "Creation": "202304211800",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5238,7 +5640,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Aaron_Horkey.webp",
-        "Creation": "202304060515"
+        "Creation": "202304060515",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5251,7 +5654,8 @@ export const artists: Artist[] = [
         "Extrainfo": "has problem with faces, DPM++ 2M Karras, Highres. Fix 512px -> 1024px, Denoising Strength 0.5",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alex_Horley.webp",
-        "Creation": "202306220150"
+        "Creation": "202306220150",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5264,7 +5668,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Edward-Atkinson-Hornel.webp",
-        "Creation": "202306200226"
+        "Creation": "202306200226",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5277,7 +5682,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-Howe.webp",
-        "Creation": "202304251621"
+        "Creation": "202304251621",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5290,7 +5696,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-Hoyland.webp",
-        "Creation": "202305101335"
+        "Creation": "202305101335",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5303,7 +5710,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Sebastien-Hue.webp",
-        "Creation": "202305201216"
+        "Creation": "202305201216",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5316,7 +5724,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Adam-Hughes.webp",
-        "Creation": "202304100611"
+        "Creation": "202304100611",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5329,7 +5738,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Edward-Robert-Hughes.webp",
-        "Creation": "202306200214"
+        "Creation": "202306200214",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5342,7 +5752,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "George-Hurrell.webp",
-        "Creation": "202305141232"
+        "Creation": "202305141232",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5355,7 +5766,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Michael_Hutter.webp",
-        "Creation": "202304121803"
+        "Creation": "202304121803",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5368,7 +5780,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Duy-Huynh.webp",
-        "Creation": "202306010434"
+        "Creation": "202306010434",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5381,7 +5794,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Catherine-Hyde.webp",
-        "Creation": "202304121830"
+        "Creation": "202304121830",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5394,7 +5808,8 @@ export const artists: Artist[] = [
         "Extrainfo": "had to use [from:to:when] for H.C.",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hannah-Hoech.webp",
-        "Creation": "202306101224"
+        "Creation": "202306101224",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5407,7 +5822,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Louis_Icart.webp",
-        "Creation": "202304151754"
+        "Creation": "202304151754",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5420,7 +5836,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Stuart_Immonen.webp",
-        "Creation": "202304151733"
+        "Creation": "202304151733",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5433,7 +5850,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ismail_Inceoglu.webp",
-        "Creation": "202304151458"
+        "Creation": "202304151458",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5446,7 +5864,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Carmine-Infantino.webp",
-        "Creation": "202305231109"
+        "Creation": "202305231109",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5459,7 +5878,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Robert-Ingpen.webp",
-        "Creation": "202304290418"
+        "Creation": "202304290418",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5472,7 +5892,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jean-Auguste-Dominique-Ingres.webp",
-        "Creation": "202306091508"
+        "Creation": "202306091508",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5485,7 +5906,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Takehiko-Inoue.webp",
-        "Creation": "202304091425"
+        "Creation": "202304091425",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5498,7 +5920,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Sui-Ishida.webp",
-        "Creation": "202304221958"
+        "Creation": "202304221958",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5511,7 +5934,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Johannes-Itten.webp",
-        "Creation": "202305180602"
+        "Creation": "202305180602",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5524,7 +5948,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Junji_Ito.webp",
-        "Creation": "202304061538"
+        "Creation": "202304061538",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5537,7 +5962,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jorge-Jacinto.webp",
-        "Creation": "202305021525"
+        "Creation": "202305021525",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5550,7 +5976,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Bill-Jacklin.webp",
-        "Creation": "202305140856"
+        "Creation": "202305140856",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5563,7 +5990,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Marcin-Jakubowski.webp",
-        "Creation": "202304041155"
+        "Creation": "202304041155",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5576,7 +6004,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alexander-Jansson.webp",
-        "Creation": "202304151204"
+        "Creation": "202304151204",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5589,7 +6018,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Aaron-Jasinski.webp",
-        "Creation": "202305150556"
+        "Creation": "202305150556",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5602,7 +6032,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "James-Jean.webp",
-        "Creation": "202304080442"
+        "Creation": "202304080442",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5615,7 +6046,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Oliver-Jeffers.webp",
-        "Creation": "202305181711"
+        "Creation": "202305181711",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5628,7 +6060,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ellen-Jewett.webp",
-        "Creation": "202305231739"
+        "Creation": "202305231739",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5641,7 +6074,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ruan-Jia.webp",
-        "Creation": "202305270835"
+        "Creation": "202305270835",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5654,7 +6088,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Phil-Jimenez.webp",
-        "Creation": "202304151610"
+        "Creation": "202304151610",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5667,7 +6102,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Dorothy-Johnstone.webp",
-        "Creation": "202306200247"
+        "Creation": "202306200247",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5680,7 +6116,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andrew-Android-Jones.webp",
-        "Creation": "202304131508"
+        "Creation": "202304131508",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5693,7 +6130,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jeffrey-Catherine-Jones.webp",
-        "Creation": "202304131931"
+        "Creation": "202304131931",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5706,7 +6144,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Loui-Jover.webp",
-        "Creation": "202304130449"
+        "Creation": "202304130449",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5719,7 +6158,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jean-Jullien.webp",
-        "Creation": "202304021049"
+        "Creation": "202304021049",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5732,7 +6172,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Mandy-Jurgens.webp",
-        "Creation": "202304021052"
+        "Creation": "202304021052",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5745,7 +6186,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Joe-Jusko.webp",
-        "Creation": "202304131909"
+        "Creation": "202304131909",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5758,7 +6200,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Shintaro-Kago.webp",
-        "Creation": "202304051259"
+        "Creation": "202304051259",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5771,7 +6214,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Hayv-Kahraman.webp",
-        "Creation": "202305101701"
+        "Creation": "202305101701",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5784,7 +6228,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Michael-William-Kaluta.webp",
-        "Creation": "202305151523"
+        "Creation": "202305151523",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5797,7 +6242,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Wassily-Kandinsky.webp",
-        "Creation": "202304290545"
+        "Creation": "202304290545",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5810,7 +6256,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Wadim-Kashin.webp",
-        "Creation": "202304021106"
+        "Creation": "202304021106",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5823,7 +6270,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alex-Katz.webp",
-        "Creation": "202304051353"
+        "Creation": "202304051353",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5836,7 +6284,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Audrey-Kawasaki.webp",
-        "Creation": "202305141022"
+        "Creation": "202305141022",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5849,7 +6298,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Glen-Keane.webp",
-        "Creation": "202304051322"
+        "Creation": "202304051322",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5862,7 +6312,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Kim-Keever.webp",
-        "Creation": "202305030555"
+        "Creation": "202305030555",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5875,7 +6326,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andy-Kehoe.webp",
-        "Creation": "202304130512"
+        "Creation": "202304130512",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5888,7 +6340,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ken-Kelly.webp",
-        "Creation": "202304130546"
+        "Creation": "202304130546",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5901,7 +6354,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Frank-Kelly-Freas.webp",
-        "Creation": "202305021514"
+        "Creation": "202305021514",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5914,7 +6368,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "William-Kentridge.webp",
-        "Creation": "202304070327"
+        "Creation": "202304070327",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5927,7 +6382,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Brian-Kesinger.webp",
-        "Creation": "202304131846"
+        "Creation": "202304131846",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5940,7 +6396,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jeremiah-Ketner.webp",
-        "Creation": "202304131438"
+        "Creation": "202304131438",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5953,7 +6410,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Anselm-Kiefer.webp",
-        "Creation": "202306010443"
+        "Creation": "202306010443",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5966,7 +6424,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Sam-Kieth.webp",
-        "Creation": "202304051454"
+        "Creation": "202304051454",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5979,7 +6438,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Kim-Jung-Gi.webp",
-        "Creation": "202304070340"
+        "Creation": "202304070340",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -5992,7 +6452,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Thomas-Kinkade.webp",
-        "Creation": "202304221828"
+        "Creation": "202304221828",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6005,7 +6466,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jack-Kirby.webp",
-        "Creation": "202305160347"
+        "Creation": "202305160347",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6018,7 +6480,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ernst-Ludwig-Kirchner.webp",
-        "Creation": "202304252048"
+        "Creation": "202304252048",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6031,7 +6494,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Raphael-Kirchner.webp",
-        "Creation": "202304051404"
+        "Creation": "202304051404",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6044,7 +6508,8 @@ export const artists: Artist[] = [
         "Extrainfo": "Kitagawa = Surname",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Kitagawa-Utamaro.webp",
-        "Creation": "202311231248"
+        "Creation": "202311231248",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6057,7 +6522,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tatsuro-Kiuchi.webp",
-        "Creation": "202304211830"
+        "Creation": "202304211830",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6070,7 +6536,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Mati-Klarwein.webp",
-        "Creation": "202305260841"
+        "Creation": "202305260841",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6083,7 +6550,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jon-Klassen.webp",
-        "Creation": "202305020456"
+        "Creation": "202305020456",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6096,7 +6564,8 @@ export const artists: Artist[] = [
         "Extrainfo": "had to use [from:to:when] for H.C.",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Paul-Klee.webp",
-        "Creation": "202306101322"
+        "Creation": "202306101322",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6109,7 +6578,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Gustav-Klimt.webp",
-        "Creation": "202305241948"
+        "Creation": "202305241948",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6122,7 +6592,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Hilma-af-Klint.webp",
-        "Creation": "202306152358"
+        "Creation": "202306152358",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6135,7 +6606,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ferdinand-Knab.webp",
-        "Creation": "202304130623"
+        "Creation": "202304130623",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6148,7 +6620,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Nick-Knight.webp",
-        "Creation": "202304061548"
+        "Creation": "202304061548",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6161,7 +6634,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Winifred-Knights.webp",
-        "Creation": "202306152234"
+        "Creation": "202306152234",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6174,7 +6648,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ayami-Kojima.webp",
-        "Creation": "202304051507"
+        "Creation": "202304051507",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6187,7 +6662,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Oskar-Kokoschka.webp",
-        "Creation": "202304161642"
+        "Creation": "202304161642",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6200,7 +6676,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Kathe-Kollwitz.webp",
-        "Creation": "202305101301"
+        "Creation": "202305101301",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6213,7 +6690,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Satoshi-Kon.webp",
-        "Creation": "202304070358"
+        "Creation": "202304070358",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6226,7 +6704,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Willem-de-Kooning.webp",
-        "Creation": "202306101537"
+        "Creation": "202306101537",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6239,7 +6718,8 @@ export const artists: Artist[] = [
         "Extrainfo": "had to use [from:to:when] for H.C.",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jeff-Koons.webp",
-        "Creation": "202306101616"
+        "Creation": "202306101616",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6252,7 +6732,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ohara-Koson.webp",
-        "Creation": "202304241406"
+        "Creation": "202304241406",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6265,7 +6746,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Bella-Kotak.webp",
-        "Creation": "202306170745"
+        "Creation": "202306170745",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6278,7 +6760,8 @@ export const artists: Artist[] = [
         "Extrainfo": "start with 768px, used 30 steps",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ivan-Kramskoi.webp",
-        "Creation": "202311181037"
+        "Creation": "202311181037",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6291,7 +6774,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ranganath-Krishnamani.webp",
-        "Creation": "202305190929"
+        "Creation": "202305190929",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6304,7 +6788,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Germaine-Krull.webp",
-        "Creation": "202305161448"
+        "Creation": "202305161448",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6317,7 +6802,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Alfred-Kubin.webp",
-        "Creation": "202306161630"
+        "Creation": "202306161630",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6330,7 +6816,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Maciej-Kuciara.webp",
-        "Creation": "202305171400"
+        "Creation": "202305171400",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6343,7 +6830,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Utagawa-Kunisada.webp",
-        "Creation": "202304251022"
+        "Creation": "202304251022",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6356,7 +6844,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Akira-Kurosawa.webp",
-        "Creation": "202310231811"
+        "Creation": "202310231811",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6369,7 +6858,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Harvey-Kurtzman.webp",
-        "Creation": "202305160448"
+        "Creation": "202305160448",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6382,7 +6872,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Yayoi-Kusama.webp",
-        "Creation": "202305171230"
+        "Creation": "202305171230",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6395,7 +6886,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Michael-Kutsche.webp",
-        "Creation": "202304151820"
+        "Creation": "202304151820",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6408,7 +6900,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ilya-Kuvshinov.webp",
-        "Creation": "202305250235"
+        "Creation": "202305250235",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6421,7 +6914,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "David-LaChapelle.webp",
-        "Creation": "202304241059"
+        "Creation": "202304241059",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6434,7 +6928,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Raphael-Lacoste.webp",
-        "Creation": "202305191420"
+        "Creation": "202305191420",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6447,7 +6942,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Mikko-Lagerstedt.webp",
-        "Creation": "202304241459"
+        "Creation": "202304241459",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6460,7 +6956,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Edwin-Landseer.webp",
-        "Creation": "202311190606"
+        "Creation": "202311190606",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6473,7 +6970,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Fitz-Henry-Lane.webp",
-        "Creation": "202304300214"
+        "Creation": "202304300214",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6486,7 +6984,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Abigail-Larson.webp",
-        "Creation": "202304131823"
+        "Creation": "202304131823",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6499,7 +6998,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Gary-Larson.webp",
-        "Creation": "202306171735"
+        "Creation": "202306171735",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6512,7 +7012,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Carl-Larsson.webp",
-        "Creation": "202304101034"
+        "Creation": "202304101034",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6525,7 +7026,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Maria-Lassnig.webp",
-        "Creation": "202306152345"
+        "Creation": "202306152345",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6538,7 +7040,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Don-Lawrence.webp",
-        "Creation": "202305041107"
+        "Creation": "202305041107",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6551,7 +7054,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Bastien-Lecouffe-Deharme.webp",
-        "Creation": "202304221623"
+        "Creation": "202304221623",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6564,7 +7068,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Alan-Lee.webp",
-        "Creation": "202304151841"
+        "Creation": "202304151841",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6577,7 +7082,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jae-Lee.webp",
-        "Creation": "202304031354"
+        "Creation": "202304031354",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6590,7 +7096,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jim-Lee.webp",
-        "Creation": "202305020343"
+        "Creation": "202305020343",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6603,7 +7110,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Paul-Lehr.webp",
-        "Creation": "202304151630"
+        "Creation": "202304151630",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6616,7 +7124,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jeff-Lemire.webp",
-        "Creation": "202304070418"
+        "Creation": "202304070418",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6629,7 +7138,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Aristarkh-Lentulov.webp",
-        "Creation": "202304071155"
+        "Creation": "202304071155",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6642,7 +7152,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "J_C_Leyendecker.webp",
-        "Creation": "202304170447"
+        "Creation": "202304170447",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6655,7 +7166,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andre-Lhote.webp",
-        "Creation": "202306171756"
+        "Creation": "202306171756",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6668,7 +7180,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Roy-Lichtenstein.webp",
-        "Creation": "202304021219"
+        "Creation": "202304021219",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6681,7 +7194,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Rob-Liefeld.webp",
-        "Creation": "202304130700"
+        "Creation": "202304130700",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6694,7 +7208,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Iwona-Lifsches.webp",
-        "Creation": "202311181016"
+        "Creation": "202311181016",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6707,7 +7222,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Richard-Lindner.webp",
-        "Creation": "202305270551"
+        "Creation": "202305270551",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6720,7 +7236,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Liniers.webp",
-        "Creation": "202306150419"
+        "Creation": "202306150419",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6733,7 +7250,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Filippino-Lippi.webp",
-        "Creation": "202305241417"
+        "Creation": "202305241417",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6746,7 +7264,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Laurie-Lipton.webp",
-        "Creation": "202304131522"
+        "Creation": "202304131522",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6759,7 +7278,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Arthur-Lismer.webp",
-        "Creation": "202304030941"
+        "Creation": "202304030941",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6772,7 +7292,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Michal-Lisowski.webp",
-        "Creation": "202304041616"
+        "Creation": "202304041616",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6785,7 +7306,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Scott-Listfield.webp",
-        "Creation": "202305020716"
+        "Creation": "202305020716",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6798,7 +7320,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Cory-Loftis.webp",
-        "Creation": "202304041643"
+        "Creation": "202304041643",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6811,7 +7334,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Loish.webp",
-        "Creation": "202304170550"
+        "Creation": "202304170550",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6824,7 +7348,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Andrew-Loomis.webp",
-        "Creation": "202304150818"
+        "Creation": "202304150818",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6837,7 +7362,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Didier-Lourenco.webp",
-        "Creation": "202304041622"
+        "Creation": "202304041622",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6850,7 +7376,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "HP-Lovecraft.webp",
-        "Creation": "202304101415"
+        "Creation": "202304101415",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6863,7 +7390,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tom-Lovell.webp",
-        "Creation": "202304071405"
+        "Creation": "202304071405",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6876,7 +7404,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Maximilien-Luce.webp",
-        "Creation": "202304241601"
+        "Creation": "202304241601",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6889,7 +7418,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Margaret-MacDonald-Mackintosh.webp",
-        "Creation": "202305021429"
+        "Creation": "202305021429",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6902,7 +7432,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Frances-MacDonald-McNair.webp",
-        "Creation": "202305020547"
+        "Creation": "202305020547",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6915,7 +7446,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Elizabeth-MacNicol.webp",
-        "Creation": "202306191528"
+        "Creation": "202306191528",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6928,7 +7460,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Andrew-Macara.webp",
-        "Creation": "202304101350"
+        "Creation": "202304101350",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6941,7 +7474,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "August-Macke.webp",
-        "Creation": "202304271015"
+        "Creation": "202304271015",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6954,7 +7488,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jim-Mahfood.webp",
-        "Creation": "202304041632"
+        "Creation": "202304041632",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6967,7 +7502,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Hans-Makart.webp",
-        "Creation": "202304070434"
+        "Creation": "202304070434",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6980,7 +7516,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Alex-Maleew.webp",
-        "Creation": "202304041227"
+        "Creation": "202304041227",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -6993,7 +7530,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Justin-Maller.webp",
-        "Creation": "202305181759"
+        "Creation": "202305181759",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7006,7 +7544,8 @@ export const artists: Artist[] = [
         "Extrainfo": "potentially NSFW (Deliberate is with that prompt)",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Milo-Manara.webp",
-        "Creation": "202306270440"
+        "Creation": "202306270440",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7019,7 +7558,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Gregory-Manchess.webp",
-        "Creation": "202304171655"
+        "Creation": "202304171655",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7032,7 +7572,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Slawomir-Maniak.webp",
-        "Creation": "202305290620"
+        "Creation": "202305290620",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7045,7 +7586,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jeremy-Mann.webp",
-        "Creation": "202304070446"
+        "Creation": "202304070446",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7058,7 +7600,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Stan-Manoukian.webp",
-        "Creation": "202304091353"
+        "Creation": "202304091353",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7071,7 +7614,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andrea-Mantegna.webp",
-        "Creation": "202306241522"
+        "Creation": "202306241522",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7084,7 +7628,8 @@ export const artists: Artist[] = [
         "Extrainfo": "start with 768px = better\/finer details, used DPM++ SDE Karras",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Aldus-Manutius.webp",
-        "Creation": "202306260359"
+        "Creation": "202306260359",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7097,7 +7642,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Esteban-Maroto.webp",
-        "Creation": "202305240128"
+        "Creation": "202305240128",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7110,7 +7656,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Chris-Mars.webp",
-        "Creation": "202305141511"
+        "Creation": "202305141511",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7123,7 +7670,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-Martin.webp",
-        "Creation": "202304251519"
+        "Creation": "202304251519",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7136,7 +7684,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Stephan-Martiniere.webp",
-        "Creation": "202304171958"
+        "Creation": "202304171958",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7149,7 +7698,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Frans-Masereel.webp",
-        "Creation": "202305020529"
+        "Creation": "202305020529",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7162,7 +7712,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Brian-Mashburn.webp",
-        "Creation": "202306260513"
+        "Creation": "202306260513",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7175,7 +7726,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andre-Masson.webp",
-        "Creation": "202305201815"
+        "Creation": "202305201815",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7188,7 +7740,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Henri-Matisse.webp",
-        "Creation": "202304300232"
+        "Creation": "202304300232",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7201,7 +7754,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Rodney-Matthews.webp",
-        "Creation": "202304071442"
+        "Creation": "202304071442",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7214,7 +7768,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "David-Mattingly.webp",
-        "Creation": "202305290338"
+        "Creation": "202305290338",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7227,7 +7782,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Dan-Matutina.webp",
-        "Creation": "202304031409"
+        "Creation": "202304031409",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7240,7 +7796,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Mike-Mayhew.webp",
-        "Creation": "202306270403"
+        "Creation": "202306270403",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7253,7 +7810,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Cathleen-McAllister.webp",
-        "Creation": "202305300604"
+        "Creation": "202305300604",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7266,7 +7824,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Robert-McCall.webp",
-        "Creation": "202305020727"
+        "Creation": "202305020727",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7279,7 +7838,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Frank-McCarthy.webp",
-        "Creation": "202304070519"
+        "Creation": "202304070519",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7292,7 +7852,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Winsor-McCay.webp",
-        "Creation": "202305280011"
+        "Creation": "202305280011",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7305,7 +7866,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Frederick-McCubbin.webp",
-        "Creation": "202305110349"
+        "Creation": "202305110349",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7318,7 +7880,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Todd-McFarlane.webp",
-        "Creation": "202304061745"
+        "Creation": "202304061745",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7331,7 +7894,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Barry-McGee.webp",
-        "Creation": "202305091027"
+        "Creation": "202305091027",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7344,7 +7908,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Dave-McKean.webp",
-        "Creation": "202304061750"
+        "Creation": "202304061750",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7357,7 +7922,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Angus-McKie.webp",
-        "Creation": "202304181641"
+        "Creation": "202304181641",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7370,7 +7936,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Seb-Mckinnon.webp",
-        "Creation": "202304041140"
+        "Creation": "202304041140",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7383,7 +7950,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Dan-McPharlin.webp",
-        "Creation": "202305030305"
+        "Creation": "202305030305",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7396,7 +7964,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Tara-McPherson.webp",
-        "Creation": "202304061804"
+        "Creation": "202304061804",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7409,7 +7978,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ralph-Angus-McQuarrie.webp",
-        "Creation": "202305191452"
+        "Creation": "202305191452",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7422,7 +7992,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ian-McQue.webp",
-        "Creation": "202304101422"
+        "Creation": "202304101422",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7435,7 +8006,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Syd-Mead.webp",
-        "Creation": "202304061811"
+        "Creation": "202304061811",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7448,7 +8020,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ed-Mell.webp",
-        "Creation": "202304151246"
+        "Creation": "202304151246",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7461,7 +8034,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hans-Memling.webp",
-        "Creation": "202306181615"
+        "Creation": "202306181615",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7474,7 +8048,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Eddie-Mendoza.webp",
-        "Creation": "202304181722"
+        "Creation": "202304181722",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7487,7 +8062,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Adolph-von-Menzel.webp",
-        "Creation": "202305201529"
+        "Creation": "202305201529",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7500,7 +8076,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Maria-Sibylla-Merian.webp",
-        "Creation": "202305021450"
+        "Creation": "202305021450",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7513,7 +8090,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Daniel-Merriam.webp",
-        "Creation": "202305030239"
+        "Creation": "202305030239",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7526,7 +8104,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Antonello-da-Messina.webp",
-        "Creation": "202306241135"
+        "Creation": "202306241135",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7539,7 +8118,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jean-Metzinger.webp",
-        "Creation": "202305090143"
+        "Creation": "202305090143",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7552,7 +8132,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Joshua-Middleton.webp",
-        "Creation": "202304081656"
+        "Creation": "202304081656",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7565,7 +8146,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Mike-Mignola.webp",
-        "Creation": "202305151342"
+        "Creation": "202305151342",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7578,7 +8160,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Gjon-Mili.webp",
-        "Creation": "202304030436"
+        "Creation": "202304030436",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7591,7 +8174,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Frank-Miller.webp",
-        "Creation": "202305190902"
+        "Creation": "202305190902",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7604,7 +8188,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ian-Miller.webp",
-        "Creation": "202305150857"
+        "Creation": "202305150857",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7617,7 +8202,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Russ-Mills.webp",
-        "Creation": "202304131654"
+        "Creation": "202304131654",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7630,7 +8216,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Kentaro-Miura.webp",
-        "Creation": "202304061817"
+        "Creation": "202304061817",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7643,7 +8230,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Hayao-Miyazaki.webp",
-        "Creation": "202304081523"
+        "Creation": "202304081523",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7656,7 +8244,8 @@ export const artists: Artist[] = [
         "Extrainfo": "NSFW",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Bob-Mizer.webp",
-        "Creation": "202310231847"
+        "Creation": "202310231847",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7669,7 +8258,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Junko-Mizuno.webp",
-        "Creation": "202304061828"
+        "Creation": "202304061828",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7682,7 +8272,8 @@ export const artists: Artist[] = [
         "Extrainfo": "potentially NSFW",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Amedeo-Modigliani.webp",
-        "Creation": "202311211444"
+        "Creation": "202311211444",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7695,7 +8286,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Moebius.webp",
-        "Creation": "202304070531"
+        "Creation": "202304070531",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7708,7 +8300,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Peter-Mohrbacher.webp",
-        "Creation": "202305222054"
+        "Creation": "202305222054",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7721,7 +8314,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Claude-Monet.webp",
-        "Creation": "202305120738"
+        "Creation": "202305120738",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7734,7 +8328,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jean-Baptiste-Monge.webp",
-        "Creation": "202304070548"
+        "Creation": "202304070548",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7747,7 +8342,8 @@ export const artists: Artist[] = [
         "Extrainfo": "weaker on people, had to use [from:to:when] for H.C.",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Chris-Moore.webp",
-        "Creation": "202305251633"
+        "Creation": "202305251633",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7760,7 +8356,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Dan-Mora.webp",
-        "Creation": "202304081612"
+        "Creation": "202304081612",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7773,7 +8370,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Thomas-Moran.webp",
-        "Creation": "202305100623"
+        "Creation": "202305100623",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7786,7 +8384,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Giorgio-Morandi.webp",
-        "Creation": "202305110236"
+        "Creation": "202305110236",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7799,7 +8398,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Gustave-Moreau.webp",
-        "Creation": "202306100710"
+        "Creation": "202306100710",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7812,7 +8412,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Henry-Moret.webp",
-        "Creation": "202305101448"
+        "Creation": "202305101448",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7825,7 +8426,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Berthe-Morisot.webp",
-        "Creation": "202304101515"
+        "Creation": "202304101515",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7838,7 +8440,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Hishikawa-Moronobu.webp",
-        "Creation": "202304070621"
+        "Creation": "202304070621",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7851,7 +8454,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Stefan-Morrell.webp",
-        "Creation": "202305290606"
+        "Creation": "202305290606",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7864,7 +8468,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "William-Morris.webp",
-        "Creation": "202304221730"
+        "Creation": "202304221730",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7877,7 +8482,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alberto-Morrocco.webp",
-        "Creation": "202304101230"
+        "Creation": "202304101230",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7890,7 +8496,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Igor-Morski.webp",
-        "Creation": "202305250200"
+        "Creation": "202305250200",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7903,7 +8510,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "John-Kenn-Mortensen.webp",
-        "Creation": "202304070649"
+        "Creation": "202304070649",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7916,7 +8524,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "William-Mortensen.webp",
-        "Creation": "202311180551"
+        "Creation": "202311180551",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7929,7 +8538,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, Euler A",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Victor-Moscoso.webp",
-        "Creation": "202305100607"
+        "Creation": "202305100607",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7942,7 +8552,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Olly-Moss.webp",
-        "Creation": "202305040831"
+        "Creation": "202305040831",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7955,7 +8566,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Alfons-Mucha.webp",
-        "Creation": "202304060520"
+        "Creation": "202304060520",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7968,7 +8580,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Craig-Mullins.webp",
-        "Creation": "202304131813"
+        "Creation": "202304131813",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7981,7 +8594,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, low denoising strength",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Dan-Mumford.webp",
-        "Creation": "202305170637"
+        "Creation": "202305170637",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -7994,7 +8608,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Bruno-Munari.webp",
-        "Creation": "202306160558"
+        "Creation": "202306160558",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8007,7 +8622,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Edvard-Munch.webp",
-        "Creation": "202305231723"
+        "Creation": "202305231723",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8020,7 +8636,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Will-Murai.webp",
-        "Creation": "202304081455"
+        "Creation": "202304081455",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8033,7 +8650,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Takashi-Murakami.webp",
-        "Creation": "202304080616"
+        "Creation": "202304080616",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8046,7 +8664,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Yusuke-Murata.webp",
-        "Creation": "202304081534"
+        "Creation": "202304081534",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8059,7 +8678,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Hiroshi-Nagai.webp",
-        "Creation": "202304101122"
+        "Creation": "202304101122",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8072,7 +8692,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Kazumasa-Nagai.webp",
-        "Creation": "202306140525"
+        "Creation": "202306140525",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8085,7 +8706,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Patrick-Nagel.webp",
-        "Creation": "202304030551"
+        "Creation": "202304030551",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8098,7 +8720,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Scott-Naismith.webp",
-        "Creation": "202304101626"
+        "Creation": "202304101626",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8111,7 +8734,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ted-Nasmith.webp",
-        "Creation": "202305280201"
+        "Creation": "202305280201",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8124,7 +8748,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alexander-Nasmyth.webp",
-        "Creation": "202306260500"
+        "Creation": "202306260500",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8137,7 +8762,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alice-Neel.webp",
-        "Creation": "202305091103"
+        "Creation": "202305091103",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8150,7 +8776,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Keith-Negley.webp",
-        "Creation": "202304030554"
+        "Creation": "202304030554",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8163,7 +8790,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Kadir-Nelson.webp",
-        "Creation": "202305260113"
+        "Creation": "202305260113",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8176,7 +8804,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "R-Kenton-Nelson.webp",
-        "Creation": "202304030558"
+        "Creation": "202304030558",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8189,7 +8818,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Odd-Nerdrum.webp",
-        "Creation": "202306231325"
+        "Creation": "202306231325",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8202,7 +8832,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "jane_newland.webp",
-        "Creation": "202304030827"
+        "Creation": "202304030827",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8215,7 +8846,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Victo-Ngai.webp",
-        "Creation": "202304071134"
+        "Creation": "202304071134",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8228,7 +8860,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Dustin-Nguyen.webp",
-        "Creation": "202304030604"
+        "Creation": "202304030604",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8241,7 +8874,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Kay-Nielsen.webp",
-        "Creation": "202304152011"
+        "Creation": "202304152011",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8254,7 +8888,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tsutomu-Nihei.webp",
-        "Creation": "202304141455"
+        "Creation": "202304141455",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8267,7 +8902,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Yasushi-Nirasawa.webp",
-        "Creation": "202306171801"
+        "Creation": "202306171801",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8280,7 +8916,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Victor-Nizovtsev.webp",
-        "Creation": "202305020650"
+        "Creation": "202305020650",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8293,7 +8930,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Catherine-Nolin.webp",
-        "Creation": "202306161647"
+        "Creation": "202306161647",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8306,7 +8944,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Earl-Norem.webp",
-        "Creation": "202305231703"
+        "Creation": "202305231703",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8319,7 +8958,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Marianne-North.webp",
-        "Creation": "202304250533"
+        "Creation": "202304250533",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8332,7 +8972,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Thornton-Oakley.webp",
-        "Creation": "202305100541"
+        "Creation": "202305100541",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8345,7 +8986,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Chris-Ofili.webp",
-        "Creation": "202306161550"
+        "Creation": "202306161550",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8358,7 +9000,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Eiko-Ojala.webp",
-        "Creation": "202304151234"
+        "Creation": "202304151234",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8371,7 +9014,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Margaret-Olley.webp",
-        "Creation": "202311190518"
+        "Creation": "202311190518",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8384,7 +9028,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Atelier-Olschinsky.webp",
-        "Creation": "202304172019"
+        "Creation": "202304172019",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8397,7 +9042,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Oleg-Oprisco.webp",
-        "Creation": "202304241322"
+        "Creation": "202304241322",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8410,7 +9056,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Katsuhiro-Otomo.webp",
-        "Creation": "202304030607"
+        "Creation": "202304030607",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8423,7 +9070,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Shohei-Otomo.webp",
-        "Creation": "202304181655"
+        "Creation": "202304181655",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8436,7 +9084,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Siya-Oum.webp",
-        "Creation": "202305150835"
+        "Creation": "202305150835",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8449,7 +9098,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Georgia-O-Keeffe.webp",
-        "Creation": "202305241909"
+        "Creation": "202305241909",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8462,7 +9112,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "P-A-Works.webp",
-        "Creation": "202305270240"
+        "Creation": "202305270240",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8475,7 +9126,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Gary-Panter.webp",
-        "Creation": "202306161519"
+        "Creation": "202306161519",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8488,7 +9140,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Eduardo-Paolozzi.webp",
-        "Creation": "202305090925"
+        "Creation": "202305090925",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8501,7 +9154,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Gerald-Parel.webp",
-        "Creation": "202304151914"
+        "Creation": "202304151914",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8514,7 +9168,8 @@ export const artists: Artist[] = [
         "Extrainfo": "clothes might be wrong",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Parmigianino.webp",
-        "Creation": "202306090457"
+        "Creation": "202306090457",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8527,7 +9182,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Maxfield-Parrish.webp",
-        "Creation": "202305262115"
+        "Creation": "202305262115",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8540,7 +9196,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ed-Paschke.webp",
-        "Creation": "202306161506"
+        "Creation": "202306161506",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8553,7 +9210,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Bob-Peak.webp",
-        "Creation": "202305211643"
+        "Creation": "202305211643",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8566,7 +9224,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Clara-Peeters.webp",
-        "Creation": "202304171714"
+        "Creation": "202304171714",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8579,7 +9238,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Guo-Pei.webp",
-        "Creation": "202306161702"
+        "Creation": "202306161702",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8592,7 +9252,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Bruce-Pennington.webp",
-        "Creation": "202304061918"
+        "Creation": "202304061918",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8605,7 +9266,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-Perceval.webp",
-        "Creation": "202304061602"
+        "Creation": "202304061602",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8618,7 +9280,8 @@ export const artists: Artist[] = [
         "Extrainfo": "start with 768px = better\/finer details, used 30 steps, use [from:to:when] for H.C.",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Cleon-Peterson.webp",
-        "Creation": "202311180959"
+        "Creation": "202311180959",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8631,7 +9294,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Nikolina-Petolas.webp",
-        "Creation": "202304131644"
+        "Creation": "202304131644",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8644,7 +9308,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Coles-Phillips.webp",
-        "Creation": "202304151942"
+        "Creation": "202304151942",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8657,7 +9322,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Sean-Phillips.webp",
-        "Creation": "202304051635"
+        "Creation": "202304051635",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8670,7 +9336,8 @@ export const artists: Artist[] = [
         "Extrainfo": "looks different in 768px+, had to use [from:to:when] for H.C.",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Francis-Picabia.webp",
-        "Creation": "202306101256"
+        "Creation": "202306101256",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8683,7 +9350,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Gabriel-Picolo.webp",
-        "Creation": "202304081718"
+        "Creation": "202304081718",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8696,7 +9364,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Anton-Pieck.webp",
-        "Creation": "202305141318"
+        "Creation": "202305141318",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8709,7 +9378,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jerry-Pinkney.webp",
-        "Creation": "202304051555"
+        "Creation": "202304051555",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8722,7 +9392,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Maximilian-Pirner.webp",
-        "Creation": "202305020747"
+        "Creation": "202305020747",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8735,7 +9406,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jackson-Pollock.webp",
-        "Creation": "202304030624"
+        "Creation": "202304030624",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8748,7 +9420,8 @@ export const artists: Artist[] = [
         "Extrainfo": "looks nice, but lots of extra hands",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jacopo-Pontormo.webp",
-        "Creation": "202306090416"
+        "Creation": "202306090416",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8761,7 +9434,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Paul-Pope.webp",
-        "Creation": "202304070827"
+        "Creation": "202304070827",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8774,7 +9448,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Fairfield-Porter.webp",
-        "Creation": "202304060526"
+        "Creation": "202304060526",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8787,7 +9462,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Candido-Portinari.webp",
-        "Creation": "202306231154"
+        "Creation": "202306231154",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8800,7 +9476,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Simon-Prades.webp",
-        "Creation": "202304070804"
+        "Creation": "202304070804",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8813,7 +9490,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Gediminas-Pranckevicius.webp",
-        "Creation": "202305241646"
+        "Creation": "202305241646",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8826,7 +9504,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Hugo-Pratt.webp",
-        "Creation": "202306270501"
+        "Creation": "202306270501",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8839,7 +9518,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Theo-Prins.webp",
-        "Creation": "202305201156"
+        "Creation": "202305201156",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8852,7 +9532,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Dod-Procter.webp",
-        "Creation": "202306201617"
+        "Creation": "202306201617",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8865,7 +9546,8 @@ export const artists: Artist[] = [
         "Extrainfo": "way different, but looks nice - fits better with Dod Procter\'s style",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ernest-Procter.webp",
-        "Creation": "202306201635"
+        "Creation": "202306201635",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8878,7 +9560,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alice-Provensen.webp",
-        "Creation": "202304290408"
+        "Creation": "202304290408",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8891,7 +9574,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Steve-Purcell.webp",
-        "Creation": "202304091519"
+        "Creation": "202304091519",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8904,7 +9588,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Leo-Putz.webp",
-        "Creation": "202304070753"
+        "Creation": "202304070753",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8917,7 +9602,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Q-Hayashida.webp",
-        "Creation": "202311211414"
+        "Creation": "202311211414",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8930,7 +9616,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Frank-Quitely.webp",
-        "Creation": "202306140713"
+        "Creation": "202306140713",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8943,7 +9630,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Arthur-Rackham.webp",
-        "Creation": "202304271031"
+        "Creation": "202304271031",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8956,7 +9644,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Henry-Raleigh.webp",
-        "Creation": "202306181555"
+        "Creation": "202306181555",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8969,7 +9658,8 @@ export const artists: Artist[] = [
         "Extrainfo": "DPM++ SDE Karras",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Humberto-Ramos.webp",
-        "Creation": "202306261519"
+        "Creation": "202306261519",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8982,7 +9672,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Paul-Rand.webp",
-        "Creation": "202305190246"
+        "Creation": "202305190246",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -8995,7 +9686,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Raphael-Raffaello-Sanzio-da-Urbino.webp",
-        "Creation": "202305161357"
+        "Creation": "202305161357",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9008,7 +9700,8 @@ export const artists: Artist[] = [
         "Extrainfo": "start with 768px = better\/finer details, used 30 steps",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ravi-Zupa.webp",
-        "Creation": "202311180918"
+        "Creation": "202311180918",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9021,7 +9714,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jakub-Rebelka.webp",
-        "Creation": "202304051540"
+        "Creation": "202304051540",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9034,7 +9728,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Odilon-Redon.webp",
-        "Creation": "202305020404"
+        "Creation": "202305020404",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9047,7 +9742,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Anne-Redpath.webp",
-        "Creation": "202305091047"
+        "Creation": "202305091047",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9060,7 +9756,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Lotte-Reiniger.webp",
-        "Creation": "202305292333"
+        "Creation": "202305292333",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9073,7 +9770,8 @@ export const artists: Artist[] = [
         "Extrainfo": "unflexible\/difficult to prompt",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Rembrandt-van-Rijn.webp",
-        "Creation": "202306091328"
+        "Creation": "202306091328",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9086,7 +9784,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andrey-Remnev.webp",
-        "Creation": "202305150540"
+        "Creation": "202305150540",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9099,7 +9798,8 @@ export const artists: Artist[] = [
         "Extrainfo": "feels a bit blurry and generic",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Pierre-Auguste-Renoir.webp",
-        "Creation": "202306100649"
+        "Creation": "202306100649",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9112,7 +9812,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ilya-Repin.webp",
-        "Creation": "202304060532"
+        "Creation": "202304060532",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9125,7 +9826,8 @@ export const artists: Artist[] = [
         "Extrainfo": "might not be destinct enough, digital style with contemporary context",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Zac-Retz.webp",
-        "Creation": "202305191955"
+        "Creation": "202305191955",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9138,7 +9840,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "rhads.webp",
-        "Creation": "202304070817"
+        "Creation": "202304070817",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9151,7 +9854,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Louis-Rhead.webp",
-        "Creation": "202305101244"
+        "Creation": "202305101244",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9164,7 +9868,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Matt-Rhodes.webp",
-        "Creation": "202304081635"
+        "Creation": "202304081635",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9177,7 +9882,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hyacinthe-Rigaud.webp",
-        "Creation": "202306181527"
+        "Creation": "202306181527",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9190,7 +9896,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jovana-Rikalo.webp",
-        "Creation": "202306191501"
+        "Creation": "202306191501",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9203,7 +9910,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Bridget-Riley.webp",
-        "Creation": "202310231709"
+        "Creation": "202310231709",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9216,7 +9924,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Faith-Ringgold.webp",
-        "Creation": "202306171747"
+        "Creation": "202306171747",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9229,7 +9938,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jean-Paul-Riopelle.webp",
-        "Creation": "202306181431"
+        "Creation": "202306181431",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9242,7 +9952,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Diego-Rivera.webp",
-        "Creation": "202305231314"
+        "Creation": "202305231314",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9255,7 +9966,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Trina-Robbins.webp",
-        "Creation": "202305282349"
+        "Creation": "202305282349",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9268,7 +9980,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Albert-Robida.webp",
-        "Creation": "202304051528"
+        "Creation": "202304051528",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9281,7 +9994,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "William-Heath-Robinson.webp",
-        "Creation": "202305150637"
+        "Creation": "202305150637",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9294,7 +10008,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andreas-Rocha.webp",
-        "Creation": "202304070721"
+        "Creation": "202304070721",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9307,7 +10022,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Norman-Rockwell.webp",
-        "Creation": "202304170725"
+        "Creation": "202304170725",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9320,7 +10036,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Nicholas-Roerich.webp",
-        "Creation": "202305020415"
+        "Creation": "202305020415",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9333,7 +10050,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Cyril-Rolando.webp",
-        "Creation": "202304101041"
+        "Creation": "202304101041",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9346,7 +10064,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Conrad-Roset.webp",
-        "Creation": "202304211902"
+        "Creation": "202304211902",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9359,7 +10078,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Alex-Ross.webp",
-        "Creation": "202304300355"
+        "Creation": "202304300355",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9372,7 +10092,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jessica-Rossier.webp",
-        "Creation": "202304030646"
+        "Creation": "202304030646",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9385,7 +10106,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Mark-Rothko.webp",
-        "Creation": "202306101409"
+        "Creation": "202306101409",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9398,7 +10120,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Henri-Rousseau.webp",
-        "Creation": "202304251738"
+        "Creation": "202304251738",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9411,7 +10134,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Paolo-Roversi.webp",
-        "Creation": "202304241245"
+        "Creation": "202304241245",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9424,7 +10148,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Joao-Ruas.webp",
-        "Creation": "202304171152"
+        "Creation": "202304171152",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9437,7 +10162,8 @@ export const artists: Artist[] = [
         "Extrainfo": "also known for curvy (naked) women and putti",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Peter-Paul-Rubens.webp",
-        "Creation": "202306091357"
+        "Creation": "202306091357",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9450,7 +10176,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Greg-Rutkowski.webp",
-        "Creation": "202305170821"
+        "Creation": "202305170821",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9463,7 +10190,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Rachel-Ruysch.webp",
-        "Creation": "202304290501"
+        "Creation": "202304290501",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9476,7 +10204,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Mark-Ryden.webp",
-        "Creation": "202304061621"
+        "Creation": "202304061621",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9489,7 +10218,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Albert-Pinkham-Ryder.webp",
-        "Creation": "202305141741"
+        "Creation": "202305141741",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9502,7 +10232,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ryohei-Hase.webp",
-        "Creation": "202304030649"
+        "Creation": "202304030649",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9515,7 +10246,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Theo-van-Rysselberghe.webp",
-        "Creation": "202304221933"
+        "Creation": "202304221933",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9528,7 +10260,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Cornelis-Saftleven.webp",
-        "Creation": "202304101543"
+        "Creation": "202304101543",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9541,7 +10274,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Amanda-Sage.webp",
-        "Creation": "202305160704"
+        "Creation": "202305160704",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9554,7 +10288,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Apollonia-Saintclair.webp",
-        "Creation": "202305201852"
+        "Creation": "202305201852",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9567,7 +10302,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-Salminen.webp",
-        "Creation": "202304030652"
+        "Creation": "202304030652",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9580,7 +10316,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Nicola-Samori.webp",
-        "Creation": "202304030653"
+        "Creation": "202304030653",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9593,7 +10330,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Tony-Sandoval.webp",
-        "Creation": "202304080634"
+        "Creation": "202304080634",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9606,7 +10344,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "John-Singer-Sargent.webp",
-        "Creation": "202304060558"
+        "Creation": "202304060558",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9619,7 +10358,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Arthur-Sarnoff.webp",
-        "Creation": "202305141115"
+        "Creation": "202305141115",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9632,7 +10372,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Sylvain-Sarrailh.webp",
-        "Creation": "202305131907"
+        "Creation": "202305131907",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9645,7 +10386,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andrea-del-Sarto.webp",
-        "Creation": "202305141446"
+        "Creation": "202305141446",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9658,7 +10400,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Martiros-Saryan.webp",
-        "Creation": "202305020445"
+        "Creation": "202305020445",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9671,7 +10414,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Aleksey-Savrasov.webp",
-        "Creation": "202304240323"
+        "Creation": "202304240323",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9684,7 +10428,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Richard-Scarry.webp",
-        "Creation": "202304300544"
+        "Creation": "202304300544",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9697,7 +10442,8 @@ export const artists: Artist[] = [
         "Extrainfo": "Godefridus and Godfried both work, but the results of Godfried seem a bit nicer",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Godfried-Schalcken.webp",
-        "Creation": "202306190134"
+        "Creation": "202306190134",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9710,7 +10456,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Thomas-W-Schaller.webp",
-        "Creation": "202304221822"
+        "Creation": "202304221822",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9723,7 +10470,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Paula-Scher.webp",
-        "Creation": "202305181736"
+        "Creation": "202305181736",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9736,7 +10484,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Egon-Schiele.webp",
-        "Creation": "202311180600"
+        "Creation": "202311180600",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9749,7 +10498,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Helene-Schjerfbeck.webp",
-        "Creation": "202306010359"
+        "Creation": "202306010359",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9762,7 +10512,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Martin-Schoeller.webp",
-        "Creation": "202306171149"
+        "Creation": "202306171149",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9775,7 +10526,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-Schoenherr.webp",
-        "Creation": "202306071514"
+        "Creation": "202306071514",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9788,7 +10540,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM++ SDE Karras, a lot of cover art in training data = text everywhere",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alex-Schomburg.webp",
-        "Creation": "202306211645"
+        "Creation": "202306211645",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9801,7 +10554,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Martin-Schongauer.webp",
-        "Creation": "202305260420"
+        "Creation": "202305260420",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9814,7 +10568,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Otto-Marseus-van-Schrieck.webp",
-        "Creation": "202304170700"
+        "Creation": "202304170700",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9827,7 +10582,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Francois-Schuiten.webp",
-        "Creation": "202304060540"
+        "Creation": "202304060540",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9840,7 +10596,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Carlos-Schwabe.webp",
-        "Creation": "202304171924"
+        "Creation": "202304171924",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9853,7 +10610,8 @@ export const artists: Artist[] = [
         "Extrainfo": "had to use [from:to:when] for H.C.",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Kurt-Schwitters.webp",
-        "Creation": "202306101310"
+        "Creation": "202306101310",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9866,7 +10624,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Susan-Seddon-Boulet.webp",
-        "Creation": "202304280222"
+        "Creation": "202304280222",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9879,7 +10638,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Guillaume-Seignac.webp",
-        "Creation": "202304221701"
+        "Creation": "202304221701",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9892,7 +10652,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Anton-Semenov.webp",
-        "Creation": "202306260620"
+        "Creation": "202306260620",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9905,7 +10666,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Georges-Seurat.webp",
-        "Creation": "202304251809"
+        "Creation": "202304251809",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9918,7 +10680,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Marie-Severin.webp",
-        "Creation": "202304030701"
+        "Creation": "202304030701",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9931,7 +10694,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Alberto-Seveso.webp",
-        "Creation": "202304101220"
+        "Creation": "202304101220",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9944,7 +10708,8 @@ export const artists: Artist[] = [
         "Extrainfo": "needs big images (face)",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Brooke-Shaden.webp",
-        "Creation": "202306260601"
+        "Creation": "202306260601",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9957,7 +10722,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Barclay-Shaw.webp",
-        "Creation": "202305141824"
+        "Creation": "202305141824",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9970,7 +10736,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "E-H-Shepard.webp",
-        "Creation": "202304211850"
+        "Creation": "202304211850",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9983,7 +10750,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Cynthia-Sheppard.webp",
-        "Creation": "202304030932"
+        "Creation": "202304030932",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -9996,7 +10764,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix (1024)",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tyler-Shields.webp",
-        "Creation": "202304151147"
+        "Creation": "202304151147",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10009,7 +10778,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Yuko-Shimizu.webp",
-        "Creation": "202304061848"
+        "Creation": "202304061848",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10022,7 +10792,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Makoto-Shinkai.webp",
-        "Creation": "202304061909"
+        "Creation": "202304061909",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10035,7 +10806,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Yoji-Shinkawa.webp",
-        "Creation": "202304061856"
+        "Creation": "202304061856",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10048,7 +10820,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Everett-Shinn.webp",
-        "Creation": "202305110505"
+        "Creation": "202305110505",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10061,7 +10834,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Masamune-Shirow.webp",
-        "Creation": "202305260440"
+        "Creation": "202305260440",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10074,7 +10848,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Emmanuel-Shiu.webp",
-        "Creation": "202304212039"
+        "Creation": "202304212039",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10087,7 +10862,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Henryk-Siemiradzki.webp",
-        "Creation": "202311190506"
+        "Creation": "202311190506",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10100,7 +10876,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Bill-Sienkiewicz.webp",
-        "Creation": "202304061902"
+        "Creation": "202304061902",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10113,7 +10890,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Paul-Signac.webp",
-        "Creation": "202304241203"
+        "Creation": "202304241203",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10126,7 +10904,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Marc-Silvestri.webp",
-        "Creation": "202304081554"
+        "Creation": "202304081554",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10139,7 +10918,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Greg-Simkins.webp",
-        "Creation": "202305101736"
+        "Creation": "202305101736",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10152,7 +10932,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Marc-Simonetti.webp",
-        "Creation": "202304070454"
+        "Creation": "202304070454",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10165,7 +10946,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "David-Alfaro-Siqueiros.webp",
-        "Creation": "202305090959"
+        "Creation": "202305090959",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10178,7 +10960,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Kevin-Sloan.webp",
-        "Creation": "202304262343"
+        "Creation": "202304262343",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10191,7 +10974,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Grace-Cossington-Smith.webp",
-        "Creation": "202305110226"
+        "Creation": "202305110226",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10204,7 +10988,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Chaim-Soutine.webp",
-        "Creation": "202311180735"
+        "Creation": "202311180735",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10217,7 +11002,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Austin-Osman-Spare.webp",
-        "Creation": "202306231413"
+        "Creation": "202306231413",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10230,7 +11016,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Sparth.webp",
-        "Creation": "202304041219"
+        "Creation": "202304041219",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10243,7 +11030,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Chuck-Sperry.webp",
-        "Creation": "202304060608"
+        "Creation": "202304060608",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10256,7 +11044,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Sam-Spratt.webp",
-        "Creation": "202304181531"
+        "Creation": "202304181531",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10269,7 +11058,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ralph-Steadman.webp",
-        "Creation": "202305180543"
+        "Creation": "202305180543",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10282,7 +11072,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Brian-Stelfreeze.webp",
-        "Creation": "202304041315"
+        "Creation": "202304041315",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10295,7 +11086,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alfred-Stieglitz.webp",
-        "Creation": "202305201731"
+        "Creation": "202305201731",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10308,7 +11100,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "James-Stokoe.webp",
-        "Creation": "202304061628"
+        "Creation": "202304061628",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10321,7 +11114,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Arthur-Ernest-Streeton.webp",
-        "Creation": "202306231436"
+        "Creation": "202306231436",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10334,7 +11128,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Drew-Struzan.webp",
-        "Creation": "202304172315"
+        "Creation": "202304172315",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10347,7 +11142,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tomasz-Strzalkowski.webp",
-        "Creation": "202305290551"
+        "Creation": "202305290551",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10360,7 +11156,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Simon-Stalenhag.webp",
-        "Creation": "202304060553"
+        "Creation": "202304060553",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10373,7 +11170,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ken-Sugimori.webp",
-        "Creation": "202304061833"
+        "Creation": "202304061833",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10386,7 +11184,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Graham-Sutherland.webp",
-        "Creation": "202311180931"
+        "Creation": "202311180931",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10399,7 +11198,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Arthur-Suydam.webp",
-        "Creation": "202304060733"
+        "Creation": "202304060733",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10412,7 +11212,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Raymond-Swanland.webp",
-        "Creation": "202304250439"
+        "Creation": "202304250439",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10425,7 +11226,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Peter-De-Seve.webp",
-        "Creation": "202304101133"
+        "Creation": "202304101133",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10438,7 +11240,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hiroyuki-Mitsume-Takahashi.webp",
-        "Creation": "202304061635"
+        "Creation": "202304061635",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10451,7 +11254,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Kazuya-Takahashi.webp",
-        "Creation": "202304081507"
+        "Creation": "202304081507",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10464,7 +11268,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Rumiko-Takahashi.webp",
-        "Creation": "202305171158"
+        "Creation": "202305171158",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10477,7 +11282,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "",
         "Image": "Rufino-Tamayo.webp",
-        "Creation": "202306161713"
+        "Creation": "202306161713",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10490,7 +11296,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Shaun-Tan.webp",
-        "Creation": "202304071554"
+        "Creation": "202304071554",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10503,7 +11310,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Henry-Ossawa-Tanner.webp",
-        "Creation": "202305120630"
+        "Creation": "202305120630",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10516,7 +11324,8 @@ export const artists: Artist[] = [
         "Extrainfo": "Highres. Fix, DPM2++ Karas",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Genndy-Tartakovsky.webp",
-        "Creation": "202304251918"
+        "Creation": "202304251918",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10529,7 +11338,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ben-Templesmith.webp",
-        "Creation": "202305141802"
+        "Creation": "202305141802",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10542,7 +11352,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Sachin-Teng.webp",
-        "Creation": "202305272032"
+        "Creation": "202305272032",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10555,7 +11366,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Gustaf-Tenggren.webp",
-        "Creation": "202304080920"
+        "Creation": "202304080920",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10568,7 +11380,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Saul-Tepper.webp",
-        "Creation": "202305100642"
+        "Creation": "202305100642",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10581,7 +11394,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Terada-Katsuya.webp",
-        "Creation": "202304221943"
+        "Creation": "202304221943",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10594,7 +11408,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Howard-Terpning.webp",
-        "Creation": "202304300418"
+        "Creation": "202304300418",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10607,7 +11422,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM++ SDE Karras",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Osamu-Tezuka.webp",
-        "Creation": "202305171115"
+        "Creation": "202305171115",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10620,7 +11436,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Abbott-Handerson-Thayer.webp",
-        "Creation": "202304071313"
+        "Creation": "202304071313",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10633,7 +11450,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Karel-Thole.webp",
-        "Creation": "202304211838"
+        "Creation": "202304211838",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10646,7 +11464,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Mickalene-Thomas.webp",
-        "Creation": "202306152337"
+        "Creation": "202306152337",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10659,7 +11478,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Craig-Thompson.webp",
-        "Creation": "202305151308"
+        "Creation": "202305151308",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10672,7 +11492,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tom-Thomson.webp",
-        "Creation": "202304060717"
+        "Creation": "202304060717",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10685,7 +11506,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Giovanni-Tiepolo.webp",
-        "Creation": "202304060617"
+        "Creation": "202304060617",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10698,7 +11520,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alex-Timmermans.webp",
-        "Creation": "202304030734"
+        "Creation": "202304030734",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10711,7 +11534,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Titian.webp",
-        "Creation": "202306171817"
+        "Creation": "202306171817",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10724,7 +11548,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Adrian-Tomine.webp",
-        "Creation": "202304060726"
+        "Creation": "202304060726",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10737,7 +11562,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ori-Toor.webp",
-        "Creation": "202305190406"
+        "Creation": "202305190406",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10750,7 +11576,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix, DPM++ SDE Karras",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Akira-Toriyama.webp",
-        "Creation": "202306150505"
+        "Creation": "202306150505",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10763,7 +11590,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alex-Toth.webp",
-        "Creation": "202305201636"
+        "Creation": "202305201636",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10776,7 +11604,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Henri-de-Toulouse-Lautrec.webp",
-        "Creation": "202304101055"
+        "Creation": "202304101055",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10789,7 +11618,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Ross-Tran.webp",
-        "Creation": "202305270804"
+        "Creation": "202305270804",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10802,7 +11632,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "William-Turner.webp",
-        "Creation": "202304251124"
+        "Creation": "202304251124",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10815,7 +11646,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Chris-Turnham.webp",
-        "Creation": "202304101307"
+        "Creation": "202304101307",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10828,7 +11660,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "David-Tutwiler.webp",
-        "Creation": "202304131739"
+        "Creation": "202304131739",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10841,7 +11674,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Tadahiro-Uesugi.webp",
-        "Creation": "202304091442"
+        "Creation": "202304091442",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10854,7 +11688,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Euan-Uglow.webp",
-        "Creation": "202305090325"
+        "Creation": "202305090325",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10867,7 +11702,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Daniela-Uhlig.webp",
-        "Creation": "202305300501"
+        "Creation": "202305300501",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10880,7 +11716,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Halil-Ural.webp",
-        "Creation": "202305300223"
+        "Creation": "202305300223",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10893,7 +11730,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Jan-Urschel.webp",
-        "Creation": "202304251721"
+        "Creation": "202304251721",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10906,7 +11744,8 @@ export const artists: Artist[] = [
         "Extrainfo": "768px + Highres. Fix, DPM++ SDE Karras",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Boris-Vallejo.webp",
-        "Creation": "202305211740"
+        "Creation": "202305211740",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10919,7 +11758,8 @@ export const artists: Artist[] = [
         "Extrainfo": "when used alone, tends to be a bit inflexible (starry night clouds, his face structure in portraits)",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Vincent-van-Gogh.webp",
-        "Creation": "202306100600"
+        "Creation": "202306100600",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10932,7 +11772,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alberto-Vargas.webp",
-        "Creation": "202304101012"
+        "Creation": "202304101012",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10945,7 +11786,8 @@ export const artists: Artist[] = [
         "Extrainfo": "had to use [from:to:when] for H.C.",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Victor-Vasarely.webp",
-        "Creation": "202310231735"
+        "Creation": "202310231735",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10958,7 +11800,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Brian-K-Vaughan.webp",
-        "Creation": "202305161419"
+        "Creation": "202305161419",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10971,7 +11814,8 @@ export const artists: Artist[] = [
         "Extrainfo": "sometimes guitars",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Diego-Velazquez.webp",
-        "Creation": "202306270647"
+        "Creation": "202306270647",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10984,7 +11828,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Vasily-Vereshchagin.webp",
-        "Creation": "202305290126"
+        "Creation": "202305290126",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -10997,7 +11842,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jan-Vermeer.webp",
-        "Creation": "202402261335"
+        "Creation": "202402261335",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11010,7 +11856,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andrea-del-Verrocchio.webp",
-        "Creation": "202305030708"
+        "Creation": "202305030708",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11023,7 +11870,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andreas-Vesalius.webp",
-        "Creation": "202306241219"
+        "Creation": "202306241219",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11036,7 +11884,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Charles-Vess.webp",
-        "Creation": "202304211958"
+        "Creation": "202304211958",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11049,7 +11898,8 @@ export const artists: Artist[] = [
         "Extrainfo": "difficult to prompt men",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Elisabeth-Vigee-Lebrun.webp",
-        "Creation": "202306192320"
+        "Creation": "202306192320",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11062,7 +11912,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Louis-Wain.webp",
-        "Creation": "202305100806"
+        "Creation": "202305100806",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11075,7 +11926,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Camille-Walala.webp",
-        "Creation": "202305221054"
+        "Creation": "202305221054",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11088,7 +11940,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Alfons-Walde.webp",
-        "Creation": "202304101256"
+        "Creation": "202304101256",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11101,7 +11954,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Alfred-Wallis.webp",
-        "Creation": "202304262355"
+        "Creation": "202304262355",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11114,7 +11968,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Lynd-Ward.webp",
-        "Creation": "202306180700"
+        "Creation": "202306180700",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11127,7 +11982,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andy-Warhol.webp",
-        "Creation": "202304041253"
+        "Creation": "202304041253",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11140,7 +11996,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "John-William-Waterhouse.webp",
-        "Creation": "202306231221"
+        "Creation": "202306231221",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11153,7 +12010,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jean-Antoine-Watteau.webp",
-        "Creation": "202306091427"
+        "Creation": "202306091427",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11166,7 +12024,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "George-Frederic-Watts.webp",
-        "Creation": "202311231213"
+        "Creation": "202311231213",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11179,7 +12038,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Joe-Webb.webp",
-        "Creation": "202306270713"
+        "Creation": "202306270713",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11192,7 +12052,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Edwin-Lord-Weeks.webp",
-        "Creation": "202304060656"
+        "Creation": "202304060656",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11205,7 +12066,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Johan-Hendrik-Weissenbruch.webp",
-        "Creation": "202305250355"
+        "Creation": "202305250355",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11218,7 +12080,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Casey-Weldon.webp",
-        "Creation": "202305231207"
+        "Creation": "202305231207",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11231,7 +12094,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Catrin-Welz-Stein.webp",
-        "Creation": "202311231223"
+        "Creation": "202311231223",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11244,7 +12108,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Tom-Whalen.webp",
-        "Creation": "202304041303"
+        "Creation": "202304041303",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11257,7 +12122,8 @@ export const artists: Artist[] = [
         "Extrainfo": "512px + Highres. Fix",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Michael-Whelan.webp",
-        "Creation": "202304080714"
+        "Creation": "202304080714",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11270,7 +12136,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jon-Whitcomb.webp",
-        "Creation": "202305101324"
+        "Creation": "202305101324",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11283,7 +12150,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Coby-Whitmore.webp",
-        "Creation": "202304101535"
+        "Creation": "202304101535",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11296,7 +12164,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Peter-Wileman.webp",
-        "Creation": "202305150910"
+        "Creation": "202305150910",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11309,7 +12178,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Kehinde-Wiley.webp",
-        "Creation": "202304251051"
+        "Creation": "202304251051",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11322,7 +12192,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Edward-Blair-Wilkins.webp",
-        "Creation": "202305290457"
+        "Creation": "202305290457",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11335,7 +12206,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Al-Williamson.webp",
-        "Creation": "202305201536"
+        "Creation": "202305201536",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11348,7 +12220,8 @@ export const artists: Artist[] = [
         "Extrainfo": "start with 768px",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Carel-Willink.webp",
-        "Creation": "202311190544"
+        "Creation": "202311190544",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11361,7 +12234,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Barry-Windsor-Smith.webp",
-        "Creation": "202304060709"
+        "Creation": "202304060709",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11374,7 +12248,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Franz-Xaver-Winterhalter.webp",
-        "Creation": "202304070742"
+        "Creation": "202304070742",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11387,7 +12262,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Nathan-Wirth.webp",
-        "Creation": "202304241430"
+        "Creation": "202304241430",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11400,7 +12276,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Wlop.webp",
-        "Creation": "202305242230"
+        "Creation": "202305242230",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11413,7 +12290,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Brandon-Woelfel.webp",
-        "Creation": "202305211752"
+        "Creation": "202305211752",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11426,7 +12304,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Liam-Wong.webp",
-        "Creation": "202304151116"
+        "Creation": "202304151116",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11439,7 +12318,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ashley-Wood.webp",
-        "Creation": "202305121111"
+        "Creation": "202305121111",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11452,7 +12332,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Grant-Wood.webp",
-        "Creation": "202306010414"
+        "Creation": "202306010414",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11465,7 +12346,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Zao-Wou-Ki.webp",
-        "Creation": "202304300429"
+        "Creation": "202304300429",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11478,7 +12360,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Bernie-Wrightson.webp",
-        "Creation": "202304060639"
+        "Creation": "202304060639",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11491,7 +12374,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Andrew-Wyeth.webp",
-        "Creation": "202306131323"
+        "Creation": "202306131323",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11504,7 +12388,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Zhelong-Xu.webp",
-        "Creation": "202305242130"
+        "Creation": "202305242130",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11517,7 +12402,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Hannah-Yata.webp",
-        "Creation": "202305242010"
+        "Creation": "202305242010",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11530,7 +12416,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Liu-Ye.webp",
-        "Creation": "202304061839"
+        "Creation": "202304061839",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11543,7 +12430,8 @@ export const artists: Artist[] = [
         "Extrainfo": "lots of boobs and nudity, even with the keywords in the NP",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Bunny-Yeager.webp",
-        "Creation": "202306260447"
+        "Creation": "202306260447",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11556,7 +12444,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Jacek-Yerka.webp",
-        "Creation": "202304150843"
+        "Creation": "202304150843",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11569,7 +12458,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Tadanori-Yokoo.webp",
-        "Creation": "202306152318"
+        "Creation": "202306152318",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11582,7 +12472,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Sean-Yoro.webp",
-        "Creation": "202306231238"
+        "Creation": "202306231238",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11595,7 +12486,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Akihiko-Yoshida.webp",
-        "Creation": "202304141804"
+        "Creation": "202304141804",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11608,7 +12500,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Hiroshi-Yoshida.webp",
-        "Creation": "202304161616"
+        "Creation": "202304161616",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11621,7 +12514,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Skottie-Young.webp",
-        "Creation": "202305150703"
+        "Creation": "202305150703",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11634,7 +12528,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Darek-Zabrocki.webp",
-        "Creation": "202304250359"
+        "Creation": "202304250359",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11647,7 +12542,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ossip-Zadkine.webp",
-        "Creation": "202304161629"
+        "Creation": "202304161629",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11660,7 +12556,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Eytan-Zana.webp",
-        "Creation": "202305300412"
+        "Creation": "202305300412",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11673,7 +12570,8 @@ export const artists: Artist[] = [
         "Extrainfo": "not easy to prompt, needed \'sunglasses\' and \'t-shirt\' in NP",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Eric-Zener.webp",
-        "Creation": "202306191445"
+        "Creation": "202306191445",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11686,7 +12584,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "Fenghua-Zhong.webp",
-        "Creation": "202305242144"
+        "Creation": "202305242144",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11699,7 +12598,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "DreamShaper 3.2",
         "Image": "William-Zorach.webp",
-        "Creation": "202305081530"
+        "Creation": "202305081530",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11712,7 +12612,8 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Anders-Zorn.webp",
-        "Creation": "202304240234"
+        "Creation": "202304240234",
+        "Model": "sd15"
     },
     {
         "Type": "1",
@@ -11725,6 +12626,7 @@ export const artists: Artist[] = [
         "Extrainfo": "",
         "Checkpoint": "Deliberate 2.0",
         "Image": "Ignacio-Zuloaga.webp",
-        "Creation": "202304240259"
+        "Creation": "202304240259",
+        "Model": "sd15"
     }
 ];

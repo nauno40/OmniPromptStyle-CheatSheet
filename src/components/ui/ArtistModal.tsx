@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Maximize2, Search as SearchIcon, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import type { Artist } from '../../types/artist';
+import { resolveImagePath } from '../../utils/imageUtils';
 import { clsx } from 'clsx';
 import styles from './ArtistModal.module.css';
 
@@ -26,7 +27,7 @@ export const ArtistModal: React.FC<ArtistModalProps> = ({
     const [showCopyFeedback, setShowCopyFeedback] = useState(false);
     const [isZoomed, setIsZoomed] = useState(false);
     const [currentSlide, setCurrentSlide] = useState(0);
-    const imageUrl = `/img/${artist.Image}`;
+    const imageUrl = resolveImagePath(artist);
     const artistLookupUrl = `https://www.google.com/search?q=${encodeURIComponent(artist.Name)}`;
 
     const handleCopy = () => {

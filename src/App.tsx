@@ -17,7 +17,7 @@ const App: React.FC = () => {
   const selectedArtistData = useMemo(() => {
     if (!galleryState.selectedArtist) return null;
     return dataService.getArtistById(galleryState.selectedArtist);
-  }, [galleryState.selectedArtist]);
+  }, [galleryState.selectedArtist, galleryState.activeModel]);
 
   return (
     <Router>
@@ -30,6 +30,9 @@ const App: React.FC = () => {
                   categories={galleryState.categories}
                   onCategorySelect={galleryState.setSelectedCategory}
                   activeCategory={galleryState.selectedCategory}
+                  checkpoints={galleryState.checkpoints}
+                  onCheckpointSelect={galleryState.setSelectedCheckpoint}
+                  activeCheckpoint={galleryState.selectedCheckpoint}
                   onSpecialFilterSelect={galleryState.setSelectedSpecialFilter}
                   activeSpecialFilter={galleryState.selectedSpecialFilter}
                   show={galleryState.showFilters}
