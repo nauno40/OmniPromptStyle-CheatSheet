@@ -20,7 +20,7 @@ export const StyleCard: React.FC<StyleCardProps> = ({
         <div
             id={anchor}
             className={styles.stylepod}
-            style={{ backgroundImage: `url(${imageUrl})` }}
+            style={{ backgroundImage: `url("${imageUrl}")` }}
             onClick={onClick}
         >
             <h3 className={styles.cardTitle}>
@@ -28,10 +28,10 @@ export const StyleCard: React.FC<StyleCardProps> = ({
             </h3>
 
             <div className={styles.gallery}>
-                <figure className={styles.figure} style={{ backgroundImage: `url(${imageUrl})` }} />
-                <figure className={styles.figure} style={{ backgroundImage: `url(${imageUrl})` }} />
-                <figure className={styles.figure} style={{ backgroundImage: `url(${imageUrl})` }} />
-                <figure className={styles.figure} style={{ backgroundImage: `url(${imageUrl})` }} />
+                <figure className={styles.figure} style={{ backgroundImage: `url("${imageUrl}")` }} />
+                <figure className={styles.figure} style={{ backgroundImage: `url("${imageUrl}")` }} />
+                <figure className={styles.figure} style={{ backgroundImage: `url("${imageUrl}")` }} />
+                <figure className={styles.figure} style={{ backgroundImage: `url("${imageUrl}")` }} />
             </div>
         </div>
     );

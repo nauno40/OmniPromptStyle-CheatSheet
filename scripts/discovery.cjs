@@ -19,7 +19,7 @@ function generateManifest() {
 
         checkpoints.forEach(checkpoint => {
             const checkpointPath = path.join(modelPath, checkpoint);
-            const images = fs.readdirSync(checkpointPath).filter(f => f.endsWith('.webp'));
+            const images = fs.readdirSync(checkpointPath).filter(f => f.endsWith('.webp') || f.endsWith('.png') || f.endsWith('.jpg'));
             manifest[model][checkpoint] = images;
         });
     });
@@ -28,8 +28,21 @@ function generateManifest() {
     fs.mkdirSync(path.dirname(manifestPath), { recursive: true });
 
     fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2), 'utf8');
-    console.log(`Manifest generated successfully at ${manifestPath}`);
-    console.log(`File exists check: ${fs.existsSync(manifestPath)}`);
+    console.log(`[${new Date().toLocaleTimeString()}] Manifest updated.`);
 }
 
+// Initial generation
 generateManifest();
+
+// Watch mode
+if (process.argv.includes('--watch')) {
+    console.log(`Watching for changes in ${imgDir}...`);
+    let timeout;
+    fs.watch(imgDir, { recursive: true }, (eventType, filename) => {
+        if (filename && (filename.endsWith('.webp') || filename.endsWith('.png') || filename.endsWith('.jpg') || !filename.includes('.'))) {
+            // Debounce to avoid multiple triggers for a single batch operation
+            clearTimeout(timeout);
+            timeout = setTimeout(generateManifest, 500);
+        }
+    });
+}

@@ -103,7 +103,7 @@ export const ArtistModal: React.FC<ArtistModalProps> = ({
                 <div
                     className={styles.gallerySide}
                     style={{
-                        backgroundImage: `url(${imageUrl})`,
+                        backgroundImage: `url("${imageUrl}")`,
                         backgroundSize: activeSlide.size,
                         backgroundPosition: activeSlide.pos
                     }}
@@ -136,7 +136,7 @@ export const ArtistModal: React.FC<ArtistModalProps> = ({
                     <div
                         className={styles.zoomedImageContainer}
                         style={{
-                            backgroundImage: `url(${imageUrl})`,
+                            backgroundImage: `url("${imageUrl}")`,
                             backgroundSize: activeSlide.size,
                             backgroundPosition: activeSlide.pos
                         }}

@@ -54,7 +54,7 @@ export const Header: React.FC<HeaderProps> = ({
                         ))}
                     </div>
 
-                    {availableCheckpoints.length > 1 && (
+                    {availableCheckpoints.length > 0 && (
                         <div className={styles.checkpointSwitcher}>
                             <button
                                 className={clsx(styles.checkpointButton, !activeCheckpoint && styles.checkpointActive)}
@@ -68,7 +68,7 @@ export const Header: React.FC<HeaderProps> = ({
                                     className={clsx(styles.checkpointButton, activeCheckpoint === cp && styles.checkpointActive)}
                                     onClick={() => setActiveCheckpoint(cp)}
                                 >
-                                    {cp.replace('_', ' ')}
+                                    {cp}
                                 </button>
                             ))}
                         </div>

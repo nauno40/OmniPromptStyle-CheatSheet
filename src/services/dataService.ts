@@ -20,7 +20,7 @@ export interface ModelDefinition {
 const END_OF_VER_1_2_0 = 202306072133;
 
 class DataService {
-    private allArtists: Artist[] = artists as Artist[];
+    private allArtistsMetadata: Artist[] = artists as Artist[];
     private manifest: Record<string, Record<string, string[]>> = manifest as any;
     private activeModel: string;
     private activeCheckpoint: string | null = null;
@@ -31,8 +31,16 @@ class DataService {
 
     constructor() {
         const models = Object.keys(this.manifest);
-        this.activeModel = models.includes('SD15') ? 'SD15' : models[0] || '';
+        // Default to the first model found, or empty string
+        this.activeModel = models[0] || '';
         this.init();
+    }
+
+    private parseArtistNameFromFilename(filename: string): string {
+        const nameWithoutExt = filename.replace(/\.(webp|png|jpg|jpeg)$/i, '');
+        // Replace dashes and underscores with spaces
+        const parts = nameWithoutExt.split(/[-_]/).filter(p => p.length > 0);
+        return parts.join(' ');
     }
 
     private init() {
@@ -41,14 +49,61 @@ class DataService {
             this.searchArray[modelId] = [];
             this.simpleArray[modelId] = [];
 
-            // Get all unique image names across all checkpoints for this model
+            const modelData = this.manifest[modelId];
             const availableImages = new Set<string>();
-            Object.values(this.manifest[modelId]).forEach(images => {
+            Object.values(modelData).forEach(images => {
                 images.forEach(img => availableImages.add(img));
             });
 
-            // Filter artists that have at least one image in this model
-            const modelArtists = this.allArtists.filter(a => availableImages.has(a.Image));
+            // Keep track of which metadata artists we've matched
+            const matchedImageFilenames = new Set<string>();
+            const modelArtists: Artist[] = [];
+
+            // 1. Match by explicit Image property in metadata
+            this.allArtistsMetadata.forEach(artist => {
+                if (availableImages.has(artist.Image)) {
+                    modelArtists.push(artist);
+                    matchedImageFilenames.add(artist.Image);
+                }
+            });
+
+            // 2. Process remaining available images (Hybrid matching or Virtual Artists)
+            availableImages.forEach(filename => {
+                if (matchedImageFilenames.has(filename)) return;
+
+                const parsedName = this.parseArtistNameFromFilename(filename);
+                
+                // Try to find by parsed name in metadata (if not already matched)
+                const metadataMatch = this.allArtistsMetadata.find(a => 
+                    !matchedImageFilenames.has(a.Image) && 
+                    formatArtistNameForSearch(a.Name).toLowerCase() === parsedName.toLowerCase()
+                );
+
+                if (metadataMatch) {
+                    // Update and add the metadata artist
+                    const artistWithImage = { ...metadataMatch, Image: filename };
+                    modelArtists.push(artistWithImage);
+                    matchedImageFilenames.add(filename);
+                } else {
+                    // Create a Virtual Artist
+                    const virtualArtist: Artist = {
+                        Type: "Unknown",
+                        Name: parsedName,
+                        Born: "",
+                        Death: "",
+                        Prompt: `style of ${parsedName}`,
+                        NPrompt: "",
+                        Category: "Uncategorized",
+                        Checkpoint: "Unknown",
+                        Extrainfo: "Automatically discovered",
+                        Image: filename,
+                        Creation: `virtual-${modelId}-${filename}`,
+                        Model: modelId
+                    };
+                    modelArtists.push(virtualArtist);
+                }
+            });
+
             this.datasets[modelId] = modelArtists;
 
             modelArtists.forEach(artist => {
@@ -57,7 +112,7 @@ class DataService {
                 this.simpleArray[modelId].push(displayName);
             });
 
-            // Add excluded artists to search
+            // Add excluded artists to search for context
             excludedArtists.forEach(excl => {
                 const displayName = formatArtistNameForSearch(excl.Name, excl.FirstName);
                 this.searchArray[modelId].push({ displayName, status: excl.Code });
@@ -69,7 +124,7 @@ class DataService {
     public getAvailableModels(): ModelDefinition[] {
         return Object.keys(this.manifest).map(id => ({
             id,
-            name: id.replace('_', ' '), // Simple formatting
+            name: id,
             checkpoints: Object.keys(this.manifest[id])
         }));
     }
@@ -93,7 +148,12 @@ class DataService {
     }
 
     public getArtistById(id: string): Artist | undefined {
-        return this.allArtists.find(a => a.Creation === id);
+        // Search across all datasets for the specific ID (Creation field)
+        for (const modelId in this.datasets) {
+            const found = this.datasets[modelId].find(a => a.Creation === id);
+            if (found) return found;
+        }
+        return undefined;
     }
 
     public getCategories(): Record<string, number> {
@@ -129,7 +189,7 @@ class DataService {
         if (specialFilter === 'Liked') {
             filtered = filtered.filter(a => favorites.includes(a.Creation));
         } else if (specialFilter === 'New') {
-            filtered = filtered.filter(a => Number(a.Creation) > END_OF_VER_1_2_0);
+            filtered = filtered.filter(a => !a.Creation.startsWith('virtual-') && Number(a.Creation) > END_OF_VER_1_2_0);
         } else if (specialFilter === '†') {
             filtered = filtered.filter(a => !!a.Death);
         } else if (specialFilter === 'Random') {
@@ -148,7 +208,6 @@ class DataService {
             });
         }
 
-        // Similarity search logic remains compatible
         let similarExcluded: (ExcludedArtist & { displayName: string })[] = [];
         let similarAvailable: { name: string; status: number }[] = [];
 
@@ -173,11 +232,9 @@ class DataService {
     }
 
     public resolveImagePath(artist: Artist): string {
-        // Find which checkpoint this artist belongs to in the active model
         const modelData = this.manifest[this.activeModel];
         if (!modelData) return `/img/${artist.Image}`;
 
-        // If a checkpoint is selected, use it. Otherwise, find the first checkpoint that has this image.
         let checkpoint = this.activeCheckpoint;
         if (!checkpoint) {
             checkpoint = Object.keys(modelData).find(cp => modelData[cp].includes(artist.Image)) || Object.keys(modelData)[0];
