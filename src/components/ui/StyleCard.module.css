@@ -26,6 +26,35 @@
     z-index: 10;
 }
 
+.comparisonToggle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 30;
+    transition: all 0.2s;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.comparisonToggle:hover {
+    background-color: var(--lb);
+    transform: scale(1.1);
+    border-color: white;
+}
+
+.comparisonActive {
+    background-color: var(--lb);
+    border-color: white;
+}
+
 .gallery {
     display: none;
     position: absolute;

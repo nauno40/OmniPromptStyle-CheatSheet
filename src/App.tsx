@@ -8,6 +8,7 @@ import { ArtistModal } from './components/ui/ArtistModal';
 import { MetadataViewer } from './components/metadata/MetadataViewer';
 import { Notes } from './components/pages/Notes';
 import { About } from './components/pages/About';
+import { ComparePage } from './components/pages/ComparePage';
 import { useGallery } from './hooks/useGallery';
 import { dataService } from './services/dataService';
 
@@ -48,6 +49,7 @@ const App: React.FC = () => {
             <Route path="/metadata" element={<MetadataViewer />} />
             <Route path="/notes" element={<Notes />} />
             <Route path="/about" element={<About />} />
+            <Route path="/compare" element={<ComparePage />} />
           </Routes>
         )}
       </Layout>

@@ -1,6 +1,9 @@
 import React from 'react';
 import { Header } from './Header';
 import { useGallery } from '../../hooks/useGallery';
+import { ComparisonButton } from '../ui/ComparisonButton';
+import { ComparisonDrawer } from '../ui/ComparisonDrawer';
+import { useComparison } from '../../hooks/useComparison';
 
 interface LayoutProps {
     children: React.ReactNode | ((props: ReturnType<typeof useGallery>) => React.ReactNode);
@@ -8,6 +11,9 @@ interface LayoutProps {
 }
 
 export const Layout: React.FC<LayoutProps> = ({ children, galleryState }) => {
+    const [isComparisonOpen, setIsComparisonOpen] = React.useState(false);
+    const comparison = useComparison();
+
     return (
         <div className="app-container">
             <Header
@@ -25,6 +31,19 @@ export const Layout: React.FC<LayoutProps> = ({ children, galleryState }) => {
             <main>
                 {typeof children === 'function' ? children(galleryState) : children}
             </main>
+
+            <ComparisonButton
+                count={comparison.items.length}
+                onClick={() => setIsComparisonOpen(true)}
+            />
+
+            <ComparisonDrawer
+                isOpen={isComparisonOpen}
+                onClose={() => setIsComparisonOpen(false)}
+                items={comparison.items}
+                onRemove={comparison.removeItem}
+                onClear={comparison.clear}
+            />
         </div>
     );
 };

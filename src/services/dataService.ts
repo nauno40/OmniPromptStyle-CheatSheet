@@ -86,7 +86,8 @@ class DataService {
             // 1. Match by explicit Image property in metadata
             this.allArtistsMetadata.forEach(artist => {
                 if (availableImages.has(artist.Image)) {
-                    modelArtists.push(artist);
+                    const artistWithModel = { ...artist, Model: modelId };
+                    modelArtists.push(artistWithModel);
                     matchedImageFilenames.add(artist.Image);
                 }
             });
@@ -105,7 +106,7 @@ class DataService {
 
                 if (metadataMatch) {
                     // Update and add the metadata artist
-                    const artistWithImage = { ...metadataMatch, Image: filename };
+                    const artistWithImage = { ...metadataMatch, Image: filename, Model: modelId };
                     modelArtists.push(artistWithImage);
                     matchedImageFilenames.add(filename);
                 } else {
@@ -264,16 +265,59 @@ class DataService {
         return { artists: filtered, similarExcluded, similarAvailable };
     }
 
-    public resolveImagePath(artist: Artist): string {
-        const modelData = this.manifest[this.activeModel];
-        if (!modelData) return `/img/${artist.Image}`;
+    public getArtistVersions(artist: Artist): Artist[] {
+        const versions: Artist[] = [];
+        const artistName = formatArtistNameForSearch(artist.Name).toLowerCase();
+        const isVirtual = artist.Creation.startsWith('virtual-');
 
-        let checkpoint = this.activeCheckpoint;
-        if (!checkpoint) {
-            checkpoint = Object.keys(modelData).find(cp => modelData[cp].includes(artist.Image)) || Object.keys(modelData)[0];
+        Object.keys(this.datasets).forEach(modelId => {
+            const modelArtists = this.datasets[modelId];
+            modelArtists.forEach(a => {
+                const aName = formatArtistNameForSearch(a.Name).toLowerCase();
+                const aIsVirtual = a.Creation.startsWith('virtual-');
+
+                if (isVirtual) {
+                    // For virtual artists, match by name and virtual status
+                    if (aIsVirtual && aName === artistName) {
+                        versions.push(a);
+                    }
+                } else {
+                    // For metadata artists, match by original Creation ID or Name
+                    if (!aIsVirtual && (a.Creation === artist.Creation || aName === artistName)) {
+                        versions.push(a);
+                    }
+                }
+            });
+        });
+
+        return versions;
+    }
+
+    public resolveImagePath(artist: Artist): string {
+        const targetModel = artist.Model || this.activeModel;
+        const modelData = this.manifest[targetModel];
+        if (!modelData) {
+             // Fallback to simple path if manifest missing but image exists
+             return `/img/${artist.Image}`;
         }
 
-        return `/img/style/${this.activeModel}/${checkpoint}/${artist.Image}`;
+        // Find which checkpoint contains this image in the target model
+        let checkpoint = artist.Checkpoint && modelData[artist.Checkpoint]?.includes(artist.Image) 
+            ? artist.Checkpoint 
+            : null;
+
+        if (!checkpoint) {
+            for (const cp in modelData) {
+                if (modelData[cp].includes(artist.Image)) {
+                    checkpoint = cp;
+                    break;
+                }
+            }
+        }
+
+        if (!checkpoint) checkpoint = Object.keys(modelData)[0];
+
+        return `/img/style/${targetModel}/${checkpoint}/${artist.Image}`;
     }
 }
 
