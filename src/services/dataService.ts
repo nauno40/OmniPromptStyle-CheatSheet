@@ -1,12 +1,11 @@
 import artists from '../data/artists.json';
-import { excludedArtists } from '../data/excludedArtists';
-import type { Artist, ExcludedArtist } from '../types/artist';
+import type { Artist } from '../types/artist';
 import { formatArtistNameForSearch, removeDiacritics, generatePromptFromName } from '../utils/stringUtils';
 import stringSimilarity from 'string-similarity';
 
 export interface SearchResult {
     artists: Artist[];
-    similarExcluded: (ExcludedArtist & { displayName: string })[];
+    similarExcluded: { displayName: string; Name: string; Code: string; Extrainfo: string }[];
     similarAvailable: { name: string; status: number }[];
 }
 
@@ -36,7 +35,8 @@ class DataService {
     private discoverImages() {
         // Use Vite's import.meta.glob to find all images in public/img/style
         // Note: the paths are relative to the current file
-        const imageModules = import.meta.glob('/public/img/style/**/*.{webp,png,jpg,jpeg}', { eager: true });
+        // Removing `{ eager: true }` prevents Vite from parsing the images as JS modules on load
+        const imageModules = import.meta.glob('/public/img/style/**/*.{webp,png,jpg,jpeg}');
         
         const newManifest: Record<string, Record<string, string[]>> = {};
 
@@ -112,11 +112,16 @@ class DataService {
                 this.simpleArray[modelId].push(displayName);
             });
 
-            // Add excluded artists to search for context
-            excludedArtists.forEach(excl => {
-                const displayName = formatArtistNameForSearch(excl.Name, excl.FirstName);
-                this.searchArray[modelId].push({ displayName, status: excl.Code });
-                this.simpleArray[modelId].push(displayName);
+            // Add artists without images (e.g., Excluded items) to search for context
+            this.allArtistsMetadata.forEach(artist => {
+                if (!matchedImageFilenames.has(artist.Image) && artist.Category.startsWith('Excluded')) {
+                    const displayName = formatArtistNameForSearch(artist.Name);
+                    // Extract the code from "Excluded (204)", or default to 500
+                    const match = artist.Category.match(/\((\d+)\)/);
+                    const code = match ? parseInt(match[1]) : 500;
+                    this.searchArray[modelId].push({ displayName, status: code, original: artist });
+                    this.simpleArray[modelId].push(displayName);
+                }
             });
         });
     }
@@ -218,7 +223,7 @@ class DataService {
             });
         }
 
-        const similarExcluded: (ExcludedArtist & { displayName: string })[] = [];
+        const similarExcluded: { displayName: string; Name: string; Code: string; Extrainfo: string }[] = [];
         const similarAvailable: { name: string; status: number }[] = [];
 
         if (normalizedQuery && filtered.length === 0) {
@@ -228,8 +233,13 @@ class DataService {
                     const searchItem = (this.searchArray[this.activeModel] || []).find(item => item.displayName === rating.target);
                     if (searchItem) {
                         if (searchItem.status !== 200) {
-                            const excl = excludedArtists.find(e => formatArtistNameForSearch(e.Name, e.FirstName) === searchItem.displayName);
-                            if (excl) similarExcluded.push({ ...excl, displayName: searchItem.displayName });
+                            const artist = searchItem.original as Artist | undefined;
+                            similarExcluded.push({ 
+                                displayName: searchItem.displayName, 
+                                Name: artist?.Name || searchItem.displayName,
+                                Code: searchItem.status.toString(),
+                                Extrainfo: artist?.Category || ''
+                            });
                         } else {
                             similarAvailable.push({ name: searchItem.displayName, status: 200 });
                         }

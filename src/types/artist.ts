@@ -12,9 +12,3 @@ export interface Artist {
     Model: ModelType;
 }
 
-export interface ExcludedArtist {
-    Name: string;
-    FirstName: string;
-    Code: string;
-    Extrainfo: string;
-}

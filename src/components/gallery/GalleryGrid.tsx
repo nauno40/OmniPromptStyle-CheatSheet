@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { StyleCard } from '../ui/StyleCard';
-import type { Artist, ExcludedArtist } from '../../types/artist';
+import type { Artist } from '../../types/artist';
 import styles from './GalleryGrid.module.css';
 
 interface GalleryGridProps {
     artists: Artist[];
     onSelectArtist: (id: string) => void;
-    similarExcluded: (ExcludedArtist & { displayName: string })[];
+    similarExcluded: { displayName: string; Name: string; Code: string; Extrainfo: string }[];
     similarAvailable: { name: string; status: number }[];
     onSimilarClick: (name: string) => void;
     searchQuery: string;
