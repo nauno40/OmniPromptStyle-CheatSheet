@@ -26,10 +26,11 @@ export const GalleryGrid: React.FC<GalleryGridProps> = ({
     const [visibleCount, setVisibleCount] = useState(40);
     const observerTarget = useRef<HTMLDivElement>(null);
 
-    // Reset visible count when the source array changes (e.g. new search or filter)
-    useEffect(() => {
+    const [prevArtists, setPrevArtists] = useState(artists);
+    if (artists !== prevArtists) {
+        setPrevArtists(artists);
         setVisibleCount(40);
-    }, [artists]);
+    }
 
     useEffect(() => {
         const observer = new IntersectionObserver(

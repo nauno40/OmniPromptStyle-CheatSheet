@@ -936,7 +936,7 @@ export const excludedArtists: ExcludedArtist[] = [
         "Name": "Buoninsegna",
         "FirstName": "Duccio di",
         "Code": "301",
-        "Extrainfo": "lots of architecture\/arches"
+        "Extrainfo": "lots of architecture/arches"
     },
     {
         "Name": "Burg",
@@ -1968,7 +1968,7 @@ export const excludedArtists: ExcludedArtist[] = [
         "Name": "Dyck",
         "FirstName": "Floris van",
         "Code": "204",
-        "Extrainfo": "have to prompt explicitly for still life, then just flowers, no food\/cheese"
+        "Extrainfo": "have to prompt explicitly for still life, then just flowers, no food/cheese"
     },
     {
         "Name": "Dykov",
@@ -4098,7 +4098,7 @@ export const excludedArtists: ExcludedArtist[] = [
         "Name": "Lagrange",
         "FirstName": "Marc",
         "Code": "205",
-        "Extrainfo": "difficult to get good faces and\/or eyes. might be worth another try with a photo checkpoint"
+        "Extrainfo": "difficult to get good faces and/or eyes. might be worth another try with a photo checkpoint"
     },
     {
         "Name": "Lang",
@@ -6390,7 +6390,7 @@ export const excludedArtists: ExcludedArtist[] = [
         "Name": "Razell",
         "FirstName": "Aliza",
         "Code": "204",
-        "Extrainfo": "just monochrome photos, no watercolor\/paint - too generic"
+        "Extrainfo": "just monochrome photos, no watercolor/paint - too generic"
     },
     {
         "Name": "Razumovsky",

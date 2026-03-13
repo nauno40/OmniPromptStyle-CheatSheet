@@ -24,6 +24,7 @@ export const useGallery = () => {
 
     const searchResults = useMemo(() => {
         return dataService.search(searchQuery, favorites, selectedCategory, selectedSpecialFilter, selectedCheckpoint);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [searchQuery, favorites, selectedCategory, selectedSpecialFilter, selectedCheckpoint, activeModel]);
 
     const toggleFavorite = useCallback((id: string) => {
@@ -35,8 +36,11 @@ export const useGallery = () => {
         setSelectedArtist(id);
     }, []);
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const styleCount = useMemo(() => dataService.getArtists().length, [activeModel, selectedCheckpoint]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const categories = useMemo(() => dataService.getCategories(), [activeModel]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     const checkpoints = useMemo(() => dataService.getCheckpoints(), [activeModel]);
 
     const similarExcluded = useMemo(() => searchResults.similarExcluded, [searchResults]);

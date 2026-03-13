@@ -25,7 +25,7 @@ class DataService {
     private activeCheckpoint: string | null = null;
 
     private datasets: Record<string, Artist[]> = {};
-    private searchArray: Record<string, { displayName: string; status: number | string; original?: any }[]> = {};
+    private searchArray: Record<string, { displayName: string; status: number | string; original?: unknown }[]> = {};
     private simpleArray: Record<string, string[]> = {};
 
     constructor() {
@@ -217,8 +217,8 @@ class DataService {
             });
         }
 
-        let similarExcluded: (ExcludedArtist & { displayName: string })[] = [];
-        let similarAvailable: { name: string; status: number }[] = [];
+        const similarExcluded: (ExcludedArtist & { displayName: string })[] = [];
+        const similarAvailable: { name: string; status: number }[] = [];
 
         if (normalizedQuery && filtered.length === 0) {
             const matches = stringSimilarity.findBestMatch(query, this.simpleArray[this.activeModel] || []);

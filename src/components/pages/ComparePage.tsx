@@ -5,6 +5,7 @@ import { useComparison } from '../../hooks/useComparison';
 import { dataService } from '../../services/dataService';
 import { resolveImagePath } from '../../utils/imageUtils';
 import { clsx } from 'clsx';
+import type { Artist } from '../../types/artist';
 import styles from './ComparePage.module.css';
 
 export const ComparePage: React.FC = () => {
@@ -17,7 +18,7 @@ export const ComparePage: React.FC = () => {
         setTimeout(() => setCopyKey(null), 2000);
     };
 
-    const toggleVersion = (artist: any, modelId: string, checkpointId: string | null) => {
+    const toggleVersion = (artist: Artist, modelId: string, checkpointId: string | null) => {
         const compareId = `${artist.Creation}-${modelId}-${checkpointId || 'none'}`;
         const inComp = items.find(i => i.id === compareId);
         
@@ -134,7 +135,7 @@ export const ComparePage: React.FC = () => {
 
                             <div className={styles.versionList}>
                                 {displayedVersions.map((v) => {
-                                    const imageUrl = resolveImagePath(v as any);
+                                    const imageUrl = resolveImagePath(v as Artist);
                                     return (
                                         <div key={v.compareId} className={styles.versionImageStrip}>
                                             <div className={styles.overlayLabel}>

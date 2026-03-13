@@ -18,7 +18,7 @@ const App: React.FC = () => {
   const selectedArtistData = useMemo(() => {
     if (!galleryState.selectedArtist) return null;
     return dataService.getArtistById(galleryState.selectedArtist);
-  }, [galleryState.selectedArtist, galleryState.activeModel]);
+  }, [galleryState.selectedArtist]);
 
   return (
     <Router>

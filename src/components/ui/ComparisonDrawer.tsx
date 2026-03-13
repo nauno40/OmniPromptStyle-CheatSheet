@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { X, Trash2, Copy, ExternalLink, GitCompare } from 'lucide-react';
+import { X, Trash2, Copy, GitCompare } from 'lucide-react';
 import type { ComparisonItem } from '../../types/comparison';
 import { clsx } from 'clsx';
 import styles from './ComparisonDrawer.module.css';

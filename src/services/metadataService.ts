@@ -21,25 +21,25 @@ class MetadataService {
             const tags = await ExifReader.load(file);
 
             // Check common SD metadata tags
-            const userComment = tags.UserComment as any;
+            const userComment = tags.UserComment as { value?: unknown };
             if (userComment && userComment.value) {
                 const comment = this.decodeUnicode(userComment.value as number[]);
                 if (comment) return this.parseA1111(comment);
             }
 
-            const parameters = tags.parameters as any;
+            const parameters = tags.parameters as { description?: string };
             if (parameters && parameters.description) {
                 const params = parameters.description;
                 if (params) return this.parseA1111(params);
             }
 
-            const prompt = tags.prompt as any;
+            const prompt = tags.prompt as { value?: string };
             if (prompt && prompt.value) {
                 try {
                     const comfyPrompt = JSON.parse(prompt.value as string);
                     return this.parseComfy(comfyPrompt);
-                } catch (e) {
-                    console.error("Failed to parse ComfyUI prompt", e);
+                } catch {
+                    console.error("Failed to parse ComfyUI prompt");
                 }
             }
 
@@ -60,7 +60,7 @@ class MetadataService {
         try {
             const hex = plain.replace(/^554e49434f44450[0-9]/, '').replace(/[0-9a-f]{4}/g, ',0x$&').replace(/^,/, '');
             return hex.split(',').map(v => String.fromCodePoint(parseInt(v, 16))).join('');
-        } catch (e) {
+        } catch {
             return null;
         }
     }
@@ -101,15 +101,15 @@ class MetadataService {
         return metadata;
     }
 
-    private parseComfy(json: any): SDMetadata {
+    private parseComfy(json: Record<string, unknown>): SDMetadata {
         const metadata: SDMetadata = { ui: 'ComfyUI', others: {}, originalMD: JSON.stringify(json, null, 2) };
 
         // ComfyUI metadata is node-based and highly variable. 
         // We'll flatten it for display as in the original site logic.
-        const flatten = (obj: any, prefix = '') => {
+        const flatten = (obj: Record<string, unknown>, prefix = '') => {
             for (const key in obj) {
                 if (typeof obj[key] === 'object' && obj[key] !== null) {
-                    flatten(obj[key], `${prefix}${key}.`);
+                    flatten(obj[key] as Record<string, unknown>, `${prefix}${key}.`);
                 } else {
                     metadata.others![`${prefix}${key}`] = String(obj[key]);
                 }
