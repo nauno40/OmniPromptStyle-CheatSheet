@@ -60,13 +60,6 @@ class DataService {
         this.activeModel = models[0] || '';
     }
 
-    private parseArtistNameFromFilename(filename: string): string {
-        const nameWithoutExt = filename.replace(/\.(webp|png|jpg|jpeg)$/i, '');
-        // Replace dashes and underscores with spaces
-        const parts = nameWithoutExt.split(/[-_]/).filter(p => p.length > 0);
-        return parts.join(' ');
-    }
-
     private init() {
         Object.keys(this.manifest).forEach(modelId => {
             this.datasets[modelId] = [];
@@ -92,40 +85,22 @@ class DataService {
                 }
             });
 
-            // 2. Process remaining available images (Hybrid matching or Virtual Artists)
+            // 2. Process remaining available images (Check if they match metadata name)
             availableImages.forEach(filename => {
                 if (matchedImageFilenames.has(filename)) return;
 
-                const parsedName = this.parseArtistNameFromFilename(filename);
+                const nameFromFilename = filename.replace(/\.(webp|png|jpg|jpeg)$/i, '').replace(/[-_]/g, ' ').toLowerCase();
                 
-                // Try to find by parsed name in metadata (if not already matched)
+                // Try to find by name in metadata (if not already matched)
                 const metadataMatch = this.allArtistsMetadata.find(a => 
                     !matchedImageFilenames.has(a.Image) && 
-                    formatArtistNameForSearch(a.Name).toLowerCase() === parsedName.toLowerCase()
+                    formatArtistNameForSearch(a.Name).toLowerCase() === nameFromFilename
                 );
 
                 if (metadataMatch) {
-                    // Update and add the metadata artist
                     const artistWithImage = { ...metadataMatch, Image: filename, Model: modelId };
                     modelArtists.push(artistWithImage);
                     matchedImageFilenames.add(filename);
-                } else {
-                    // Create a Virtual Artist
-                    const virtualArtist: Artist = {
-                        Type: "Unknown",
-                        Name: parsedName,
-                        Born: "",
-                        Death: "",
-                        Prompt: `style of ${parsedName}`,
-                        NPrompt: "",
-                        Category: "Uncategorized",
-                        Checkpoint: "Unknown",
-                        Extrainfo: "Automatically discovered",
-                        Image: filename,
-                        Creation: `virtual-${modelId}-${filename}`,
-                        Model: modelId
-                    };
-                    modelArtists.push(virtualArtist);
                 }
             });
 
@@ -223,7 +198,7 @@ class DataService {
         if (specialFilter === 'Liked') {
             filtered = filtered.filter(a => favorites.includes(a.Creation));
         } else if (specialFilter === 'New') {
-            filtered = filtered.filter(a => !a.Creation.startsWith('virtual-') && Number(a.Creation) > END_OF_VER_1_2_0);
+            filtered = filtered.filter(a => Number(a.Creation) > END_OF_VER_1_2_0);
         } else if (specialFilter === '†') {
             filtered = filtered.filter(a => !!a.Death);
         } else if (specialFilter === 'Random') {
@@ -268,24 +243,14 @@ class DataService {
     public getArtistVersions(artist: Artist): Artist[] {
         const versions: Artist[] = [];
         const artistName = formatArtistNameForSearch(artist.Name).toLowerCase();
-        const isVirtual = artist.Creation.startsWith('virtual-');
 
         Object.keys(this.datasets).forEach(modelId => {
             const modelArtists = this.datasets[modelId];
             modelArtists.forEach(a => {
                 const aName = formatArtistNameForSearch(a.Name).toLowerCase();
-                const aIsVirtual = a.Creation.startsWith('virtual-');
-
-                if (isVirtual) {
-                    // For virtual artists, match by name and virtual status
-                    if (aIsVirtual && aName === artistName) {
-                        versions.push(a);
-                    }
-                } else {
-                    // For metadata artists, match by original Creation ID or Name
-                    if (!aIsVirtual && (a.Creation === artist.Creation || aName === artistName)) {
-                        versions.push(a);
-                    }
+                // Match by original Creation ID or Name
+                if (a.Creation === artist.Creation || aName === artistName) {
+                    versions.push(a);
                 }
             });
         });
