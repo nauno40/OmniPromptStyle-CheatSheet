@@ -1,7 +1,7 @@
 import artists from '../data/artists.json';
 import { excludedArtists } from '../data/excludedArtists';
 import type { Artist, ExcludedArtist } from '../types/artist';
-import { formatArtistNameForSearch, removeDiacritics } from '../utils/stringUtils';
+import { formatArtistNameForSearch, removeDiacritics, generatePromptFromName } from '../utils/stringUtils';
 import stringSimilarity from 'string-similarity';
 
 export interface SearchResult {
@@ -212,7 +212,8 @@ class DataService {
         const normalizedQuery = removeDiacritics(query.toLowerCase().trim());
         if (normalizedQuery) {
             filtered = filtered.filter(artist => {
-                const searchStr = removeDiacritics(`${artist.Name} ${artist.Category} ${artist.Prompt}`).toLowerCase();
+                const dynamicPrompt = generatePromptFromName(artist.Name);
+                const searchStr = removeDiacritics(`${artist.Name} ${artist.Category} ${dynamicPrompt}`).toLowerCase();
                 return searchStr.includes(normalizedQuery);
             });
         }

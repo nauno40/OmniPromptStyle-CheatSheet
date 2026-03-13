@@ -5,6 +5,7 @@ import { createAnchor } from '../../utils/stringUtils';
 import { resolveImagePath } from '../../utils/imageUtils';
 import { useComparison } from '../../hooks/useComparison';
 import { dataService } from '../../services/dataService';
+import { generatePromptFromName } from '../../utils/stringUtils';
 import { clsx } from 'clsx';
 import styles from './StyleCard.module.css';
 
@@ -44,7 +45,7 @@ export const StyleCard: React.FC<StyleCardProps> = React.memo(({
                     artistName: v.Name,
                     category: v.Category,
                     image: v.Image,
-                    prompt: v.Prompt,
+                    prompt: generatePromptFromName(v.Name),
                     modelId: v.Model,
                     checkpointId: v.Checkpoint || null
                 });

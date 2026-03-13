@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Maximize2, Search as SearchIcon, Heart, ChevronLeft, ChevronRight } from 'lucide-react';
 import type { Artist } from '../../types/artist';
 import { resolveImagePath } from '../../utils/imageUtils';
+import { generatePromptFromName } from '../../utils/stringUtils';
 import { clsx } from 'clsx';
 import styles from './ArtistModal.module.css';
 
@@ -28,10 +29,11 @@ export const ArtistModal: React.FC<ArtistModalProps> = ({
     const [isZoomed, setIsZoomed] = useState(false);
     const [currentSlide, setCurrentSlide] = useState(0);
     const imageUrl = resolveImagePath(artist);
+    const dynamicPrompt = generatePromptFromName(artist.Name);
     const artistLookupUrl = `https://www.google.com/search?q=${encodeURIComponent(artist.Name)}`;
 
     const handleCopy = () => {
-        navigator.clipboard.writeText(artist.Prompt);
+        navigator.clipboard.writeText(dynamicPrompt);
         setShowCopyFeedback(true);
         setTimeout(() => setShowCopyFeedback(false), 2000);
     };
@@ -72,7 +74,7 @@ export const ArtistModal: React.FC<ArtistModalProps> = ({
                             COPY PROMPT
                         </label>
                         <div className={styles.promptBox} onClick={handleCopy}>
-                            {artist.Prompt}
+                            {dynamicPrompt}
                             {showCopyFeedback && <span className={styles.copyFeedback}>Copied!</span>}
                         </div>
                     </div>

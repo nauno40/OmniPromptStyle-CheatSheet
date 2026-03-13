@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import { useComparison } from '../../hooks/useComparison';
 import { dataService } from '../../services/dataService';
 import { resolveImagePath } from '../../utils/imageUtils';
+import { generatePromptFromName } from '../../utils/stringUtils';
 import { clsx } from 'clsx';
 import type { Artist } from '../../types/artist';
 import styles from './ComparePage.module.css';
@@ -33,7 +34,7 @@ export const ComparePage: React.FC = () => {
                 artistName: artist.Name,
                 category: artist.Category,
                 image: artist.Image,
-                prompt: artist.Prompt
+                prompt: generatePromptFromName(artist.Name)
             });
         }
     };
@@ -107,10 +108,10 @@ export const ComparePage: React.FC = () => {
                                 <span className={styles.promptLabel}>Prompt</span>
                                 <div 
                                     className={styles.promptBox} 
-                                    onClick={() => handleCopy(baseArtist?.Prompt || '', artistName)}
+                                    onClick={() => handleCopy(generatePromptFromName(baseArtist?.Name || artistName), artistName)}
                                     style={{ position: 'relative', cursor: 'pointer' }}
                                 >
-                                    {baseArtist?.Prompt}
+                                    {generatePromptFromName(baseArtist?.Name || artistName)}
                                     {copyKey === artistName && (
                                         <span className={styles.copyFeedback}>Copied!</span>
                                     )}

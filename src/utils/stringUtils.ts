@@ -28,3 +28,15 @@ export function formatArtistNameForSearch(name: string, firstName?: string): str
     const part2 = cleanName[1];
     return part2 ? `${part2} ${part1}` : part1;
 }
+
+/**
+ * Dynamically generates a prompt from the artist's name.
+ * Assumes the name is formatted as "LastName, FirstName".
+ */
+export function generatePromptFromName(name: string): string {
+    const cleanName = name.replace(/ *\([^)]*\) */g, '').split(',').map(item => item.trim());
+    const part1 = cleanName[0];
+    const part2 = cleanName[1];
+    const formattedName = part2 ? `${part2} ${part1}` : part1;
+    return `style of ${formattedName}`;
+}
