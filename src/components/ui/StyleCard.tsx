@@ -13,7 +13,7 @@ interface StyleCardProps {
     onClick: () => void;
 }
 
-export const StyleCard: React.FC<StyleCardProps> = ({
+export const StyleCard: React.FC<StyleCardProps> = React.memo(({
     artist,
     onClick
 }) => {
@@ -79,4 +79,4 @@ export const StyleCard: React.FC<StyleCardProps> = ({
             </div>
         </div>
     );
-};
+});
