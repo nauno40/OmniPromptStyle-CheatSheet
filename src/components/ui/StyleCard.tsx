@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers, Check } from 'lucide-react';
+import { GitCompare, Check } from 'lucide-react';
 import type { Artist } from '../../types/artist';
 import { createAnchor } from '../../utils/stringUtils';
 import { resolveImagePath } from '../../utils/imageUtils';
@@ -66,9 +66,9 @@ export const StyleCard: React.FC<StyleCardProps> = ({
             <button
                 className={clsx(styles.comparisonToggle, isCompared && styles.comparisonActive)}
                 onClick={toggleComparison}
-                title={isCompared ? "Remove from comparison" : "Add to comparison"}
+                title={isCompared ? "Remove from comparison" : "Add for comparison"}
             >
-                {isCompared ? <Check size={20} /> : <Layers size={20} />}
+                {isCompared ? <Check size={20} /> : <GitCompare size={20} />}
             </button>
 
             <div className={styles.gallery}>

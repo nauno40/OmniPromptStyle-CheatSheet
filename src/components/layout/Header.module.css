@@ -3,51 +3,36 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 140px;
-    padding: 10px 40px 0 40px;
     z-index: 999;
     background-color: var(--bgr-tp);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     display: flex;
     flex-direction: column;
+    padding: 15px 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    min-height: 180px;
 }
 
 .topRow {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.titleLink {
+    text-decoration: none;
 }
 
 .title {
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 2.2rem;
+    font-weight: 800;
     margin: 0;
-    color: var(--ow);
-}
-
-.modelSwitcher {
-    display: flex;
-    gap: 5px;
-}
-
-.modelButton {
-    padding: 6px 12px;
-    font-size: 1.1rem;
-    color: #FFF;
-    background-color: var(--dgr);
-    border: none;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.modelButton:hover {
-    background-color: var(--lg);
-}
-
-.modelActive {
-    background-color: white;
-    color: var(--bgr);
+    color: white;
+    letter-spacing: -0.5px;
 }
 
 .switchers {
@@ -57,86 +42,106 @@
     gap: 8px;
 }
 
-.checkpointSwitcher {
+.modelSwitcher, .checkpointSwitcher {
     display: flex;
-    gap: 5px;
-}
-
-.checkpointButton {
-    padding: 4px 10px;
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.7);
     background-color: rgba(255, 255, 255, 0.05);
+    padding: 3px;
+    border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.modelButton, .checkpointButton {
+    padding: 6px 16px;
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.6);
+    background: none;
+    border: none;
     cursor: pointer;
-    transition: all 0.2s ease;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 700;
+    border-radius: 2px;
 }
 
-.checkpointButton:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+.modelButton:hover, .checkpointButton:hover {
     color: white;
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
-.checkpointActive {
-    background-color: white;
-    color: var(--bgr);
-    border-color: white;
+.modelActive, .checkpointActive {
+    background-color: white !important;
+    color: var(--bgr) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
-.nav {
+.navRow {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 5px;
+    min-height: 50px;
 }
 
 .navList {
     display: flex;
-    gap: 5px;
+    gap: 15px;
     list-style: none;
-    padding: 0;
-    margin: 5px 0 10px 0;
 }
 
 .navLink {
-    display: inline-block;
-    padding: 6px 10px;
-    font-size: 1.35rem;
-    color: #FFF;
-    background-color: var(--dgr);
+    padding: 8px 16px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
-    border-radius: 0;
-    transition: none;
+    font-weight: 700;
+    transition: all 0.2s ease;
+    border-radius: 6px;
 }
 
-.navLink:hover,
-.navActive {
-    background-color: white;
-    color: var(--bgr);
+.navLink:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.05);
     text-decoration: none;
+}
+
+.navActive {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .searchArea {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 15px;
 }
 
 .searchWrapper {
     position: relative;
     display: flex;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 0 12px;
+    transition: all 0.2s ease;
+}
+
+.searchWrapper:focus-within {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.searchIcon {
+    color: rgba(255, 255, 255, 0.4);
+    margin-right: 8px;
 }
 
 .searchInput {
-    padding: 6px 10px;
-    font-size: 1.35rem;
+    padding: 10px 0;
+    font-size: 1rem;
     color: #FFF;
-    background-color: var(--dgr);
     border: none;
-    width: 200px;
+    width: 250px;
+    background: none;
 }
 
 .searchInput::placeholder {
@@ -144,32 +149,47 @@
 }
 
 .filterButton {
-    display: inline-block;
-    padding: 6px 10px;
-    font-size: 1.35rem;
-    color: #FFF;
-    background-color: var(--dgr);
-    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     cursor: pointer;
-    border: none;
-    border-radius: 0;
+    font-weight: 700;
+    border-radius: 8px;
+    transition: all 0.2s ease;
 }
 
 .filterButton:hover,
 .filterActive {
     background-color: white;
     color: var(--bgr);
+    border-color: white;
 }
 
 .clearSearch {
-    position: absolute;
-    right: 0;
-    padding: 5px 10px;
+    padding: 2px 6px;
     font-size: 1.2rem;
-    text-decoration: none;
-    background-color: var(--lg);
-    color: #FFF;
+    color: rgba(255, 255, 255, 0.4);
     cursor: pointer;
-    border: none;
-    border-radius: 0;
+    transition: color 0.2s;
+}
+
+.clearSearch:hover {
+    color: white;
+}
+
+@media (max-width: 1024px) {
+    .topRow {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .switchers {
+        align-items: center;
+    }
+    .navRow {
+        flex-direction: column;
+        gap: 20px;
+    }
 }

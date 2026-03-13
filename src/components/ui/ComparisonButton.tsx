@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layers } from 'lucide-react';
+import { GitCompare } from 'lucide-react';
 import styles from './ComparisonButton.module.css';
 
 interface ComparisonButtonProps {
@@ -12,7 +12,7 @@ export const ComparisonButton: React.FC<ComparisonButtonProps> = ({ count, onCli
 
     return (
         <button className={styles.fab} onClick={onClick} title="Compare Styles">
-            <Layers size={24} />
+            <GitCompare size={24} />
             <span className={styles.badge}>{count}</span>
         </button>
     );

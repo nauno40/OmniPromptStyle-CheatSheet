@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { X, Trash2, Copy, ExternalLink } from 'lucide-react';
+import { X, Trash2, Copy, ExternalLink, GitCompare } from 'lucide-react';
 import type { ComparisonItem } from '../../types/comparison';
 import { clsx } from 'clsx';
 import styles from './ComparisonDrawer.module.css';
@@ -89,7 +89,7 @@ export const ComparisonDrawer: React.FC<ComparisonDrawerProps> = ({
                 {items.length > 0 && (
                     <div className={styles.footer}>
                         <button className={styles.fullViewBtn} onClick={handleFullView}>
-                            <ExternalLink size={18} style={{ marginRight: '8px', verticalAlign: 'middle' }} />
+                            <GitCompare size={18} style={{ marginRight: '8px', verticalAlign: 'middle' }} />
                             View Full Comparison
                         </button>
                         <button className={styles.clearBtn} onClick={onClear}>

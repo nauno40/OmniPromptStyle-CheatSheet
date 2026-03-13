@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { clsx } from 'clsx';
+import { Search } from 'lucide-react';
 import styles from './Header.module.css';
 import type { ModelType } from '../../types/artist';
 import { dataService, type ModelDefinition } from '../../services/dataService';
@@ -37,9 +38,11 @@ export const Header: React.FC<HeaderProps> = ({
     return (
         <header className={styles.header}>
             <div className={styles.topRow}>
-                <h1 className={styles.title}>
-                    OmniPromptStyle - Cheat Sheets
-                </h1>
+                <Link to="/" className={styles.titleLink}>
+                    <h1 className={styles.title}>
+                        OmniPromptStyle - Cheat Sheets
+                    </h1>
+                </Link>
 
                 {isGallery && (
                     <div className={styles.switchers}>
@@ -78,12 +81,12 @@ export const Header: React.FC<HeaderProps> = ({
                 )}
             </div>
 
-            <nav className={styles.nav}>
+            <nav className={styles.navRow}>
                 <ul className={styles.navList}>
                     <li>
                         <Link
                             to="/"
-                            className={clsx(styles.navLink, location.pathname === '/' && !showFilters && styles.navActive)}
+                            className={clsx(styles.navLink, (location.pathname === '/' || location.pathname === '/compare') && !showFilters && styles.navActive)}
                         >
                             Styles
                         </Link>
@@ -123,6 +126,7 @@ export const Header: React.FC<HeaderProps> = ({
                             Filter
                         </button>
                         <div className={styles.searchWrapper}>
+                            <Search size={18} className={styles.searchIcon} />
                             <input
                                 type="text"
                                 className={styles.searchInput}
