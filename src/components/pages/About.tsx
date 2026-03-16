@@ -17,13 +17,13 @@ export const About: React.FC = () => {
             <h3>Credits & Origins</h3>
             <p>A BIG THANK YOU TO</p>
             <p>
-                <a href="https://github.com/andygock" target="_blank" rel="noreferrer"><strong>Andy Gock</strong></a> for the <a href="https://github.com/andygock/FLUX-Style-CheatSheet" target="_blank" rel="noreferrer">FLUX-Style-CheatSheet</a>, which served as the source for all the FLUX styles featured in this database.
+                <strong><a href="https://github.com/SupaGruen" target="_blank" rel="noreferrer">SupaGruen</a></strong> for initiating the original <strong><a href="https://github.com/SupaGruen/StableDiffusion-CheatSheet" target="_blank" rel="noreferrer">Stable Diffusion Cheat Sheet</a></strong> project and generating all the foundational SD 1.5 styles.
             </p>
             <p>
-                Based on the original <a href="https://github.com/SupaGruen/StableDiffusion-CheatSheet" target="_blank" rel="noreferrer">Stable Diffusion Cheat Sheet</a> by <a href="https://github.com/SupaGruen" target="_blank" rel="noreferrer">SupaGruen</a>.
+                <strong><a href="https://github.com/andygock" target="_blank" rel="noreferrer">Andy Gock</a></strong> for the <strong><a href="https://github.com/andygock/FLUX-Style-CheatSheet" target="_blank" rel="noreferrer">FLUX-Style-CheatSheet</a></strong>, which served as the source for all the FLUX styles featured in this database.
             </p>
             <p>
-                Metadata viewing logic adapted from <a href="https://github.com/himuro-majika" target="_blank" rel="noreferrer">Himuro-Majika's</a> <a href="https://github.com/himuro-majika/Stable_Diffusion_image_metadata_viewer" target="_blank" rel="noreferrer">browser extension</a>.
+                Metadata viewing logic adapted from <strong><a href="https://github.com/himuro-majika" target="_blank" rel="noreferrer">Himuro-Majika's</a></strong> <strong><a href="https://github.com/himuro-majika/Stable_Diffusion_image_metadata_viewer" target="_blank" rel="noreferrer">browser extension</a></strong>.
             </p>
             <p>
                 Reading metadata with <a href="https://github.com/mattiasw/ExifReader" target="_blank" rel="noreferrer">ExifReader</a>. Extra search results supported by <a href="https://github.com/aceakash/string-similarity" target="_blank" rel="noreferrer">String-Similarity</a>.
