@@ -1,73 +1,99 @@
-# React + TypeScript + Vite
+# OmniPromptStyle - Cheat Sheets
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![OmniPromptStyle Home](public/img/screenshot_home.png)
 
-Currently, two official plugins are available:
+OmniPromptStyle is a comprehensive visual cheat sheet and reference guide for Stable Diffusion. It helps AI artists and prompt engineers discover, compare, and understand how different models react to hundreds of distinct art styles and artist aesthetics. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Note on Image Generation:** The images showcased in this database are not generated manually one by one. Instead, they are the result of an automated **ComfyUI workflow** designed to systematically test and document each style, providing a clear idea of how different AI models interpret a specific artist's name or aesthetic.
 
-## React Compiler
+## 🌟 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🎨 Massive Style Library
+Browse through a meticulously curated collection of nearly 800 distinct styles and artists. Each entry is visually represented with 4-grid examples across different models to give you a clear idea of the aesthetic impact.
 
-## Expanding the ESLint configuration
+![Artist Styles Library](public/img/screenshot_artists.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🔍 Powerful Filtering & Search
+Easily find exactly what you're looking for. The application includes a versatile search bar and a robust filtering system. Filter styles by medium (Photography, Illustration, Painting), genre (Cyberpunk, Fantasy, Horror), or specific techniques (Charcoal, Watercolor, Oil).
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+![Advanced Filtering Options](public/img/screenshot_filters.png)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 🤖 Multi-Model Comparison
+The core value of this project lies in observing the varied responses of different models to identical artist prompts. By leveraging the automated ComfyUI workflow, OmniPromptStyle systematically generates and compares style examples across different Stable Diffusion architectures, allowing you to easily toggle between:
+- SD 1.5
+- SDXL
+- Flux (FLUX1-DEV)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+![Style Comparison](public/img/screenshot_styles.png)
+
+### 📊 Image Metadata Extractor
+A built-in utility to inspect the metadata of your generated images. Simply drag and drop an image to reveal the hidden Stable Diffusion generation parameters (prompt, negative prompt, seed, steps, etc.) embedded within the file.
+
+![Metadata Extractor](public/img/screenshot_metadata.png)
+
+### 📝 Prompting Notes & Tips
+A dedicated section providing practical prompting advice, syntax tips, and examples for different art forms like photography, drawing, and painting to help you craft better prompts.
+
+![Prompting Notes](public/img/screenshot_notes.png)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed on your system:
+- [Node.js](https://nodejs.org/) (v18 or higher recommended)
+- npm (comes with Node.js)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
+   cd StableDiffusion-CheatSheet
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+### Running the Application Local
+
+1. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+2. **Open your browser:**
+   Navigate to `http://localhost:5173` (or the port specified in your terminal) to view the application.
+
+### Building for Production
+
+To create an optimized production build:
+```bash
+npm run build
 ```
+The compiled assets will be placed in the `dist` directory, ready to be hosted on any static file server.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🛠️ Tech Stack
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+This project is built using modern web technologies:
+- **React 19:** For building dynamic and responsive user interfaces.
+- **Vite:** Next-generation frontend tooling for incredible speed.
+- **TypeScript:** For type-safe code and better developer experience.
+- **Tailwind CSS:** For rapid, utility-first styling.
+- **React Router:** For smooth client-side navigation.
+- **Lucide React:** For clean, scalable iconography.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📄 Scripts included
+
+- `scripts/check_orphan_images.js`: Run `node scripts/check_orphan_images.js` to find images in your image folders that are not referenced in the `artists.json` database.
+
+## ℹ️ About
+
+This project was created to provide a visual and searchable database of styles generated through an automated ComfyUI workflow. Its primary goal is to help AI artists and prompt engineers systematically observe, document, and compare how different models (SD 1.5, SDXL, Flux) react to the exact same artist prompt. It acts as an invaluable reference tool to eliminate guesswork when trying to achieve a specific artistic vision across different generative models.
+
+### Acknowledgments
+A special thanks to the creator of [FLUX-Style-CheatSheet](https://github.com/andygock/FLUX-Style-CheatSheet) for generating all the FLUX styles that are featured in this database.
+
+![About Page](public/img/screenshot_about.png)

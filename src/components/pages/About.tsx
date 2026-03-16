@@ -5,22 +5,25 @@ export const About: React.FC = () => {
         <section id="about">
             <h3>Data and Documentation</h3>
             <p>
-                OmniPromptStyle is designed as a universal reference for AI image generation styles, supporting multiple models such as Stable Diffusion, FLUX, and others.
+                OmniPromptStyle is designed as a visual and searchable database of styles generated through an automated <strong>ComfyUI workflow</strong>.
             </p>
             <p style={{ display: 'inline-block', margin: 0, padding: '10px', backgroundColor: 'var(--dgr)' }}>
-                This project aims to provide a centralized hub for artists and prompters to explore visual styles across different latent diffusion architectures.
+                Its primary goal is to help AI artists systematically observe, document, and compare how different models (SD 1.5, SDXL, Flux) react to the exact same artist prompt.
             </p>
             <p style={{ marginTop: '1rem' }}>
-                Originally focused on Stable Diffusion 1.5, the platform is evolving to become a model-agnostic guide for the generative art community.
+                It acts as an invaluable reference tool to eliminate guesswork when trying to achieve a specific artistic vision across different generative models.
             </p>
 
             <h3>Credits & Origins</h3>
             <p>A BIG THANK YOU TO</p>
             <p>
-                Based on the original <a href="https://github.com/SupaGruen/StableDiffusion-CheatSheet" target="_blank" rel="noreferrer">Stable Diffusion Cheat Sheet</a> by SupaGruen.
+                <a href="https://github.com/andygock" target="_blank" rel="noreferrer"><strong>Andy Gock</strong></a> for the <a href="https://github.com/andygock/FLUX-Style-CheatSheet" target="_blank" rel="noreferrer">FLUX-Style-CheatSheet</a>, which served as the source for all the FLUX styles featured in this database.
             </p>
             <p>
-                Metadata viewing logic adapted from Himuro-Majika's <a href="https://github.com/himuro-majika/Stable_Diffusion_image_metadata_viewer" target="_blank" rel="noreferrer">browser extension</a>.
+                Based on the original <a href="https://github.com/SupaGruen/StableDiffusion-CheatSheet" target="_blank" rel="noreferrer">Stable Diffusion Cheat Sheet</a> by <a href="https://github.com/SupaGruen" target="_blank" rel="noreferrer">SupaGruen</a>.
+            </p>
+            <p>
+                Metadata viewing logic adapted from <a href="https://github.com/himuro-majika" target="_blank" rel="noreferrer">Himuro-Majika's</a> <a href="https://github.com/himuro-majika/Stable_Diffusion_image_metadata_viewer" target="_blank" rel="noreferrer">browser extension</a>.
             </p>
             <p>
                 Reading metadata with <a href="https://github.com/mattiasw/ExifReader" target="_blank" rel="noreferrer">ExifReader</a>. Extra search results supported by <a href="https://github.com/aceakash/string-similarity" target="_blank" rel="noreferrer">String-Similarity</a>.
