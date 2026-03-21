@@ -21,7 +21,7 @@ const App: React.FC = () => {
   }, [galleryState.selectedArtist]);
 
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <Layout galleryState={galleryState}>
         {() => (
           <Routes>
