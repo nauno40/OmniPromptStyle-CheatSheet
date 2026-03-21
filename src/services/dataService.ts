@@ -41,13 +41,11 @@ class DataService {
         const newManifest: Record<string, Record<string, string[]>> = {};
 
         Object.keys(imageModules).forEach(fullPath => {
-            // Path format: /public/img/style/Model/Checkpoint/Artist.webp
-            const parts = fullPath.split('/');
-            // Parts: ["", "public", "img", "style", "Model", "Checkpoint", "Artist.webp"]
-            if (parts.length >= 7) {
-                const model = parts[4];
-                const checkpoint = parts[5];
-                const filename = parts[parts.length - 1];
+            const match = fullPath.match(/\/style\/([^/]+)\/([^/]+)\/([^/]+)$/);
+            if (match) {
+                const model = match[1];
+                const checkpoint = match[2];
+                const filename = match[3];
 
                 if (!newManifest[model]) newManifest[model] = {};
                 if (!newManifest[model][checkpoint]) newManifest[model][checkpoint] = [];

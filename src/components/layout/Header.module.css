@@ -13,6 +13,24 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     min-height: 180px;
+    overflow: hidden; /* To contain the rotated wavy background */
+}
+
+/* AFK Journey Wavy Watermark for the header */
+.header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 1;
+    background-image: url("data:image/svg+xml,%3Csvg width='120' height='45' viewBox='0 0 120 45' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M 0 15 C 40 -5, 80 35, 120 15' fill='none' stroke='rgba(255,255,255,0.035)' stroke-width='2'/%3E%3Cpath d='M 0 30 C 40 10, 80 50, 120 30' fill='none' stroke='rgba(255,255,255,0.02)' stroke-width='1.5'/%3E%3Cpath d='M 0 45 C 40 25, 80 65, 120 45' fill='none' stroke='rgba(255,255,255,0.025)' stroke-width='1'/%3E%3C/svg%3E");
+    background-size: 120px 45px;
+    background-repeat: repeat;
+    transform: rotate(-20deg);
 }
 
 .topRow {

@@ -11,6 +11,7 @@ import { About } from './components/pages/About';
 import { ComparePage } from './components/pages/ComparePage';
 import { useGallery } from './hooks/useGallery';
 import { dataService } from './services/dataService';
+import { WaveBackground } from './components/ui/WaveBackground';
 
 const App: React.FC = () => {
   const galleryState = useGallery();
@@ -21,8 +22,10 @@ const App: React.FC = () => {
   }, [galleryState.selectedArtist]);
 
   return (
-    <Router basename={import.meta.env.BASE_URL}>
-      <Layout galleryState={galleryState}>
+    <>
+      <WaveBackground />
+      <Router basename={import.meta.env.BASE_URL}>
+        <Layout galleryState={galleryState}>
         {() => (
           <Routes>
             <Route path="/" element={
@@ -69,6 +72,7 @@ const App: React.FC = () => {
 
       <div id="modal-root"></div>
     </Router>
+    </>
   );
 };
 
