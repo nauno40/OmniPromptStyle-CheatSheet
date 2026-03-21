@@ -10,6 +10,8 @@
     overflow: hidden;
     cursor: pointer;
     background-repeat: no-repeat;
+    content-visibility: auto;
+    contain-intrinsic-size: 300px;
 }
 
 .cardTitle {

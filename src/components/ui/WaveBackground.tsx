@@ -18,7 +18,8 @@ export const WaveBackground: React.FC = () => {
             backgroundImage: `url("${svgPattern}")`,
             backgroundSize: '120px 45px',
             backgroundRepeat: 'repeat',
-            transform: 'rotate(-20deg)', // Adds the stylish diagonal slant
+            transform: 'rotate(-20deg) translateZ(0)', // Hardware acceleration
+            willChange: 'transform',
         }} />
     );
 };
