@@ -94,6 +94,8 @@ This project is built using modern web technologies:
 This project was created to provide a visual and searchable database of styles generated through an automated ComfyUI workflow. Its primary goal is to help AI artists and prompt engineers systematically observe, document, and compare how different models (SD 1.5, SDXL, Flux) react to the exact same artist prompt. It acts as an invaluable reference tool to eliminate guesswork when trying to achieve a specific artistic vision across different generative models.
 
 ### Acknowledgments
+First and foremost, a massive thank you to [SupaGruen](https://github.com/SupaGruen/StableDiffusion-CheatSheet) for creating the original project architecture and providing the foundational SD 1.5 generations. This project originated from their incredible work.
+
 A special thanks to the creator of [FLUX-Style-CheatSheet](https://github.com/andygock/FLUX-Style-CheatSheet) for generating all the FLUX styles that are featured in this database.
 
 ![About Page](public/img/screenshot_about.png)
