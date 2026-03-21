@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useDeferredValue } from 'react';
 import { dataService } from '../services/dataService';
 import { favoriteService } from '../services/favoriteService';
 import type { ModelType } from '../types/artist';
@@ -6,6 +6,7 @@ import type { ModelType } from '../types/artist';
 export const useGallery = () => {
     const [activeModel, setActiveModelState] = useState<ModelType>(() => dataService.getActiveModel());
     const [searchQuery, setSearchQuery] = useState('');
+    const deferredSearchQuery = useDeferredValue(searchQuery);
     const [favorites, setFavorites] = useState<string[]>(() => favoriteService.getFavorites());
     const [showFilters, setShowFilters] = useState(false);
     const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
@@ -23,9 +24,9 @@ export const useGallery = () => {
     }, []);
 
     const searchResults = useMemo(() => {
-        return dataService.search(searchQuery, favorites, selectedCategory, selectedSpecialFilter, selectedCheckpoint);
+        return dataService.search(deferredSearchQuery, favorites, selectedCategory, selectedSpecialFilter, selectedCheckpoint);
         // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [searchQuery, favorites, selectedCategory, selectedSpecialFilter, selectedCheckpoint, activeModel]);
+    }, [deferredSearchQuery, favorites, selectedCategory, selectedSpecialFilter, selectedCheckpoint, activeModel]);
 
     const toggleFavorite = useCallback((id: string) => {
         const newFavorites = favoriteService.toggleFavorite(id);

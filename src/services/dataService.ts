@@ -77,9 +77,27 @@ class DataService {
             // 1. Match by explicit Image property in metadata
             this.allArtistsMetadata.forEach(artist => {
                 if (availableImages.has(artist.Image)) {
-                    const artistWithModel = { ...artist, Model: modelId };
+                    const dynamicPrompt = generatePromptFromName(artist.Name);
+                    const searchStr = removeDiacritics(`${artist.Name} ${artist.Category} ${dynamicPrompt}`).toLowerCase();
+                    
+                    const artistWithModel = { 
+                        ...artist, 
+                        Model: modelId,
+                        SearchString: searchStr
+                    };
                     modelArtists.push(artistWithModel);
                     matchedImageFilenames.add(artist.Image);
+                }
+            });
+
+            // Precalculate normalized names for O(1) matching instead of O(N*M) heavy string operations
+            const metadataNameMap: Record<string, Artist> = {};
+            this.allArtistsMetadata.forEach(a => {
+                if (!matchedImageFilenames.has(a.Image)) {
+                    const normalizedName = formatArtistNameForSearch(a.Name).toLowerCase();
+                    if (!metadataNameMap[normalizedName]) {
+                        metadataNameMap[normalizedName] = a;
+                    }
                 }
             });
 
@@ -89,16 +107,22 @@ class DataService {
 
                 const nameFromFilename = filename.replace(/\.(webp|png|jpg|jpeg)$/i, '').replace(/[-_]/g, ' ').toLowerCase();
                 
-                // Try to find by name in metadata (if not already matched)
-                const metadataMatch = this.allArtistsMetadata.find(a => 
-                    !matchedImageFilenames.has(a.Image) && 
-                    formatArtistNameForSearch(a.Name).toLowerCase() === nameFromFilename
-                );
+                // Try to find by name in metadata (O(1) lookup)
+                const metadataMatch = metadataNameMap[nameFromFilename];
 
                 if (metadataMatch) {
-                    const artistWithImage = { ...metadataMatch, Image: filename, Model: modelId };
+                    const dynamicPrompt = generatePromptFromName(metadataMatch.Name);
+                    const searchStr = removeDiacritics(`${metadataMatch.Name} ${metadataMatch.Category} ${dynamicPrompt}`).toLowerCase();
+                    
+                    const artistWithImage = { 
+                        ...metadataMatch, 
+                        Image: filename, 
+                        Model: modelId,
+                        SearchString: searchStr
+                    };
                     modelArtists.push(artistWithImage);
                     matchedImageFilenames.add(filename);
+                    delete metadataNameMap[nameFromFilename]; // Remove so it's not matched twice
                 }
             });
 
@@ -215,9 +239,16 @@ class DataService {
         const normalizedQuery = removeDiacritics(query.toLowerCase().trim());
         if (normalizedQuery) {
             filtered = filtered.filter(artist => {
+                // Use pre-computed SearchString for instant lookups
+                // @ts-ignore: added dynamically during init
+                const searchStr = artist.SearchString;
+                if (searchStr) {
+                    return searchStr.includes(normalizedQuery);
+                }
+                // Fallback (should theoretically never hit since it's added in init)
                 const dynamicPrompt = generatePromptFromName(artist.Name);
-                const searchStr = removeDiacritics(`${artist.Name} ${artist.Category} ${dynamicPrompt}`).toLowerCase();
-                return searchStr.includes(normalizedQuery);
+                const str = removeDiacritics(`${artist.Name} ${artist.Category} ${dynamicPrompt}`).toLowerCase();
+                return str.includes(normalizedQuery);
             });
         }
 

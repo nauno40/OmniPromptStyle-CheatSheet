@@ -57,9 +57,14 @@ export const StyleCard: React.FC<StyleCardProps> = React.memo(({
         <div
             id={anchor}
             className={styles.stylepod}
-            style={{ backgroundImage: `url("${imageUrl}")` }}
             onClick={onClick}
         >
+            <img 
+                src={imageUrl} 
+                alt={artist.Name} 
+                loading="lazy" 
+                className={styles.cardImage} 
+            />
             <h3 className={styles.cardTitle}>
                 {artist.Name}{artist.Death ? '†' : ''}
             </h3>
