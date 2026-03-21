@@ -159,24 +159,29 @@ export const Notes: React.FC = () => {
 
     const calculateDim = (ratio: number) => Math.round(baseSize * ratio);
 
+    const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+
     const renderGallery = (title: string, examples: typeof MEDIA_EXAMPLES) => (
         <>
             <h4>{title}</h4>
             <div className={styles.examplegallery}>
-                {examples.map(ex => (
-                    <figure key={ex.name} className={styles.example}>
-                        <a href={ex.path} target="_blank" rel="noreferrer">
-                            <img src={ex.path} alt={ex.name} />
-                        </a>
-                        <figcaption
-                            className={styles.caption}
-                            onClick={() => copyToClipboard(ex.name)}
-                            title="Click to copy"
-                        >
-                            {ex.name}
-                        </figcaption>
-                    </figure>
-                ))}
+                {examples.map(ex => {
+                    const fullPath = `${baseUrl}${ex.path}`;
+                    return (
+                        <figure key={ex.name} className={styles.example}>
+                            <a href={fullPath} target="_blank" rel="noreferrer">
+                                <img src={fullPath} alt={ex.name} />
+                            </a>
+                            <figcaption
+                                className={styles.caption}
+                                onClick={() => copyToClipboard(ex.name)}
+                                title="Click to copy"
+                            >
+                                {ex.name}
+                            </figcaption>
+                        </figure>
+                    );
+                })}
             </div>
         </>
     );

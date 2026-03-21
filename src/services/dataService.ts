@@ -270,11 +270,14 @@ class DataService {
     }
 
     public resolveImagePath(artist: Artist): string {
+        const baseUrl = import.meta.env.BASE_URL;
+        const cleanBaseUrl = baseUrl.endsWith('/') ? baseUrl.slice(0, -1) : baseUrl;
+
         const targetModel = artist.Model || this.activeModel;
         const modelData = this.manifest[targetModel];
         if (!modelData) {
              // Fallback to simple path if manifest missing but image exists
-             return `/img/${artist.Image}`;
+             return `${cleanBaseUrl}/img/${artist.Image}`;
         }
 
         // Find which checkpoint contains this image in the target model
@@ -293,7 +296,7 @@ class DataService {
 
         if (!checkpoint) checkpoint = Object.keys(modelData)[0];
 
-        return `/img/style/${targetModel}/${checkpoint}/${artist.Image}`;
+        return `${cleanBaseUrl}/img/style/${targetModel}/${checkpoint}/${artist.Image}`;
     }
 }
 
