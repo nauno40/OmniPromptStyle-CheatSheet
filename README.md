@@ -4,7 +4,7 @@
 
 OmniPromptStyle is a comprehensive visual cheat sheet and reference guide for Stable Diffusion. It helps AI artists and prompt engineers discover, compare, and understand how different models react to hundreds of distinct art styles and artist aesthetics. 
 
-**Note on Image Generation:** The images showcased in this database are not generated manually one by one. Instead, they are the result of an automated **ComfyUI workflow** designed to systematically test and document each style, providing a clear idea of how different AI models interpret a specific artist's name or aesthetic.
+**Note on Image Generation:** The images showcased in this database are purely the result of an automated **ComfyUI workflow** and are **not manually curated or verified**. They are generated and provided "as-is" simply to give you a broad, unedited idea of whether a given AI model actually knows the artist and how well it adheres to their specific aesthetic.
 
 ## 🌟 Key Features
 
