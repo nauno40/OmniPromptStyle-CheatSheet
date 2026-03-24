@@ -35,18 +35,14 @@ export const About: React.FC = () => {
             <h3>Community and Tools</h3>
             <p>The generative AI ecosystem is built on incredible open-source tools:</p>
             <ul>
+                <li><a href="https://github.com/comfyanonymous/ComfyUI" target="_blank" rel="noreferrer">ComfyUI</a></li>
                 <li><a href="https://github.com/AUTOMATIC1111/stable-diffusion-webui" target="_blank" rel="noreferrer">Automatic1111 Web UI</a></li>
                 <li><a href="https://ommer-lab.com/research/latent-diffusion-models/" target="_blank" rel="noreferrer">LMU</a> & <a href="https://stability.ai/" target="_blank" rel="noreferrer">Stability.ai</a></li>
                 <li><a href="https://blackforestlabs.ai/" target="_blank" rel="noreferrer">Black Forest Labs (FLUX)</a></li>
             </ul>
 
-            <h3>Errors</h3>
-            <p>
-                All information has been collected with the utmost care, however, mistakes happen. Location information is sometimes difficult when artists move very early in life, or the indication of the era, if the lifetime falls between two centuries.
-            </p>
-
             <footer>
-                OmniPromptStyle - Cheat Sheets - <a href="https://github.com/SupaGruen/StableDiffusion-CheatSheet">Original Source</a>
+                OmniPromptStyle - Cheat Sheets - <a href="https://github.com/nauno40/OmniPromptStyle-CheatSheet">Github</a>
             </footer>
         </section>
     );
