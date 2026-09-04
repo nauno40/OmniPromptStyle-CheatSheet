@@ -33,7 +33,7 @@ export const ComparePage: React.FC = () => {
                 checkpointId: checkpointId,
                 artistName: artist.Name,
                 category: artist.Category,
-                image: artist.Image,
+                image: resolveImagePath(artist),
                 prompt: generatePromptFromName(artist.Name)
             });
         }

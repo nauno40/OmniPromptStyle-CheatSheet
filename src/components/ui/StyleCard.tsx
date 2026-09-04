@@ -44,7 +44,7 @@ export const StyleCard: React.FC<StyleCardProps> = React.memo(({
                     artistId: v.Creation,
                     artistName: v.Name,
                     category: v.Category,
-                    image: v.Image,
+                    image: resolveImagePath(v),
                     prompt: generatePromptFromName(v.Name),
                     modelId: v.Model,
                     checkpointId: v.Checkpoint || null
