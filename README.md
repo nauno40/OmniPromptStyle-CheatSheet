@@ -88,6 +88,7 @@ This project is built using modern web technologies:
 ## 📄 Scripts included
 
 - `scripts/check_orphan_images.js`: Run `node scripts/check_orphan_images.js` to find images in your image folders that are not referenced in the `artists.json` database.
+- `scripts/generation/`: Python scripts driving a local ComfyUI instance to batch-generate the 2×2 comparison grids for each model tier (Krea2 Turbo/RAW, Flux.2 Klein 9B, SD3.5 Large). See [scripts/generation/README.md](scripts/generation/README.md) for model files, sampler settings, and usage.
 
 ## ℹ️ About
 
