@@ -24,6 +24,7 @@ class DataService {
     private activeCheckpoint: string | null = null;
 
     private datasets: Record<string, Artist[]> = {};
+    private checkpointDatasets: Record<string, Record<string, Artist[]>> = {};
     private searchArray: Record<string, { displayName: string; status: number | string; original?: unknown }[]> = {};
     private simpleArray: Record<string, string[]> = {};
 
@@ -58,9 +59,72 @@ class DataService {
         this.activeModel = models[0] || '';
     }
 
+    // Matches metadata artists (by Image, then by fuzzy name) against a set of available
+    // image filenames, tagging each resulting Artist with Model/Checkpoint/SearchString.
+    // `checkpointOf` decides which checkpoint each matched filename is attributed to.
+    private buildArtistList(availableImages: Set<string>, modelId: string, checkpointOf: (filename: string) => string): Artist[] {
+        const matchedImageFilenames = new Set<string>();
+        const result: Artist[] = [];
+
+        // 1. Match by explicit Image property in metadata
+        this.allArtistsMetadata.forEach(artist => {
+            if (availableImages.has(artist.Image)) {
+                const dynamicPrompt = generatePromptFromName(artist.Name);
+                const searchStr = removeDiacritics(`${artist.Name} ${artist.Category} ${dynamicPrompt}`).toLowerCase();
+
+                const artistWithModel = {
+                    ...artist,
+                    Model: modelId,
+                    Checkpoint: checkpointOf(artist.Image),
+                    SearchString: searchStr
+                };
+                result.push(artistWithModel);
+                matchedImageFilenames.add(artist.Image);
+            }
+        });
+
+        // Precalculate normalized names for O(1) matching instead of O(N*M) heavy string operations
+        const metadataNameMap: Record<string, Artist> = {};
+        this.allArtistsMetadata.forEach(a => {
+            if (!matchedImageFilenames.has(a.Image)) {
+                const normalizedName = formatArtistNameForSearch(a.Name).toLowerCase();
+                if (!metadataNameMap[normalizedName]) {
+                    metadataNameMap[normalizedName] = a;
+                }
+            }
+        });
+
+        // 2. Process remaining available images (Check if they match metadata name)
+        availableImages.forEach(filename => {
+            if (matchedImageFilenames.has(filename)) return;
+
+            const nameFromFilename = filename.replace(/\.(webp|png|jpg|jpeg)$/i, '').replace(/[-_]/g, ' ').toLowerCase();
+
+            // Try to find by name in metadata (O(1) lookup)
+            const metadataMatch = metadataNameMap[nameFromFilename];
+
+            if (metadataMatch) {
+                const dynamicPrompt = generatePromptFromName(metadataMatch.Name);
+                const searchStr = removeDiacritics(`${metadataMatch.Name} ${metadataMatch.Category} ${dynamicPrompt}`).toLowerCase();
+
+                const artistWithImage = {
+                    ...metadataMatch,
+                    Image: filename,
+                    Model: modelId,
+                    Checkpoint: checkpointOf(filename),
+                    SearchString: searchStr
+                };
+                result.push(artistWithImage);
+                matchedImageFilenames.add(filename);
+                delete metadataNameMap[nameFromFilename]; // Remove so it's not matched twice
+            }
+        });
+
+        return result;
+    }
+
     private init() {
         Object.keys(this.manifest).forEach(modelId => {
-            this.datasets[modelId] = [];
             this.searchArray[modelId] = [];
             this.simpleArray[modelId] = [];
 
@@ -70,63 +134,25 @@ class DataService {
                 images.forEach(img => availableImages.add(img));
             });
 
-            // Keep track of which metadata artists we've matched
-            const matchedImageFilenames = new Set<string>();
-            const modelArtists: Artist[] = [];
-
-            // 1. Match by explicit Image property in metadata
-            this.allArtistsMetadata.forEach(artist => {
-                if (availableImages.has(artist.Image)) {
-                    const dynamicPrompt = generatePromptFromName(artist.Name);
-                    const searchStr = removeDiacritics(`${artist.Name} ${artist.Category} ${dynamicPrompt}`).toLowerCase();
-                    
-                    const artistWithModel = { 
-                        ...artist, 
-                        Model: modelId,
-                        SearchString: searchStr
-                    };
-                    modelArtists.push(artistWithModel);
-                    matchedImageFilenames.add(artist.Image);
-                }
+            // When the same filename exists under multiple checkpoints (e.g. Krea2's Turbo
+            // and RAW tiers), the canonical/unfiltered gallery view needs ONE entry per
+            // artist -- attribute it to whichever checkpoint lists it first.
+            const firstCheckpointForImage: Record<string, string> = {};
+            Object.keys(modelData).forEach(cp => {
+                modelData[cp].forEach(img => {
+                    if (!(img in firstCheckpointForImage)) firstCheckpointForImage[img] = cp;
+                });
             });
 
-            // Precalculate normalized names for O(1) matching instead of O(N*M) heavy string operations
-            const metadataNameMap: Record<string, Artist> = {};
-            this.allArtistsMetadata.forEach(a => {
-                if (!matchedImageFilenames.has(a.Image)) {
-                    const normalizedName = formatArtistNameForSearch(a.Name).toLowerCase();
-                    if (!metadataNameMap[normalizedName]) {
-                        metadataNameMap[normalizedName] = a;
-                    }
-                }
-            });
-
-            // 2. Process remaining available images (Check if they match metadata name)
-            availableImages.forEach(filename => {
-                if (matchedImageFilenames.has(filename)) return;
-
-                const nameFromFilename = filename.replace(/\.(webp|png|jpg|jpeg)$/i, '').replace(/[-_]/g, ' ').toLowerCase();
-                
-                // Try to find by name in metadata (O(1) lookup)
-                const metadataMatch = metadataNameMap[nameFromFilename];
-
-                if (metadataMatch) {
-                    const dynamicPrompt = generatePromptFromName(metadataMatch.Name);
-                    const searchStr = removeDiacritics(`${metadataMatch.Name} ${metadataMatch.Category} ${dynamicPrompt}`).toLowerCase();
-                    
-                    const artistWithImage = { 
-                        ...metadataMatch, 
-                        Image: filename, 
-                        Model: modelId,
-                        SearchString: searchStr
-                    };
-                    modelArtists.push(artistWithImage);
-                    matchedImageFilenames.add(filename);
-                    delete metadataNameMap[nameFromFilename]; // Remove so it's not matched twice
-                }
-            });
-
+            const modelArtists = this.buildArtistList(availableImages, modelId, img => firstCheckpointForImage[img]);
             this.datasets[modelId] = modelArtists;
+
+            // Per-checkpoint lists: used when a specific checkpoint filter is active, and
+            // to enumerate every (model, checkpoint) version of an artist for comparison.
+            this.checkpointDatasets[modelId] = {};
+            Object.keys(modelData).forEach(cp => {
+                this.checkpointDatasets[modelId][cp] = this.buildArtistList(new Set(modelData[cp]), modelId, () => cp);
+            });
 
             modelArtists.forEach(artist => {
                 const displayName = formatArtistNameForSearch(artist.Name);
@@ -135,6 +161,7 @@ class DataService {
             });
 
             // Add artists without images (e.g., Excluded items) to search for context
+            const matchedImageFilenames = new Set(modelArtists.map(a => a.Image));
             this.allArtistsMetadata.forEach(artist => {
                 if (!matchedImageFilenames.has(artist.Image) && artist.Category.startsWith('Excluded')) {
                     const displayName = formatArtistNameForSearch(artist.Name);
@@ -166,12 +193,10 @@ class DataService {
     }
 
     public getArtists(): Artist[] {
-        let list = this.datasets[this.activeModel] || [];
         if (this.activeCheckpoint) {
-            const checkpointImages = new Set(this.manifest[this.activeModel]?.[this.activeCheckpoint] || []);
-            list = list.filter(a => checkpointImages.has(a.Image));
+            return this.checkpointDatasets[this.activeModel]?.[this.activeCheckpoint] || [];
         }
-        return list;
+        return this.datasets[this.activeModel] || [];
     }
 
     public getArtistById(id: string): Artist | undefined {
@@ -284,14 +309,19 @@ class DataService {
         const versions: Artist[] = [];
         const artistName = formatArtistNameForSearch(artist.Name).toLowerCase();
 
-        Object.keys(this.datasets).forEach(modelId => {
-            const modelArtists = this.datasets[modelId];
-            modelArtists.forEach(a => {
-                const aName = formatArtistNameForSearch(a.Name).toLowerCase();
-                // Match by original Creation ID or Name
-                if (a.Creation === artist.Creation || aName === artistName) {
-                    versions.push(a);
-                }
+        // Walk per-checkpoint datasets (not the deduped `datasets`) so a model with
+        // multiple checkpoints (e.g. Krea2's Turbo + RAW, SD1.5's two checkpoints)
+        // surfaces each checkpoint as its own comparable version.
+        Object.keys(this.checkpointDatasets).forEach(modelId => {
+            const modelCheckpoints = this.checkpointDatasets[modelId];
+            Object.keys(modelCheckpoints).forEach(cp => {
+                modelCheckpoints[cp].forEach(a => {
+                    const aName = formatArtistNameForSearch(a.Name).toLowerCase();
+                    // Match by original Creation ID or Name
+                    if (a.Creation === artist.Creation || aName === artistName) {
+                        versions.push(a);
+                    }
+                });
             });
         });
 

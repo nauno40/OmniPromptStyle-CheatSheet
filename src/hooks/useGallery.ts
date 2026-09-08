@@ -17,10 +17,10 @@ export const useGallery = () => {
     const setActiveModel = useCallback((model: ModelType) => {
         dataService.setActiveModel(model);
         setActiveModelState(model);
-        // Reset category, checkpoint and special filter when switching models
-        setSelectedCategory(null);
+        // Checkpoints are model-specific (each model has its own set), so they don't
+        // carry over. Category and special filters (Liked/New/†) are metadata-based
+        // and apply the same way regardless of model, so they stay selected.
         setSelectedCheckpoint(null);
-        setSelectedSpecialFilter(null);
     }, []);
 
     const searchResults = useMemo(() => {
